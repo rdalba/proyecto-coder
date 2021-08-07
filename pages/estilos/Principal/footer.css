@@ -1,41 +1,30 @@
-#footer {
+* {
+    margin:0;
+    padding: 0;
+}
+
+#footer .contenedor {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: auto;
 }
 
+#footer .contenedor  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#footer .contenedor  a {
+    color: white;
+    display: block;
+    padding: 10px;
 
+}
 
+#footer .contenedor a:hover {
+    background-color: rgba(255,255,255,0.3);
+}
 
-#footer .contenedor h3 {
-        font-size: 12px;
-    }
-
-    #footer .contenedor ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-size: 10px;
-        width: auto;
-        height: auto;
-        display: flex;  /* Para que se alinie en una sola linea*/
-        justify-content: space-around; /*para que se ajuste en todo el ancho de la pagina*/
-       
-    }
-    #footer .contenedor a{
-        display: block;
-        color: white;
-        height: 20px;
-        text-decoration: none;
-        padding: 15px;
-        border-bottom: 1px solid rgba(255,255,225,0.5);
-        
-        
-    }
-
-    #footer .contenedor a:hover{
-        background-color: rgba(255,255,255,0.3);
-    }
-
-
+#footer p {
+    text-align: center;
+}

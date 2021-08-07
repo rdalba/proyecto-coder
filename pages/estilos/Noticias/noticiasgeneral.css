@@ -1,22 +1,24 @@
 main {
     margin: 0%;
     padding: 0%;
-    background-color: #333;
 }
 
-h3 {
+#principales h3 {
     text-align: center;
     font-size: 30px;
-    color: white;
-    height: 50px;
+    color: rgb(12, 1, 1);
+    background-color: grey;
+    margin: 1%;
 }
 
-h4{
+h4 {
     text-align: center;
-    font-size: 20px;
+    
 }
+
 
 #principales .contenedor {
+    background-color: #333;
     text-align: center;
     color: white;
     padding: 5px;
@@ -24,8 +26,6 @@ h4{
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap;
-    
-    
 }
 
 #principales .contenedor  img {
@@ -33,13 +33,10 @@ h4{
     padding: 5px;
 }
 
-
 #principales .noticia1 {
     font-size: 20px;
     height: 10%;
     border: 2px solid gray;
- 
-    
 }
 
 #principales .noticia2 {
@@ -52,7 +49,6 @@ h4{
     font-size: 15px;
     width: 50%;
     border: 2px solid gray;
-
 }
 
 
@@ -62,7 +58,6 @@ h4{
 #secundarias {
     margin-top: 20px;
     padding: 0%;
-    background-color: #333;
 }
 
 #secundarias .contenedor {
@@ -73,6 +68,7 @@ h4{
     line-height: 30px;
     text-align: center;
 }
+
 #secundarias .contenedor  img {
     max-width: 50%;
 }

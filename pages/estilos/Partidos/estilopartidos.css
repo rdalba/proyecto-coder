@@ -4,6 +4,7 @@
 @import url(../Principal/menu.css);
 @import url(../Principal/banner.css);
 @import url(../Principal/suscripcion.css);
+@import url(../Principal/slider.css);
 @import url(../Principal/footer.css);
 
 /* Links a otros estilos de las secciones de la pagina de PAGINA*/
@@ -25,7 +26,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
+header {
     width: 100%;
     height: 50px;
     background-color: #333;
@@ -43,10 +44,6 @@ margin: auto;
 
 h1{
     float: left ;
-}
-
-header .contenedor {
-    display: table;
 }
 
 section {
