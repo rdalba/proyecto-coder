@@ -1,0 +1,53 @@
+/* Traer fuentes https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Links a otros estilos de las secciones de la pagina FIJOS*/
+@import url(../Principal/menu.css);
+@import url(../Principal/banner.css);
+@import url(../Principal/footer.css);
+@import url(../Principal/suscripcion.css);
+
+/* Links a otros estilos de las secciones de la pagina de PAGINA*/
+@import url(../Noticias/noticiasgeneral.css);
+
+*{
+    margin: 0;
+    padding: 10p;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; /* z-index: es para que este sobre todos los elementos*/
+}
+header h1{
+    float: left ;
+}
+
+main  {
+    width: 100%;
+    margin-bottom: 25px;
+        
+}
+
+#banner .contenedor {
+width: 98%;
+margin: auto;
+}
+
+#bienvenidos {
+    text-align: center;
+    background-color: lightgray;
+}
+
+

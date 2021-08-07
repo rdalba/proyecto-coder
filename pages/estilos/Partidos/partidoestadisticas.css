@@ -1,0 +1,21 @@
+#partidoestadisticas{
+    background-color: lightgray;
+    color:#333;
+    text-align: center;
+}
+    
+#partidoestadisticas .contenedor{
+    display: flex;                  /* Para que las imagenes esten en la misma linea */ 
+    flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
+    justify-content: space-around;    /*Para que lo centre  */
+}
+
+#partidoestadisticas h3 {
+    
+    font-size: 30px;
+}
+
+#partidoestadisticas th {
+    background-color: gray;
+    margin: 3px;
+}

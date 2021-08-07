@@ -1,0 +1,23 @@
+#tablaposiciones {
+    background-color: white;
+    color: #333;
+    text-align: center;
+}
+    
+#tablaposiciones .contenedor{
+    display: flex;                  /* Para que las imagenes esten en la misma linea */ 
+    flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
+    justify-content: space-around;    /*Para que lo centre  */
+}
+
+#tablaposiciones h3 {
+    font-size: 30px;
+}
+#tablaposiciones h4 {
+    font-size: 20px;
+}
+
+#tablaposiciones th {
+    background-color: gray;
+    margin: 3px;
+}

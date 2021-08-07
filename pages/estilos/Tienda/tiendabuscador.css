@@ -1,0 +1,35 @@
+#tiendabuscador {
+    box-sizing: border-box;
+    background-image: url(../../../multimedia/imagenes/Generales/salesbanner.jpg);
+    text-align: center;
+    padding: auto;
+    background-size: cover;
+}
+
+
+
+#tiendabuscador  h3 {
+    font-size: 30px;
+    color: white;
+}
+
+#tiendabuscador h4 {
+    font-size: 20px;
+    color: white;
+}
+
+#tiendabuscador .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #069;
+    padding: 10px;
+    height: 80px;
+    border-radius: 40px;
+
+
+}
