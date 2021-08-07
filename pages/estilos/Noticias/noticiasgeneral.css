@@ -92,10 +92,3 @@ h4{
     grid-gap: 5px;
 }
 
-@media (min-width:1024px) {
-    .contenedor {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-}
