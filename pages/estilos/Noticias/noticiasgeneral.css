@@ -88,3 +88,30 @@ h4 {
     grid-gap: 5px;
 }
 
+@media  (min-width:400px) { 
+
+    #principales .noticia1 {
+        font-size: 18px;
+        height: 10%;
+        border: 2px solid gray;
+    }
+    
+    #principales .noticia2 {
+        font-size: 15px;
+        width: 100%;
+        border: 2px solid gray;
+    }
+    
+    #principales .noticia3 {
+        font-size: 15px;
+        width: 100%;
+        border: 2px solid gray;
+    }
+    #secundarias .contenedor {
+        display: grid; /* para armar grilla  seleccionando columnas, lineas y separador */
+        grid-template-columns: 100%;   /* es para dividir las columnas en fracciones*/
+        grid-template-rows: auto; /* para dividir lineas en tamaño y fraccion */
+        grid-gap: 5px;
+    }
+
+ }

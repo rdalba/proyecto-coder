@@ -19,3 +19,15 @@
     background-color: gray;
     margin: 3px;
 }
+@media  (min-width:400px) { 
+
+    
+    #partidoestadisticas.columnas tr {
+        font-size: 8px;
+    }
+
+    #partidoestadisticas .lineas tr {
+        font-size: 10px;
+    }
+
+ }
