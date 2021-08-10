@@ -1,36 +1,39 @@
-#tablaposiciones {
+.tablaposiciones {
     background-color: white;
     color: #333;
     text-align: center;
 }
     
-#tablaposiciones .contenedor{
+.tablaposiciones .contenedor{
     display: flex;                  /* Para que las imagenes esten en la misma linea */ 
     flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
     justify-content: space-around;    /*Para que lo centre  */
 }
 
-#tablaposiciones h3 {
+.tablaposiciones h3 {
     font-size: 30px;
 }
-#tablaposiciones h4 {
-    font-size: 20px;
+
+.tablaposiciones .columnas th {
+    font-size: 0.7em;
+    padding: 0.2em;
 }
 
-#tablaposiciones th {
-    background-color: gray;
-    margin: 3px;
+.tablaposiciones .lineas tr {
+    font-size: 0.8em;
 }
-@media  (min-width:400px) { 
-    #tablaposiciones h2 {                /* Tamaño de la letra h2 */
-        font-size: 10px;
+
+
+@media  (min-width:1024px) { 
+    .tablaposiciones h2 {                /* Tamaño de la letra h2 */
+        font-size: 50px;
     }
     
-    #tablaposiciones p {
+    .tablaposiciones p {
         font-size: 15px;
     }
 
-    #tablaposiciones a {                 /* Crear un boton*/
+    .tablaposiciones a {                 /* Crear un boton*/
         display: block;
         width: 100px;
         color: black;
@@ -40,11 +43,12 @@
         border: 3px solid black ;
     }
 
-    #tablaposiciones .columnas tr {
-        font-size: 10px;
+    .tablaposiciones .columnas th {
+        font-size: 2em;
+        padding: 0.2em;
     }
 
-    #tablaposiciones .lineas tr {
-        font-size: 15px;
+    .tablaposiciones .lineas tr {
+        font-size: 1em;
     }
  }

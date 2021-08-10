@@ -1,4 +1,4 @@
-#tiendabuscador {
+.tiendabuscador {
     box-sizing: border-box;
     background-image: url(../../../multimedia/imagenes/Generales/salesbanner.jpg);
     text-align: center;
@@ -8,17 +8,17 @@
 
 
 
-#tiendabuscador  h3 {
+.tiendabuscador  h3 {
     font-size: 30px;
     color: white;
 }
 
-#tiendabuscador h4 {
+.tiendabuscador h4 {
     font-size: 20px;
     color: white;
 }
 
-#tiendabuscador .contenedor{
+.tiendabuscador .contenedor{
     display: flex;
     justify-content: center;
     align-items: center;

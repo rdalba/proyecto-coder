@@ -1,4 +1,4 @@
-#resultados {  /*Margenes que abarca el banner*/
+.resultados {  /*Margenes que abarca el banner*/
     background-color: #333;
     color: white;
     text-align: center;
@@ -6,41 +6,41 @@
     
 }
 
-#resultados img {
+.resultados img {
     width: 100%;
     height: 100%;
 }
 
-#resultados h3{
+.resultados h3{
     font-size: 40px;
     font-family: fantasy;
 }
 
-#resultados .contenedor{
+.resultados .contenedor{
     justify-content: space-around; 
 }
 
-#resultados .contenedor .resulpart img {
+.resultados .contenedor .resulpart img {
     width: 100px;
     height: 80px;
 
 }
 
-#resultados .contenedor ul {
+.resultados .contenedor ul {
     list-style: none;
 }
 
-#resultados .contenedor  ul li {
+.resultados .contenedor  ul li {
     border: 2px solid white;
     border-radius: 1em ;
     margin: 1em;
 }
 
-#resultados .contenedor  ul li a {
+.resultados .contenedor  ul li a {
    color: white;
    text-decoration: none;
 }
 
-#resultados .contenedor ul li:hover{
+.resultados .contenedor ul li:hover{
     background-color: rgba(255,255,255,0.3);
 }

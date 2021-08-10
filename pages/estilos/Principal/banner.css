@@ -1,14 +1,14 @@
-#banner {  /*Margenes que abarca el banner*/
-    margin-top: 50px;
+.banner {  /*Margenes que abarca el banner*/
+    margin-top: 3em;
     position: relative;
 }
 
-#banner img {               /* tamaño de la imagen*/
+.banner img {               /* tamaño de la imagen*/
     width: 100%;
     height: 100%;
 }
 
-#banner .contenedor {       /* Texto en el banner*/
+.banner .contenedor {       /* Texto en el banner*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,41 +16,47 @@
     color: black;
 }
 
-#banner h2 {                /* Tamaño de la letra h2 */
-    font-size: 28px;
+.banner h2 {                /* Tamaño de la letra h2 */
+    font-size: 1.0em;
 }
 
-#banner a {                 /* Crear un boton*/
+.banner p {                /* Tamaño de la letra h2 */
+    font-size: 0.8em;
+}
+
+.banner a {                 /* Crear un boton*/
     display: block;
-    width: 100px;
-    color: white;
+    width: 10em;
+    color: black;
     text-decoration: none;
-    padding: 7px;
-    margin-top: 10px;
-    border: 3px solid white ;
+    padding: 1em;
+    margin-top: 0.5em;
+    border: 0.1em solid black;
+    font-size: 0.5em;
 }
 
-#banner a:hover {
+.banner a:hover {
     background-color: rga(51,51,510,0.5);
 }
 
- @media  (min-width:400px) { 
-    #banner h2 {                /* Tamaño de la letra h2 */
-        font-size: 18px;
+ @media  (min-width:1024px) { 
+    .banner h2 {                /* Tamaño de la letra h2 */
+        font-size: 2.8em;
     }
     
-    #banner p {
-        font-size: 12px;
+    .banner p {
+        font-size: 1.5em;
     }
 
-    #banner a {                 /* Crear un boton*/
+    .banner a {                 /* Crear un boton*/
         display: block;
-        width: 100px;
+        width: 10em;
         color: black;
         text-decoration: none;
-        padding: 7px;
-        margin-top: 10px;
-        border: 3px solid black ;
+        padding: 0.2em;
+        margin-top: 2em;
+        border: 0.1em solid black ;
+        font-size: 1.5em;
     }
 
  }

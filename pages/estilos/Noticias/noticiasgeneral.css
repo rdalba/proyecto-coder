@@ -3,7 +3,7 @@ main {
     padding: 0%;
 }
 
-#principales h3 {
+.principales h3 {
     text-align: center;
     font-size: 30px;
     color: rgb(12, 1, 1);
@@ -17,7 +17,7 @@ h4 {
 }
 
 
-#principales .contenedor {
+.principales .contenedor {
     background-color: #333;
     text-align: center;
     color: white;
@@ -28,26 +28,26 @@ h4 {
     flex-wrap: wrap;
 }
 
-#principales .contenedor  img {
+.principales .contenedor  img {
     width: 30%;
     padding: 5px;
 }
 
-#principales .noticia1 {
-    font-size: 20px;
+.principales .noticia1 {
+    font-size: 18px;
     height: 10%;
     border: 2px solid gray;
 }
 
-#principales .noticia2 {
+.principales .noticia2 {
     font-size: 15px;
-    width: 50%;
+    width: 100%;
     border: 2px solid gray;
 }
 
-#principales .noticia3 {
+.principales .noticia3 {
     font-size: 15px;
-    width: 50%;
+    width: 100%;
     border: 2px solid gray;
 }
 
@@ -55,12 +55,12 @@ h4 {
 
 /*======================*/
 /* Noticias Secundarias */
-#secundarias {
+.secundarias {
     margin-top: 20px;
     padding: 0%;
 }
 
-#secundarias .contenedor {
+.secundarias .contenedor {
     width: 98%;
     border: 2px solid black;
     margin: auto;
@@ -69,11 +69,11 @@ h4 {
     text-align: center;
 }
 
-#secundarias .contenedor  img {
+.secundarias .contenedor  img {
     max-width: 50%;
 }
 
-#secundarias .contenedor > div{
+.secundarias .contenedor > div{
     display: inline-block;
     padding: 20px;
     color: #333;
@@ -81,36 +81,79 @@ h4 {
     box-shadow: 2px 2px 10px #333;
 }
 
-#secundarias .contenedor {
+.secundarias .contenedor {
     display: grid; /* para armar grilla  seleccionando columnas, lineas y separador */
-    grid-template-columns: 2fr 5fr 2fr;   /* es para dividir las columnas en fracciones*/
-    grid-template-rows: 1fr 1fr auto; /* para dividir lineas en tamaño y fraccion */
+    grid-template-columns: 100%;   /* es para dividir las columnas en fracciones*/
+    grid-template-rows: auto; /* para dividir lineas en tamaño y fraccion */
     grid-gap: 5px;
 }
 
-@media  (min-width:400px) { 
+@media  (min-width:1024px) { 
 
-    #principales .noticia1 {
-        font-size: 18px;
-        height: 10%;
+    .principales .contenedor {
+        background-color: #333;
+        text-align: center;
+        color: white;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    
+    .principales .contenedor  img {
+        width: 30%;
+        padding: 5px;
+    }
+    
+    .principales .noticia1 {
+            font-size: 18px;
+            height: 10%;
+            border: 2px solid gray;
+        }
+    
+    .principales .noticia2 {
+        font-size: 15px;
+        width: 50%;
         border: 2px solid gray;
     }
     
-    #principales .noticia2 {
+    .principales .noticia3 {
         font-size: 15px;
-        width: 100%;
+        width: 50%;
         border: 2px solid gray;
+    }
+
+    .secundarias {
+        margin-top: 20px;
+        padding: 0%;
     }
     
-    #principales .noticia3 {
+    .secundarias .contenedor {
+        width: 98%;
+        border: 2px solid black;
+        margin: auto;
         font-size: 15px;
-        width: 100%;
-        border: 2px solid gray;
+        line-height: 30px;
+        text-align: center;
     }
-    #secundarias .contenedor {
+    
+    .secundarias .contenedor  img {
+        max-width: 50%;
+    }
+    
+    .secundarias .contenedor > div{
+        display: inline-block;
+        padding: 20px;
+        color: #333;
+        background-color: white;
+        box-shadow: 2px 2px 10px #333;
+    }
+    
+    .secundarias .contenedor {
         display: grid; /* para armar grilla  seleccionando columnas, lineas y separador */
-        grid-template-columns: 100%;   /* es para dividir las columnas en fracciones*/
-        grid-template-rows: auto; /* para dividir lineas en tamaño y fraccion */
+        grid-template-columns: 2fr 5fr 2fr;   /* es para dividir las columnas en fracciones*/
+        grid-template-rows: 1fr 1fr auto; /* para dividir lineas en tamaño y fraccion */
         grid-gap: 5px;
     }
 

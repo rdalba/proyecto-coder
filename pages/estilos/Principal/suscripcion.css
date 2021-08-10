@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#suscripcion {
+.suscripcion {
     background-color: #333;
     color: white;
     text-align: center;
@@ -20,7 +20,7 @@ display: flex;
 }
 
 
-#suscripcion {
+.suscripcion {
     width: 100%;
     height: 100%;
     animation-name: suscripcion;

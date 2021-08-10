@@ -49,11 +49,11 @@
         
     }
 
-    #menu .menu a {
+    .menu .menu a {
         border: none;
     }
 
-    #menu header label {
+    3menu header label {
         display: none; /* desactivamos el menu de lineas que aparecia para paginas MENORES de 1024px */
 
     }

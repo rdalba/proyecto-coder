@@ -11,26 +11,26 @@
 
 </head>
 
+<!--Cargar los encabezados fijos-->
 <body>
     <header id="menu">
         <div class="contenedor">
             <h1 class="icon-circle">Hockey Argentina</h1>
-            <input type="checkbox" id="menu-bar">
-            <label class="icon-menu" for="menu-bar"></label>
+            <input type="checkbox" id="menu-bar"> <!-- Check e icono de menu-->
+            <label class="icon-menu" for="menu-bar"></label> <!-- Check e icono de menu-->
             <nav class="menu">
                 <a href="../../index.html" target="">Principal</a>
-                <a href="../paginas/resultados.html" target="">Resultados</a></li>
-                <a href="../paginas/partidos.html" target="">Partidos</a>
-                <a href="../paginas/noticias.html" target="">Noticias</a>
-                <a href="../paginas/videos.html" target="">Videos</a>
-                <a href="../paginas/tienda.html" target="">Tienda</a>
+                <a href="#" target="">Resultados</a></li>
+                <a href="./partidos.html" target="">Partidos</a>
+                <a href="./noticias.html" target="">Noticias</a>
+                <a href="./videos.html" target="">Videos</a>
+                <a href="./tienda.html" target="">Tienda</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <!--Debe copiarse "ID= banner / bienvenidos" en todas las paginas-->
-        <section id="banner">
+        <section class="banner">
             <img src="../../multimedia/imagenes/Generales/banner.jpg" alt="">
             <div class="contenedor">
                 <h2>Un Gran deporte para todas las edades</h2>
@@ -39,13 +39,14 @@
             </div>
         </section>
 
-        <section id="bienvenidos">
+        <section class="bienvenidos">
             <h2>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellat, explicabo laudantium numquam
                 temporibus unde. Eum, itaque laboriosam! Placeat laboriosam quia porro, consequuntur aliquam sequi. Quae
                 dolor voluptas eos. Sint?</p>
         </section>
-        <section id="slider">
+
+        <section class="slider">
             <div class="contenedor__slider">
                 <ul>
                     <li><img src="../../multimedia/imagenes/Escudos/Avalanche.png" alt=""></li>
@@ -82,9 +83,11 @@
                 </ul>
             </div>
         </section>
-        <!--Cargar las secciones de la pagina-->
 
-        <section id="selecfecha">
+
+<!--Cargar las secciones de la pagina-->
+
+        <section class="selecfecha">
             <!--Los Mejores de la Fecha-->
             <h3>Seleccione las Fechas</h3>
             <div class="contenedor">
@@ -95,7 +98,7 @@
             </div>
         </section>
 
-        <section id="navfecha">
+        <section class="navfecha">
             <!--Debe traer los partidos por fecha y deben estar ordenados de mayor a menor-->
             <h3>Barra de busqueda de resultados</h3>
             <div class="contenedor">
@@ -154,7 +157,7 @@
             </div>
         </section>
         
-        <section id="suscripcion">
+        <section class="suscripcion">
             <div class="contenedor__suscripcion">
                 <div class="parpadear">
                     <a href="#">
@@ -165,7 +168,7 @@
         </section>
 
 
-        <section id="resultados">
+        <section class="resultados">
             <!--Agregar Link de los ultimos Resultados-->
             <h2>Resultados de Partidos</h2>
             <div class="contenedor">
@@ -214,15 +217,11 @@
 
             </div>
         </section>
-
-
-
     </main>
 
+<!--Cargar las secciones del PIE DE PAGINA FIJOS-->
 
-
-
-    <footer id="footer">
+    <footer class="footer">
         <section class="otrossitios">
             <div class="contenedor">
                 <h3>Otros Sitios Hockey</h3>

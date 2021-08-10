@@ -52,7 +52,36 @@ section {
     margin-bottom: 25px;
 }
 
-#bienvenidos {
+
+.bienvenidos {
     text-align: center;
     background-color: lightgray;
+    
+}
+
+.bienvenidos h2{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 0.9em;
+}
+
+.bienvenidos p {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 0.7em;
+}
+
+@media  (min-width:1024px) { 
+
+
+    .bienvenidos h2 {
+        text-align: center;
+        font-size: 2em;
+        
+    }
+
+    .bienvenidos p{
+        text-align: center;
+        font-size: 1em;
+    }
 }

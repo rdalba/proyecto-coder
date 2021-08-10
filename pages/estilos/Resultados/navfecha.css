@@ -1,42 +1,42 @@
-#navfecha{
+.navfecha{
     background-color: #333;
     color: white;
     text-align: center;
     padding: auto;
 }
 
-#navfecha  h3 {
+.navfecha  h3 {
     font-size: 30px;
     color: white;
 }
 
-#navfecha h4 {
+.navfecha h4 {
     font-size: 20px;
     color: white;
 }
 
-#navfecha .contenedor{
+.navfecha .contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#navfecha .contenedor .imagen {
+.navfecha .contenedor .imagen {
     width: 100px;
     height: 80px;
 }
 
-#navfecha .contenedor ul{
+.navfecha .contenedor ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#navfecha .contenedor ul li{
+.navfecha .contenedor ul li{
         display: inline-block;
     }
 
-    #navfecha .contenedor ul li a{
+    .navfecha .contenedor ul li a{
             display: block;
             color: white;
             height: 50px;
@@ -47,6 +47,6 @@
 }
     
     
-#navfecha .contenedor ul li a:hover{
+.navfecha .contenedor ul li a:hover{
             background-color: rgba(255,255,255,0.3);
         }
