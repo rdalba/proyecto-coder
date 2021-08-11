@@ -13,13 +13,13 @@
 
 *{
     margin: 0;
-    padding: ;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 5px;
+
     
 }
 
