@@ -69,8 +69,8 @@
     color: #FF4E00;    
 }
 
-.noticiasSecundarias {
-    border: 2px solid black;
+.contenedor-noticiasSecundarias {
+    
     margin: auto;
     font-size: 15px;
     line-height: 30px;
