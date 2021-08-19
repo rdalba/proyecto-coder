@@ -1,6 +1,4 @@
 .partidojugadores{
-    background-color: white;
-    color: #333;
     text-align: center;
 }
     
@@ -8,6 +6,10 @@
     display: flex;                  /* Para que las imagenes esten en la misma linea */ 
     flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
     justify-content: space-around;    /*Para que lo centre  */
+    background-color: #333;
+    color: white;
+    padding: 15px;
+
 }
 
 .partidojugadores h3 {
@@ -15,8 +17,8 @@
 }
 
 .partidojugadores th {
-    background-color: gray;
-    margin: 1em;
+    font-size: 1.3em;
+    background: rgba(196, 107, 7, 0.5);
 }
 
 .partidojugadores .columnas tr {
@@ -27,7 +29,7 @@
 }
 
 .partidojugadores .lineas tr {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 fieldset {
@@ -51,7 +53,9 @@ legend{
         border: 3px solid black ;
         
     }
-
+    .partidojugadores th {
+        font-size: 1.0em;
+    }
     .partidojugadores .columnas tr {
         font-size: 1.5em;
     }

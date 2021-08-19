@@ -1,0 +1,45 @@
+.resultadospartidos{  /*Margenes que abarca el banner*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-resultadospartidos{
+    justify-content: space-around; 
+    background-color: #333;
+    padding-bottom: 20px;
+    
+}
+
+.contenedor-resultadospartidos .resulpart img {
+    width: 6em;
+    height: 6em;
+    
+}
+
+.contenedor-resultadospartidos ul {
+    list-style: none;
+    
+}
+
+.contenedor-resultadospartidos  ul li {
+    border: 2px solid white;
+    border-radius: 1em ;
+    margin: 1em;
+    border-color: #FF4E00;
+    
+}
+
+.contenedor-resultadospartidos  ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.contenedor-resultadospartidos ul li:hover{
+    background: rgba(196, 107, 7, 0.5);
+}

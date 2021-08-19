@@ -1,87 +1,178 @@
-/* Traer fuentes https://fonts.google.com/ */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-/* Links a otros estilos de las secciones de la pagina FIJOS*/
-@import url(../Principal/menu.css);
-@import url(../Principal/banner.css);
-@import url(../Principal/suscripcion.css);
-@import url(../Principal/slider.css);
-@import url(../Principal/footer.css);
-
-/* Links a otros estilos de las secciones de la pagina de PAGINA*/
+/*  LINKS GENERALES  */
+@import url(../Generales/estilosMenu.css);
+@import url(../Generales/estiloEquipos.css);
+@import url(../Generales/estiloSuscripcion.css);
+@import url(../Generales/estilosFooter.css);
+/*  LINKS ESTILOS DE PAGINA */
+@import url(./tiendaproductos.css);
 
 
-
-/* CSS de pagina principal */
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
- 
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Inconsolata';
 }
 
-header{
-    width: 100%;
-    height: 50px;
-    background-color: #333;
+.main-header .container{
+    padding: 50px 20px;
+}
+
+
+/*  SLIDER  */
+.contenedor-slider {
+    margin: 5px 0;
+    position: relative;
+}
+
+.contenedor-slider img {
+    display: block;
+    height:300px;
+}
+
+.contenedor-slider {
+    display: block;
+    position: relative;
+}
+
+.contenedor-slider h5 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 2em;
+}
+
+.contenedor-slider p {
+    font-family: 'Inconsolata', monospace;
     color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100; /* z-index: es para que este sobre todos los elementos*/
+    font-size: 0.8em;
 }
+
+.slider {
+    margin: 30px 0;
+}
+
+/*  COMENTARIOS  */
+.container-testimonios {
+    margin: 50px 0;
+    position: relative;
+    background: rgba(0,0,0,0.1);
+    color: #555;
+}
+
+.container-testimonios {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*  TIPS    */
+.container-tips {
+    margin: 20px 0;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    padding: 5px ;
+    color: #555;
+}
+
+.container-tips h2{
+    font-size: 1.5em;
+}
+
+.container-tips p{
+    font-size: .8em;
+}
+
+.container-tips .slider__link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    display:block;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    margin: 10px auto;
+    background: rgba(196, 107, 7, 0.5);
+    border: 2px solid #FF4E00;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.container-tips .slider__link:hover{
+    background-color: #FF4E00;
+    color: white;
+}
+
+.container-pagination .pagination{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* PAGINACION */
+.page-item.disabled .page-link{
+    color: #FF4E00;
+}
+
+.page-link {
+    color: tomato;
+}
+
+.page-item.active .page-link {
+background-color:#FF4E00;
+border-color: white;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
     
-.contenedor {
-width: 98%;
-margin: auto;
+    body {
+        margin: 0;
+        padding: 10px;
+        font-family: 'Inconsolata';
+    }
+    .contenedor-slider img  {
+        height: 400px;
+    }
+    .container-tips {
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        grid-gap: 15px;  
+    }
 }
 
-h1{
-    float: left ;
-}
-
-header .contenedor {
-    display: table;
-}
-
-section {
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-
-.bienvenidos {
-    text-align: center;
-    background-color: lightgray;
+@media screen and (min-width: 1024px) {
+    *{
+        box-sizing: border-box;
+    }
     
-}
-
-.bienvenidos h2{
-    text-align: center;
-    background-color: lightgray;
-    font-size: 0.9em;
-}
-
-.bienvenidos p {
-    text-align: center;
-    background-color: lightgray;
-    font-size: 0.7em;
-}
-
-@media  (min-width:1024px) { 
-
-
-    .bienvenidos h2 {
-        text-align: center;
-        font-size: 2em;
-        
+    body {
+        margin: 0;
+        padding: 10px;
+        font-family: 'Inconsolata';
     }
 
-    .bienvenidos p{
-        text-align: center;
-        font-size: 1em;
+    /* PRODUCTOS */
+    .product__icon:hover {
+        color: #FF4E00;
     }
+    .container-products-2 {
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+        grid-gap: 15px;
+    }
+    .container-tips {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);   
+        grid-gap: 15px;
+    }
+
 }
+    

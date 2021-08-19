@@ -1,14 +1,6 @@
 .partidoequipos {  /*Margenes que abarca el banner*/
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: auto;
-    
-}
-
-.partidoequipos img {
-    width: 100%;
-    height: 100%;
     
 }
 
@@ -17,37 +9,28 @@
     font-family:'Open Sans', sans-serif;
 }
 
-.partidoequipos .contenedor{
+.contenedor-partidoequipos{
     padding: 5px;
-
+    color: white;
+    background-color: #333;
     justify-content: space-around; 
+    
 }
 
-.partidoequipos .contenedor  img {
+.contenedor-partidoequipos img {
     width: 120px;
     height: 120px;
-    
- 
+
 }
 
-.partidoequipos .contenedor ul {
+.contenedor-partidoequipos ul {
     list-style: none;
-    
 }
 
-.partidoequipos .contenedor  ul li {
+.contenedor-partidoequipos ul li {
     border: 2px solid white;
     border-radius: 1em ;
     margin: 1em;
     padding: 20px;
-}
-
-.partidoequipos .contenedor  ul li a {
-   color: white;
-   text-decoration: none;
-  
-}
-
-.partidoequipos .contenedor ul li:hover{
-    background-color: rgba(255,255,255,0.3);
+    
 }
