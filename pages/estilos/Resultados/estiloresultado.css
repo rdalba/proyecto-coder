@@ -6,9 +6,9 @@
 
 
 /* Links a otros estilos de las secciones de la pagina de PAGINA*/
-@import url(../Resultados/resultadosselecfecha.css);
-@import url(../Resultados/resultadosnavfecha.css);
-@import url(../Resultados/resultadosresultadospartidos.css);
+@import url(../Resultados/resultadosSelecFecha.css);
+@import url(../Resultados/resultadosNavFecha.css);
+@import url(../Resultados/resultadosResultadosPartidos.css);
 
 *{
    box-sizing: border-box;

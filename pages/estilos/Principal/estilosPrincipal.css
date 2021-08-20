@@ -5,65 +5,16 @@
 @import url(../Generales/estilosFooter.css);
 
 /*  LINKS ESTILOS DE PAGINA */
-@import url(../Principal/videoresfech.css);
-@import url(../Principal/mejoresTorneo.css);
-@import url(../Principal/mejoresFecha.css);
-@import url(../Principal/resultadosPartidos.css);
-@import url(../Principal/tablaposiciones.css);
-
+@import url(../Principal/principalVideoResFech.css);
+@import url(../Principal/principalMejoresTorneo.css);
+@import url(../Principal/principalMejoresFecha.css);
+@import url(../Principal/principalResultadosPartidos.css);
+@import url(../Principal/principalTablaPosiciones.css);
 
 *{
     box-sizing: border-box;
-
 }
 
-body {
-    margin: 0;
-    padding: 10px;
-    
-}
-
-img {
-    display:block;
-    width: 100%;
-}
-
-.main-header .container{
-    padding: 50px 20px;
-}
-
-
-/* SLIDER */
-.contenedor-slider {
-    margin: 5px 0;
-    position: relative;
-}
-
-.contenedor-slider img {
-    display: block;
-    height:300px;
-}
-
-.contenedor-slider {
-    display: block;
-    position: relative;
-}
-
-.contenedor-slider h5 {
-    
-    color:white;
-    font-size: 2em;
-}
-
-.contenedor-slider p {
-    
-    color: white;
-    font-size: 0.8em;
-}
-
-.slider {
-    margin: 30px 0;
-}
 
 /*  ESTILOS DE LA PAGINA    */
 .videoresfech{
