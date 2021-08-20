@@ -1,3 +1,4 @@
+
 .resultadospartidos{  /*Margenes que abarca el banner*/
     text-align: center;
     padding-top: 20px;
@@ -13,26 +14,22 @@ img {
     justify-content: space-around; 
     background-color: #333;
     padding-bottom: 20px;
-    
+    align-items: center;
 }
 
 .contenedor-resultadospartidos .resulpart img {
     width: 6em;
     height: 6em;
-    
 }
 
 .contenedor-resultadospartidos ul {
     list-style: none;
-    
 }
 
 .contenedor-resultadospartidos  ul li {
-    border: 2px solid white;
+    border: solid #FF4E00;
     border-radius: 1em ;
-    margin: 1em;
-    border-color: #FF4E00;
-    
+    margin: 2em;
 }
 
 .contenedor-resultadospartidos  ul li a {

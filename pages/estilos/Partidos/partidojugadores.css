@@ -1,69 +1,31 @@
-.partidojugadores{
+.partidojugadores {
     text-align: center;
 }
-    
-.partidojugadores .contenedor{
-    display: flex;                  /* Para que las imagenes esten en la misma linea */ 
-    flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
-    justify-content: space-around;    /*Para que lo centre  */
+
+.contenedor-tablajugadores {
+    padding-bottom: 10px;
     background-color: #333;
     color: white;
-    padding: 15px;
-
+    text-align: center;
 }
 
-.partidojugadores h3 {
-    font-size: 3em;
+.contenedor-tablajugadores__tabla{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-tablajugadores__categoria {
+    font-size: 1.5em;
 }
 
-.partidojugadores th {
-    font-size: 1.3em;
+.equipo__table{
+    width: 100%;
+}
+
+.equipo__table__columnas th {
+    font-size: 1em;
     background: rgba(196, 107, 7, 0.5);
 }
 
-.partidojugadores .columnas tr {
-    font-size: .6em;
-}
-.partidojugadores .columnas tr th{
-    padding: .5em;
-}
-
-.partidojugadores .lineas tr {
+.equipo__table__lineas tr  {
     font-size: 1em;
 }
-
-fieldset {
-    padding: 0.1em;
-}
-
-legend{
-    padding: 0.5em;
-    font-size: 2em;
-}
-
-@media  (min-width:1024px) { 
-      
-    .partidojugadores a {                 /* Crear un boton*/
-        display: block;
-        width: 100%;
-        color: rgb(114, 111, 111);
-        text-decoration: none;
-        padding: 7px;
-        margin-top: 10px;
-        border: 3px solid black ;
-        
-    }
-    .partidojugadores th {
-        font-size: 1.0em;
-    }
-    .partidojugadores .columnas tr {
-        font-size: 1.5em;
-    }
-    .partidojugadores .columnas tr th{
-        padding: 0.5em;
-    }
-
-    .partidojugadores .lineas tr {
-        font-size: 1em;
-    }
- }

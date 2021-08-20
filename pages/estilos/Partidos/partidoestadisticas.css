@@ -1,70 +1,32 @@
-.partidoestadisticas{
+.partidoestadisticas {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-.partidoestadisticas .contenedor{
-    display: flex;                  /* Para que las imagenes esten en la misma linea */ 
-    flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
-    justify-content: space-around;    /*Para que lo centre  */
+.contenedor-estadisticas {
+    padding-bottom: 10px;
     background-color: #333;
     color: white;
-    padding: 15px;
-
+    text-align: center;
 }
 
-.partidoestadisticash3 {
-    font-size: 3em;
+.contenedor-estadisticas__tabla{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-estadisticas__categoria {
+    font-size: 1.5em;
 }
 
-.partidoestadisticas th {
-    font-size: 1.3em;
+.estadisticas__table{
+    width: 100%;
+}
+
+.estadisticas__tabla__columnas th {
+    font-size: 1em;
     background: rgba(196, 107, 7, 0.5);
 }
 
-.partidoestadisticas .columnas tr {
-    font-size: .6em;
-}
-.partidoestadisticas .columnas tr th{
-    padding: .5em;
-}
-
-.partidoestadisticas .lineas tr {
+.estadisticas__tabla__lineas tr  {
     font-size: 1em;
 }
 
-fieldset {
-    padding: 0.1em;
-}
-
-legend{
-    padding: 0.5em;
-    font-size: 2em;
-}
-
-@media  (min-width:1024px) { 
-      
-    .partidoestadisticas  a {                 /* Crear un boton*/
-        display: block;
-        width: 100%;
-        color: rgb(114, 111, 111);
-        text-decoration: none;
-        padding: 7px;
-        margin-top: 10px;
-        border: 3px solid black ;
-    }
-    .partidoestadisticas  th {
-        font-size: 1.0em;
-    }
-    .partidoestadisticas .columnas tr {
-        font-size: 1.5em;
-    }
-    .partidosestadisticas .columnas tr th{
-        padding: 0.5em;
-    }
-
-    .partidosestadisticas .lineas tr {
-        font-size: 1em;
-    }
- }

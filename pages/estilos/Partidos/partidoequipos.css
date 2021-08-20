@@ -1,12 +1,6 @@
 .partidoequipos {  /*Margenes que abarca el banner*/
     text-align: center;
     padding-bottom: 20px;
-    
-}
-
-.partidoequipos h4{
-    font-size: 30px;
-    font-family:'Open Sans', sans-serif;
 }
 
 .contenedor-partidoequipos{
@@ -28,9 +22,9 @@
 }
 
 .contenedor-partidoequipos ul li {
-    border: 2px solid white;
+    border: 2px solid #FF4E00;
     border-radius: 1em ;
-    margin: 1em;
+    margin: 2em;
     padding: 20px;
     
 }

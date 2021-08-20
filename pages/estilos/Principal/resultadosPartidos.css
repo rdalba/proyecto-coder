@@ -1,12 +1,8 @@
-.resultadosPartidos h2{
+.resultadosPartidos {
     text-align: center;
-    font-size: 2em;
 }
 
-.resultadosPartidos h4{
-    text-align: center;
-    font-size: 1.2em;
-}
+
 .contenedor-resultadosPartidos{
     padding: 20px;
     background-color: #333;
@@ -18,7 +14,6 @@
     padding: 10px;
     list-style: none;
     text-decoration: none;
-    
 }
 
 .contenedor__resultado{
@@ -28,7 +23,6 @@
 .contenedor__partidos{
     display: block;
     color: white;
-    
     margin: 15px;
 }
     

@@ -1,6 +1,6 @@
-.mejoresFecha h2 {
+.mejoresFecha{
     text-align: center;
-    font-size: 2em;
+    
 }
 
 .contenedor-mejoresFecha{
@@ -11,7 +11,6 @@
 
 .mejoresFecha__linkjugador{
     color:white;
-    font-size: 1.5em;
 }
 
 .mejoresFecha__linkjugador:hover{

@@ -45,3 +45,35 @@
     border-color: #FF4E00;
     color:#343a40 ;
 }
+
+/* SLIDER */
+.contenedor-slider {
+    margin: 5px 0;
+    position: relative;
+}
+.contenedor-slider img {
+    display: block;
+    height:300px;
+}
+
+.contenedor-slider {
+    display: block;
+    position: relative;
+}
+
+.contenedor-slider h1{
+    font-size: 1.8em;
+}
+
+.contenedor-slider h3{
+    font-size: 1.4em;
+}
+
+.slider {
+    margin: 30px 0;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    
+}
