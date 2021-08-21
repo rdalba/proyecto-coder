@@ -1,30 +1,47 @@
+
 .partidoequipos {  /*Margenes que abarca el banner*/
     text-align: center;
     padding-bottom: 20px;
 }
 
-.contenedor-partidoequipos{
-    padding: 5px;
-    color: white;
+.partidoequipos-contenedor{
     background-color: #333;
-    justify-content: space-around; 
-    
+    color: white;
+    padding: 20px;
 }
 
-.contenedor-partidoequipos img {
-    width: 120px;
-    height: 120px;
-
-}
-
-.contenedor-partidoequipos ul {
-    list-style: none;
-}
-
-.contenedor-partidoequipos ul li {
+.partidoequipos-contenedor__items {
     border: 2px solid #FF4E00;
     border-radius: 1em ;
-    margin: 2em;
-    padding: 20px;
+    align-items: center;
+}
+
+.partidoequipos-contenedor img {
+    width: 4em;
+    height: 4em;
+}
+
+.partidoequipos-contenedor h3{
+    font-size: 1em;
+}
+
+/*  RESPONSIVE    */
+@media  (min-width:768px) { 
+
+    .partidoequipos-contenedor__items{
+        justify-content: space-around; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
     
+    .partidoequipos-contenedor img {
+        width: 10em;
+        height: 10em;
+    }
+    
+    .partidoequipos-contenedor h3{
+    font-size: 2em;
+    }
+
 }

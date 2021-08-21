@@ -21,19 +21,4 @@ body {
     padding: 10px;
 }
 
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-    *{
-        box-sizing: border-box;
-    }
-    
-    body {
-        margin: 0;
-        padding: 10px;
-        
-    }
-    
-    .contenedor-slider img  {
-        height: 400px;
-    }
-}
+
