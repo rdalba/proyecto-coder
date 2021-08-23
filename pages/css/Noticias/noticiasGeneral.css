@@ -1,0 +1,131 @@
+/*  NOTICIAS PRINCIPALES    */
+.noticiasPrincipales{
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.noticiasPrincipales h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #FF4E00;
+}
+
+.contenedor-noticiasPrincipales {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.contenedor-noticiasPrincipales__img {
+    width: 80%;
+    padding: 30px;
+}
+
+.contenedor-noticiasPrincipales .noticia1 {
+    font-size: 18px;
+    height: 10%;
+    border: 2px solid gray;
+    padding: 15px;
+    
+}
+
+.contenedor-noticiasPrincipales .noticia2 {
+    font-size: 15px;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 15px;
+ 
+}
+
+.contenedor-noticiasPrincipales .noticia3 {
+    font-size: 15px;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 15px;
+}
+
+/*======================*/
+/* Noticias Secundarias */
+.noticiasSecundarias {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.noticiasSecundarias h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #FF4E00;    
+}
+
+.contenedor-noticiasSecundarias {
+    
+    margin: auto;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contenedor-noticiasSecundarias__img {
+    max-width: 80%;
+    padding: 20px;
+}
+
+.contenedor-noticiasSecundarias  > div{
+    display: inline-block;
+    padding: 20px;
+    color: #333;
+    background-color: white;
+    box-shadow: 2px 2px 10px #333;
+}
+
+.contenedor-noticiasSecundarias  .contenedor {
+    display: grid; /* para armar grilla  seleccionando columnas, lineas y separador */
+    grid-template-columns: 100%;   /* es para dividir las columnas en fracciones*/
+    grid-template-rows: auto; /* para dividir lineas en tamaño y fraccion */
+    grid-gap: 5px;
+}
+
+/*  RESPONSIVE    */
+@media  (min-width:1024px) { 
+/*  NOTICIAS PRIMARIAS  */
+    .contenedor-noticiasPrincipales  .noticia1 {
+        font-size: 18px;
+        height: 10%;
+        border: 2px solid gray;
+        }
+    
+    .contenedor-noticiasPrincipales  .noticia2 {
+        font-size: 15px;
+        width: 50%;
+        border: 2px solid gray;
+    }
+    
+    .contenedor-noticiasPrincipales  .noticia3 {
+        font-size: 15px;
+        width: 50%;
+        border: 2px solid gray;
+    }
+    
+/*  NOTICIAS SECUNDARIAS    */
+   
+    .contenedor-noticiasSecundarias  > div{
+        display: inline-block;
+        color: #333;
+        background-color: white;
+        
+    }
+    
+    .contenedor-noticiasSecundarias {
+        display: grid; /* para armar grilla  seleccionando columnas, lineas y separador */
+        grid-template-columns: 2fr 5fr 2fr;   /* es para dividir las columnas en fracciones*/
+        grid-template-rows: 1fr 1fr auto; /* para dividir lineas en tamaño y fraccion */
+        grid-gap: 5px;
+    }
+
+ }

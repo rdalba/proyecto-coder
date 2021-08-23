@@ -1,0 +1,47 @@
+
+.partidoequipos {  /*Margenes que abarca el banner*/
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.partidoequipos-contenedor{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.partidoequipos-contenedor__items {
+    border: 2px solid #FF4E00;
+    border-radius: 1em ;
+    align-items: center;
+}
+
+.partidoequipos-contenedor img {
+    width: 4em;
+    height: 4em;
+}
+
+.partidoequipos-contenedor h3{
+    font-size: 1em;
+}
+
+/*  RESPONSIVE    */
+@media  (min-width:768px) { 
+
+    .partidoequipos-contenedor__items{
+        justify-content: space-around; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+    .partidoequipos-contenedor img {
+        width: 10em;
+        height: 10em;
+    }
+    
+    .partidoequipos-contenedor h3{
+    font-size: 2em;
+    }
+
+}

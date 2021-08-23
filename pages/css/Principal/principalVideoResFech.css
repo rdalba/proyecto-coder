@@ -1,0 +1,13 @@
+.videoResFech h2 {
+        text-align: center;
+        font-size: 1.5em;
+}
+
+.contenedor-videoResFech{
+        display: flex;                  /* Para que las imagenes esten en la misma linea */ 
+        flex-wrap: wrap;                /*Para que los elementos si no entran en la pagina se bajen */
+        justify-content: space-around;    /*Para que lo centre  */
+        background-color: #333;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}

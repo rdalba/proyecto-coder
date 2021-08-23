@@ -1,0 +1,40 @@
+.mejoresTorneo {
+    text-align: center;
+}
+.contenedor-mejoresTorneo{
+    padding: 50px;
+    background-color: #333;
+
+}
+
+.mejoresTorneo__linkjugador{
+    color:white;
+    
+}
+
+.mejoresTorneo__linkjugador:hover{
+    text-decoration: none;
+    color: #FF4E00;
+}
+
+.contenedor-mejoresTorneo__jugador{
+    width: 7em;
+    height: 7em; 
+   padding: 15px;
+}
+
+.mejoresTorneo__linkjugador__img {
+    width: 100%;
+    height: 100%; 
+    
+} 
+
+.contenedor-mejoresTorneo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+

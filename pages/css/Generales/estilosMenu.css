@@ -1,0 +1,81 @@
+
+/*MENU */
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    align-items: center;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: #FF4E00;
+    color: white;
+}
+.dropdown-menu {
+    background-color: #343a40;
+}
+.dropdown-menu a{
+    color: white;
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: #FF4E00;
+}
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+    color: white;
+    padding: 20px;
+}
+.main-header__cart:hover {
+    color: #FF4E00;
+}
+.main-header__user{
+    color: white;
+}
+.main-header__user:hover {
+    color: #FF4E00;
+}
+.fa-search{
+    color: white;
+}
+.fa-search:hover {
+    color: #FF4E00;
+}
+
+.btn-outline-success{
+    border-color: #FF4E00;
+    color:#343a40 ;
+}
+
+/* SLIDER */
+
+.contenedor-slider {
+    margin: 5px 0;
+    position: relative;
+}
+.contenedor-slider img {
+    display: block;
+    height:300px;
+}
+
+.contenedor-slider {
+    display: block;
+    position: relative;
+}
+
+.contenedor-slider h1{
+    font-size: 1.8em;
+}
+
+.contenedor-slider h3{
+    font-size: 1.4em;
+}
+
+.slider {
+    margin: 30px 0;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    
+}

@@ -1,0 +1,24 @@
+/*  LINKS GENERALES  */
+@import url(../Generales/estilosMenu.css);
+@import url(../Generales/estiloEquipos.css);
+@import url(../Generales/estiloSuscripcion.css);
+@import url(../Generales/estilosFooter.css);
+
+/* Links a otros estilos de las secciones de la pagina de PAGINA*/
+@import url(../Partidos/partidoEquipos.css);
+@import url(../Partidos/partidoVideo.css);
+@import url(../Partidos/partidoJugadores.css);
+@import url(../Partidos/partidoEstadisticas.css);
+@import url(../Partidos/partidoEncuesta.css);
+@import url(../Partidos/partidoComentarios.css);
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+
