@@ -4,26 +4,20 @@
     padding-bottom: 20px;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-}
+
 
 .contenedor-navfecha{
     justify-content: space-around; 
     background-color: #333;
-    
 }
 
 .contenedor-navfecha .contenedor-navfecha__all img {
-    width: 8em;
-    height: 6em;
-    
+    height: 4em;
+    padding: 5px;
 }
 
 .contenedor-navfecha ul {
     list-style: none;
-    
 }
 
 .contenedor-navfecha  ul li {

@@ -1,6 +1,7 @@
 
 /*MENU */
 
+
 .navbar-dark .navbar-nav .nav-link{
     color: white;
     align-items: center;
@@ -47,6 +48,7 @@
 }
 
 /* SLIDER */
+
 .contenedor-slider {
     margin: 5px 0;
     position: relative;
