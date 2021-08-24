@@ -1,0 +1,8 @@
+/*  SASS MIXIN */
+@mixin grid-mobile {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    padding-top: 10px * 2;
+    padding-bottom: 20px;
+}
