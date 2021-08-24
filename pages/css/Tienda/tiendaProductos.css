@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /*  PRODUCTOS   */
 /*  SASS  VARIABLES   */
-@import url(./_variables.scss);
 /*  SASS MIXIN */
 .main-title {
   text-align: center;
@@ -26,6 +25,10 @@
   border: 1px solid #eeb806;
   text-align: center;
   position: relative; }
+  .product__new a {
+    color: #FF4E00;
+    font-weight: bold;
+    font-size: 1.5em; }
 
 .product__new:before {
   content: "New";
@@ -48,10 +51,6 @@
   text-align: center;
   padding: 10px; }
 
-.product__price {
-  color: #FF4E00;
-  font-weight: bold; }
-
 .product__icon {
   display: block;
   margin: 10px; }
@@ -61,3 +60,7 @@
   padding: 20px;
   text-align: center;
   position: relative; }
+  .product a {
+    color: #FF4E00;
+    font-weight: bold;
+    font-size: 1.5em; }

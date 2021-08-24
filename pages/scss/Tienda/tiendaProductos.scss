@@ -1,28 +1,29 @@
 /*  PRODUCTOS   */
-
-@import url(./_variables.scss);
-@import url(./_mixins.scss);
-
+@import "variables.scss";
+@import "mixins.scss";
 
 
 .main-title {
-    
     text-align: center;
     background: $colorfondosecundario;
     border: 2px solid $colorsecundario;
 }
+
 .container-products {
-   @include grid-mobile()
-    
+   @include grid-mobile();
 }
 .container-products-2 {
-    @include grid-mobile()
+    @include grid-mobile();
 }
 
 .product__new {
     border: 1px solid $bordeproductos;
     text-align: center;
     position: relative;
+
+    a{
+    @include carrito
+    }
 }
 
 .product__new:before {
@@ -54,10 +55,7 @@
     padding: 10px;
 }
 
-.product__price {
-    color: $colorsecundario;
-    font-weight: bold;
-}
+
 
 .product__icon {
     display: block;
@@ -69,4 +67,8 @@
     padding: 20px;
     text-align: center;
     position: relative;
+    
+    a{
+        @include carrito
+        }
 }
