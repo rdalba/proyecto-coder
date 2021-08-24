@@ -1,40 +1,74 @@
-.resultadosPartidos {
-    text-align: center;
-}
 
+.resultadosPartidos{  /*Margenes que abarca el banner*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
 
 .contenedor-resultadosPartidos{
-    padding: 20px;
     background-color: #333;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
 }
 
-.contenedor__resultadosPartidos{
-    margin: 0;
-    padding: 10px;
+.all__resultados__links {
+    border: 2px solid #FF4E00;
+    border-radius: 1em ;
+    align-items: center; 
+    margin: 20px;
     list-style: none;
-    text-decoration: none;
+    padding: 5px;
+    font-size: 0.8em;
 }
 
-.contenedor__resultado{
-    display: inline-block;
+
+.resultadosPartidos__all ul li {
+    border: 2px solid white;
+    border-radius: 1em ;
+    margin: 1em;
+    border-color: #FF4E00;
+    display: inline-block; /* Para que ponga todo en una linea */
 }
 
-.contenedor__partidos{
-    display: block;
+.all__resultados__links:hover {
+    border: 2px solid #FF4E00;
+    border-radius: 1em ;
+    background: rgba(196, 107, 7, 0.5);
+}
+
+.all__resultados__links a{
     color: white;
-    margin: 15px;
-}
+    text-decoration: none;
     
-.contenedor__partidos:hover {
-    color: #FF4E00;
-    text-decoration: none;
 }
 
+.resultadosPartidos_all_resultados img{
+    width: 2em;
+    height: 2em;
+}
 
-.contenedor__partidos__imagen{
-    width: 4em;
-    height: 4em;
-    display: inline-block;
-    text-decoration: none;
+/*  RESPONSIVE   */
+@media  (min-width:768px) { 
+
+    .all__resultados__links {
+        border: 2px solid #FF4E00;
+        border-radius: 1em ;
+        align-items: center; 
+        margin: 20px;
+        list-style: none;
+        padding: 15px;
+        font-size: 1.5em;
+    }
+    
+    .resultadospartidos-contenedor__links img {
+        width: 10em;
+        height: 10em;
+    }
+    
+    .resultadospartidos-contenedor h3{
+    font-size: 2em;
+    }
+
 }
