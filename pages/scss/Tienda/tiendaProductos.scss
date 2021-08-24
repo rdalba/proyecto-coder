@@ -5,6 +5,11 @@
 
 .main-title {
     text-align: center;
+    background: $colorsecundario;
+    border: 2px solid $colorsecundario;
+}
+.main-title2 {
+    text-align: center;
     background: $colorfondosecundario;
     border: 2px solid $colorsecundario;
 }
@@ -12,18 +17,23 @@
 .container-products {
    @include grid-mobile();
 }
+
 .container-products-2 {
     @include grid-mobile();
 }
 
 .product__new {
-    border: 1px solid $bordeproductos;
+    border: 1px solid $colorsecundario;
     text-align: center;
     position: relative;
+    
+    @include carrito;
 
-    a{
-    @include carrito
+    & a:hover{
+    @include carrito;
+    color: $colorsecundario;
     }
+    
 }
 
 .product__new:before {
@@ -33,8 +43,10 @@
     position: absolute;
     top: 0;
     right: 0;
-    color: white;
+    
 }
+
+
 
 .product__img {
     width: 100%;
@@ -43,8 +55,9 @@
 }
 
 .product__title {       /*  SASS ANIDADO */
+    
     font: {
-        size: 0.8em;
+        size: 1em;
         weight: bold;
     }
 
@@ -63,12 +76,13 @@
 }
 
 .product {
-    border: 1px solid rgb(238, 184, 6);
-    padding: 20px;
+    border: 1px solid $colorsecundario;
     text-align: center;
     position: relative;
-    
-    a{
-        @include carrito
-        }
+    @include carrito;
+
+    & a:hover{
+    @include carrito;
+    color: $colorsecundario;
+    }
 }
