@@ -31,6 +31,17 @@
 
 .footer__txt {
     font-size: .8em;
+    color: grey;
+    text-decoration: none;
+}
+
+.footer__section a{
+    text-decoration: none;
+    color: grey;
+}
+.footer__section a:hover{
+    color:#FF4E00;
+    
 }
 
 .redes__sociales {
