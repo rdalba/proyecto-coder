@@ -2,7 +2,7 @@
 .resultadospartidos{  /*Margenes que abarca el banner*/
     text-align: center;
     padding-top: 20px;
- 
+    padding-bottom: 20px;
 }
 
 .resultadospartidos-contenedor{
