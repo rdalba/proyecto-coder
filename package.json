@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss pages/scss/Tienda/tiendaProductos.scss pages/css/Tienda/tiendaProductos.css", 
-		"watch-css":"nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss pages/scss/styles.scss pages/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

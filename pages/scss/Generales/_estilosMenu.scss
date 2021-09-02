@@ -1,0 +1,81 @@
+@import "./colores";
+@import "./mixins";
+
+/*MENU */
+.navbar-dark .navbar-nav .nav-link{
+    color: $colorMenu3;
+    align-items: center;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: $colorMenu2;
+    color: $colorMenu3;
+}
+.dropdown-menu {
+    background-color: $colorMenu1;
+}
+.dropdown-menu a{
+    color: $colorMenu3;
+}
+.dropdown-menu a:hover{
+    color: $colorMenu3;
+    background-color: $colorMenu2;
+}
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+    color: $colorMenu3;
+    padding: 20px;
+}
+.main-header__cart:hover {
+    color: $colorMenu2;
+}
+.main-header__user{
+    color: $colorMenu3;
+}
+.main-header__user:hover {
+    color: $colorMenu2;
+}
+.fa-search{
+    color: $colorMenu3;
+}
+.fa-search:hover {
+    color: $colorMenu2;
+}
+
+.btn-outline-success{
+    border-color: $colorMenu2;
+    color: $colorMenu1;
+}
+
+/* SLIDER */
+
+.contenedor-slider {
+    margin: 5px 0;
+    position: relative;
+}
+.contenedor-slider img {
+    display: block;
+    height:300px;
+}
+
+.contenedor-slider {
+    display: block;
+    position: relative;
+}
+
+.contenedor-slider h1{
+    font-size: 1.8em;
+}
+
+.contenedor-slider h3{
+    font-size: 1.4em;
+}
+
+.slider {
+    margin: 30px 0;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    
+}

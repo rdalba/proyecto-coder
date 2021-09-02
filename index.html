@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <!-- PARA QUE LO ENCUENTRE MEJOR EL BUSCADOR --> 
+   <meta name="description" content="El Hockey sobre Patines en Línea o Hockey Inline es un deporte de equipo que se juega en pistas de cemento pulido o pisos de plastico">
+   <meta name="keywords" content="HOCKEY, INLINE, ROLLER, HIELO, HOCKEYINLINE, ICEHOCKEY, ARGENTINA, HOCKEY ARGENTINA, INLINE HOCKEY ARGENTINA, ROLLER HOCKEY ARGENTINA">
     <!--Estilos de BOOTSTRAP-->
     <link rel="stylesheet" href="./pages/css/Generales/css/bootstrap.css">
 
@@ -21,7 +23,7 @@
         crossorigin="anonymous"></script>
 
     <!--Estilos propios-->
-    <link rel="stylesheet" href="./pages/css/Principal/estilosPrincipal.css">
+    <link rel="stylesheet" href="./pages/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
     <!--FONTS-->
@@ -35,7 +37,7 @@
 
 <body>
 
-    <header class="main-header">
+    <header class="main-header" id="menu">
 
         <!--    MENU    -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -55,23 +57,10 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./index.html">Pagina Principal</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores del Torneo</a>
-                            <a class="dropdown-item" href="#">Tabla de posiciones</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Resultados
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./pages/html/resultados.html">Pagina Resultados</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Seleccione Fecha</a>
-                            <a class="dropdown-item" href="#">Ultimos Resultados</a>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="#resultadoPartidos">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="#mejoresFecha">Los Mejores de la Fecha</a>
+                            <a class="dropdown-item" href="#mejoresTorneo">Los Mejores del Torneo</a>
+                            <a class="dropdown-item" href="#tablaposiciones">Tabla de posiciones</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -82,12 +71,26 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./pages/html/partidos.html">Pagina Partidos</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Partido de Categoria A</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria B</a>
+                            <a class="dropdown-item" href="./pages/html/partidos.html#partidoequiposA">Partido de Categoria A</a>
+                            <a class="dropdown-item" href="./pages/html/partidos.html#partidoequiposB">Partido de Categoria B</a>
                             <a class="dropdown-item" href="#">Partido de Categoria C</a>
                             <a class="dropdown-item" href="#">Partido de Categoria D</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resultados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./pages/html/resultados.html">Pagina Resultados</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./pages/html/resultados.html#selecfecha">Seleccione Fecha</a>
+                            <a class="dropdown-item" href="./pages/html/resultados.html#navfecha">Ultimos Resultados</a>
+                            <a class="dropdown-item" href="./pages/html/resultados.html#resultadospartidos">Resultados de la Fecha</a>
+                        </div>
+                    </li>
+                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -96,7 +99,8 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./pages/html/noticias.html">Pagina Noticias</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Ultimas Noticias</a>
+                            <a class="dropdown-item" href="./pages/html/noticias.html#nociticiasPrincipales">Noticias Principales</a>
+                            <a class="dropdown-item" href="./pages/html/noticias.html#noticiaSecundarias">Noticias Secundarias</a>
                             <a class="dropdown-item" href="#">Noticias Liga Buenos Aires</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mar del Plata</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mendoza</a>
@@ -127,13 +131,12 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./pages/html/tienda.html">Pagina Tienda</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Nuevos Productos</a>
-                            <a class="dropdown-item" href="#">Productos en Stock</a>
-                            <a class="dropdown-item" href="#">Carrito de Compras</a>
-                            <a class="dropdown-item" href="#">Testimonios</a>
-                            <a class="dropdown-item" href="#">Suscribirse</a>
-                            <a class="dropdown-item" href="#">Consultas</a>
-                            <a class="dropdown-item" href="#">Personalizacion</a>
+                            <a class="dropdown-item" href="./pages/html/tienda.html#productosNuevos">Nuevos Productos</a>
+                            <a class="dropdown-item" href="./pages/html/tienda.html#productosActuales">Productos en Stock</a>
+                            <a class="dropdown-item" href="./pages/html/tienda.html#testimonios">Testimonios</a>
+                            <a class="dropdown-item" href="./pages/html/tienda.html#comentarios">Comentarios</a>
+                            <a class="dropdown-item" href="./pages/html/tienda.html#shipping">Shipping</a>
+                            <a class="dropdown-item" href="./pages/html/tienda.html#personalizacion">Personalizacion</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -281,7 +284,7 @@
 
         <!--    PONER LAS SECCIONES DE LA PAGINA ABAJO DE ESTA LINEA     -->
         <!--    VIDEO RESUMEN DE LA FECHA      -->
-        <section class="videoResFech">
+        <section class="videoResFech" id="videoResFech">
             <h2>RESUMEN DE LA FECHA</h2>
             <div class="contenedor-videoResFech">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/15Lk5FsFct0"
@@ -302,13 +305,13 @@
         </section>
 
         <!--    RESULTADOS DE LA FECHA      -->
-        <section class="resultadosPartidos">
+        <section class="resultadosPartidos" id="resultadoPartidos">
             <h2>Resultados de los partidos de la fecha</h2>
             <div class="contenedor-resultadosPartidos">
                 <nav class="resultadosPartidos__all">
                     <ul class="resultadosPartidos_all_resultados">
                         <li class="all__resultados__links">
-                            <a href="#" target="">
+                            <a href="./pages/html/partidos.html#partidoequiposA" target="">
                                 <div>
                                     <img class="resultados__links__img" src="./pages/img/Escudos/Montreal.png" alt="">
                                     <img class="contenedor__partidos__imagen" src="./pages/img/Escudos/Tampa.png" alt="">
@@ -320,7 +323,7 @@
                             </a>
                         </li>
                         <li class="all__resultados__links">
-                            <a href="#" target="">
+                            <a href="./pages/html/partidos.html#partidoequiposB" target="">
                                 <div>
                                     <img class="resultados__links__img" src="./pages/img/Escudos/Blues.png" alt="">
                                     <img class="contenedor__partidos__imagen" src="./pages/img/Escudos/Boston.png" alt="">
@@ -386,7 +389,7 @@
         </section>
 
         <!--    LOS MEJORES DE LA FECHA     -->
-        <section class="mejoresFecha">
+        <section class="mejoresFecha" id="mejoresFecha">
             <h2>Los Mejores de la fecha</h2>
             <div class="contenedor-mejoresFecha">
                 <div class="contenedor-mejoresFecha__jugador">
@@ -417,7 +420,7 @@
         </section>
 
         <!--    LOS MEJORES DEL TORNEO     -->
-        <section class="mejoresTorneo">
+        <section class="mejoresTorneo" id="mejoresTorneo">
             <h2>Los Mejores del TORNEO</h2>
             <div class="contenedor-mejoresTorneo">
                 <div class="contenedor-mejoresTorneo__jugador">
@@ -450,7 +453,7 @@
 
         <!--    TABLA DE POSICIONES     -->
 
-        <section class="tablaposiciones">
+        <section class="tablaposiciones" id="tablaposiciones">
             <h2>Tabla de Posiciones</h2>
             <div class="contenedor-tablaposiciones">
                 <fieldset class="contenedor-tablaposiciones__tabla">

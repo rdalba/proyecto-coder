@@ -1,0 +1,34 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+.partidojugadores {
+    text-align: center;
+}
+
+.contenedor-tablajugadores {
+    padding-bottom: 10px;
+    background-color: $colorFondo1;
+    color: $colorFonts1;
+    text-align: center;
+}
+
+.contenedor-tablajugadores__tabla{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-tablajugadores__categoria {
+    font-size: 1.5em;
+}
+
+.equipo__table{
+    width: 100%;
+}
+
+.equipo__table__columnas th {
+    font-size: 1em;
+    background: $colorFondo4;
+}
+
+.equipo__table__lineas tr  {
+    font-size: 1em;
+}

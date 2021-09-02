@@ -1,0 +1,166 @@
+@import "../Generales/fonts";
+@import "../Generales/colores";
+@import "../Generales/variables";
+
+/*  SASS MIXIN */
+@mixin grid-mobile {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+    padding-top: 10px * 2;
+    padding-bottom: 20px;
+}
+
+@mixin carrito {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+  
+   .product__icon {
+        font-size: 1.5em;
+   }
+}
+@mixin slider {
+    /* SLIDER */
+    .contenedor-slider {
+        margin: 5px 0;
+        position: relative;
+    }
+
+    .contenedor-slider img {
+        display: block;
+        height:300px;
+    }
+
+    .contenedor-slider {
+        display: block;
+        position: relative;
+    }
+
+    .contenedor-slider h5 {
+        color: $colorFonts1;
+        font-size: 2em;
+    }
+
+    .contenedor-slider p {
+        color: $colorFonts1;
+        font-size: 0.8em;
+    }
+
+    .slider {
+        margin: 30px 0;
+    }
+}
+
+@mixin equipos {
+    /*  SELECCION DE EQUIPOS     */
+    .tiendaproductos {
+        text-align: center;
+    }
+
+    .tiendaproductos h2 {
+        background-color: $colorFondo1;
+        color: $colorFonts1;
+        padding: 5px
+    }
+
+    .tiendaproductos__tiendaequipo{
+        margin: 0;
+        padding: 20px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .contenedor-tiendaequipo__links img{
+        width: 3em;
+        height: 3em;
+    } 
+
+    .contenedor-tiendaequipo__links {
+        display: inline-block;
+    }
+
+    .tiendaequipo__img{
+        margin: 5px;
+    }
+
+    .contenedor-tiendaequipo__links :hover{
+        background: $colorBarra2;
+        transform : scale(2);
+    }
+}
+
+@mixin comentarios {
+    .container-testimonios {
+        margin: 50px 0;
+        position: relative;
+        color: $colorFonts1;
+        background-color: $colorFondo1;
+    }
+    .container-testimonios h3 {
+        color: $colorFonts3;
+    }
+    .container-testimonios {
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+@mixin tips {
+    .container-tips {
+        margin: 20px 0;
+        text-align: center;
+        background: $colorBarra3;
+        padding: 5px ;
+        color: $colorFonts6;
+    }
+    
+    .container-tips h2{
+        font-size: 1.5em;
+    }
+    
+    .container-tips p{
+        font-size: .8em;
+    }
+    
+    .container-tips .slider__link {
+        font-size: 0.8em;
+        display:block;
+        padding: 10px;
+        text-align: center;
+        width: 150px;
+        margin: 10px auto;
+        background: $colorBarra1;
+        border: 2px solid  $colorRecuadro1;
+        text-decoration: none;
+        color: $colorFonts1;
+        transition: all 0.5s;
+        font-weight: bold;
+    }
+    
+    .container-tips .slider__link:hover{
+        background-color: $colorFondo3;
+        color: $colorFonts1;
+    }
+    
+    .container-pagination .pagination{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@mixin paginacion {
+    .page-item.disabled .page-link{
+        color: $colorGeneral1;
+    }
+    
+    .page-link {
+        color: $colorGeneral1;
+    }
+    
+    .page-item.active .page-link {
+    background-color: $colorGeneral1;
+    border-color: $colorRecuadro5;
+    }
+}

@@ -1,0 +1,68 @@
+@import url(../_colores.scss);
+@import url(../_mixins.scss);
+
+.resultadospartidos{  /*Margenes que abarca el banner*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resultadospartidos-contenedor{
+    background-color: $colorFondo1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resultadospartidos-contenedor__links__items {
+    color: $colorFonts1;
+    align-items: center;
+    
+}
+
+.resultadospartidos-contenedor__links {
+    border: 2px solid $colorRecuadro1;
+    border-radius: 1em ;
+    align-items: center; 
+    margin: 20px;
+}
+
+.resultadospartidos-contenedor__links:hover {
+    border: 2px solid $colorRecuadro1;
+    border-radius: 1em ;
+    background: $colorBarra1;
+}
+
+.resultadospartidos-contenedor__links a{
+    color: $colorFonts1;
+    text-decoration: none;
+}
+
+.resultadospartidos-contenedor__links img {
+    width: 4em;
+    height: 4em;
+}
+
+.resultadospartidos-contenedor h3{
+    font-size: 1em;
+}
+
+/*  RESPONSIVE   */
+@media  (min-width:768px) { 
+
+    .resultadospartidos-contenedor__links__items {
+        justify-content: space-around; 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     
+    }
+    
+    .resultadospartidos-contenedor__links img {
+        width: 10em;
+        height: 10em;
+    }
+    
+    .resultadospartidos-contenedor h3{
+    font-size: 2em;
+    }
+
+}

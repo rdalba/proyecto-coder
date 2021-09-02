@@ -1,0 +1,41 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+.mejoresFecha{
+    text-align: center;
+    
+}
+
+.contenedor-mejoresFecha{
+    padding: 50px;
+    background-color: $colorFondo1;
+    text-align: center;
+}
+
+.mejoresFecha__linkjugador{
+    color: $colorFonts1;
+}
+
+.mejoresFecha__linkjugador:hover{
+    text-decoration: none;
+    color: $colorFonts3;
+}
+
+.contenedor-mejoresFecha__jugador{
+    width: 10em;
+    height: 7em; 
+    padding: 15px;
+}
+
+.mejoresFecha__linkjugador__img {
+    width: 100%;
+    height: 100%; 
+} 
+
+.contenedor-mejoresFecha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+

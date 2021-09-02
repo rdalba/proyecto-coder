@@ -21,20 +21,16 @@
         crossorigin="anonymous"></script>
 
     <!--Estilos propios-->
-    <link rel="stylesheet" href="../css/Partidos/estilosPartidos.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <!--FONTS-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:ital,wght@0,600;1,400&family=Roboto&display=swap');
-    </style>
 
     <title>HockeyInlineArgentina</title>
 </head>
 
 <body>
 
-    <header class="main-header">
+    <header class="main-header" id="menu">
 
         <!--    MENU    -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -54,23 +50,10 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../../index.html">Pagina Principal</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores del Torneo</a>
-                            <a class="dropdown-item" href="#">Tabla de posiciones</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Resultados
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Seleccione Fecha</a>
-                            <a class="dropdown-item" href="#">Ultimos Resultados</a>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#resultadoPartidos">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#mejoresFecha">Los Mejores de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#mejoresTorneo">Los Mejores del Torneo</a>
+                            <a class="dropdown-item" href="../../index.html#tablaposiciones">Tabla de posiciones</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -81,12 +64,26 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./partidos.html">Pagina Partidos</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Partido de Categoria A</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria B</a>
+                            <a class="dropdown-item" href="./partidos.html#partidoequiposA">Partido de Categoria A</a>
+                            <a class="dropdown-item" href="./partidos.html#partidoequiposB">Partido de Categoria B</a>
                             <a class="dropdown-item" href="#">Partido de Categoria C</a>
                             <a class="dropdown-item" href="#">Partido de Categoria D</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resultados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./resultados.html#selecfecha">Seleccione Fecha</a>
+                            <a class="dropdown-item" href="./resultados.html#navfecha">Ultimos Resultados</a>
+                            <a class="dropdown-item" href="./resultados.html#resultadospartidos">Resultados de la Fecha</a>
+                        </div>
+                    </li>
+                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -95,7 +92,8 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./noticias.html">Pagina Noticias</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Ultimas Noticias</a>
+                            <a class="dropdown-item" href="./noticias.html#nociticiasPrincipales">Noticias Principales</a>
+                            <a class="dropdown-item" href="./noticias.html#noticiaSecundarias">Noticias Secundarias</a>
                             <a class="dropdown-item" href="#">Noticias Liga Buenos Aires</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mar del Plata</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mendoza</a>
@@ -126,13 +124,12 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./tienda.html">Pagina Tienda</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Nuevos Productos</a>
-                            <a class="dropdown-item" href="#">Productos en Stock</a>
-                            <a class="dropdown-item" href="#">Carrito de Compras</a>
-                            <a class="dropdown-item" href="#">Testimonios</a>
-                            <a class="dropdown-item" href="#">Suscribirse</a>
-                            <a class="dropdown-item" href="#">Consultas</a>
-                            <a class="dropdown-item" href="#">Personalizacion</a>
+                            <a class="dropdown-item" href="./tienda.html#productosNuevos">Nuevos Productos</a>
+                            <a class="dropdown-item" href="./tienda.html#productosActuales">Productos en Stock</a>
+                            <a class="dropdown-item" href="./tienda.html#testimonios">Testimonios</a>
+                            <a class="dropdown-item" href="./tienda.html#comentarios">Comentarios</a>
+                            <a class="dropdown-item" href="./tienda.html#shipping">Shipping</a>
+                            <a class="dropdown-item" href="./tienda.html#personalizacion">Personalizacion</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -281,8 +278,8 @@
         <!--Cargar las secciones de la pagina DESDE ACA ABAJO-->
 
         <!--    PARTIDO EQUIPOS -->
-        <section class="partidoequipos">
-            <h2>Partido 2 del dia 15/07/2021</h2>
+        <section class="partidoequipos" id="partidoequiposA">
+            <h2>Categoria A - Partido 1 - 15/07/2021</h2>
             <div class="partidoequipos-contenedor">
                 <div class="partidoequipos-contenedor__items">
                     <div class="partidoequipos__equipo1">
@@ -299,19 +296,10 @@
             </div>
         </section>
 
-        <!--    SUSCRIPCIONES   -->
-        <section class="suscripcion">
-            <div class="contenedor__suscripcion">
-                <div class="parpadear">
-                    <a href="#">
-                        <h3>SUSCRIPCION</h3>
-                    </a>
-                </div>
-            </div>
-        </section>
+
 
         <!--    VIDEO PARTIDO   -->
-        <section class="partidovideo">
+        <section class="partidovideo" id="partidovideo">
             <h2> Video Resumen del partido</h2>
             <div class="contenedor">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/8U82MqCAqR0"
@@ -572,6 +560,314 @@
                             </tr>
                             <tr>
                                 <td>Vegas</td>
+                                <td>21</td>
+                                <td>8</td>
+                                <td>7</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>15</td>
+                                <td>2</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </fieldset>
+
+            </div>
+        </section>
+
+        <!--    SUSCRIPCIONES   -->
+        <section class="suscripcion">
+            <div class="contenedor__suscripcion">
+                <div class="parpadear">
+                    <a href="#">
+                        <h3>SUSCRIPCION</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="partidoequipos" id="partidoequiposB">
+            <br>
+            <h2>Categoria B - Partido 1 - 15/07/2021</h2>
+            <div class="partidoequipos-contenedor">
+                <div class="partidoequipos-contenedor__items">
+                    <div class="partidoequipos__equipo1">
+                        <img class="imagen" src="../img/Escudos/Blues.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="partidoequipos__resultado">0 - 1</h3>
+                        <h3 class="partidoequipos__equipos"> Blues - Boston</h3>
+                    </div>
+                    <div class="partidoequipos__equipo2">
+                        <img class="imagen" src="../img/Escudos/Boston.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--    VIDEO PARTIDO   -->
+        <section class="partidovideo" id="partidovideo">
+            <h2> Video Resumen del partido</h2>
+            <div class="contenedor">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8U82MqCAqR0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!--    PARTIDO JUGADORES   -->
+        <section class="partidojugadores">
+            <h2>Plantel</h2>
+            <div class="contenedor-tablajugadores">
+                <fieldset class="contenedor-tablajugadores__tabla">
+                    <legend class="contenedor-tablajugadores__equipo">B L U E S</legend>
+                    <table class="equipo__table" border="1">
+                        <!--Equipo 1-->
+                        <thead class="equipo__table__columnas">
+                            <tr>
+                                <th>Jersey</th>
+                                <th>Nombre</th>
+                                <th>Possicion</th>
+                                <th>G</th>
+                                <th>E</th>
+                                <th>P</th>
+                                <th>G F</th>
+                                <th>G C</th>
+                                <th>Ptos</th>
+                            </tr>
+                        </thead>
+                        <tbody class="equipo__table__lineas">
+                            <tr>
+                                <td>11</td>
+                                </td>
+                                <td>B.Gallagher</td>
+                                <td>Foward</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                </td>
+                                <td>N.Susuzi</td>
+                                <td>Foward</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                </td>
+                                <td>S.Weber</td>
+                                <td>Defense</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                </td>
+                                <td>B. Chiarot</td>
+                                <td>Defense</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                </td>
+                                <td>C. Price</td>
+                                <td>Goalie</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                </td>
+                                <td>S.Weber</td>
+                                <td>Defense</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </fieldset>
+                <br>
+                <fieldset class="contenedor-tablajugadores__tabla">
+                    <legend class="contenedor-tablajugadores__equipo">B O S T O N</legend>
+                    <table class="equipo__table" border="1">
+                        <!--Equipo 1-->
+                        <thead class="equipo__table__columnas">
+                            <tr>
+                                <th>Jersey</th>
+                                <th>Nombre</th>
+                                <th>Possicion</th>
+                                <th>G</th>
+                                <th>E</th>
+                                <th>P</th>
+                                <th>G F</th>
+                                <th>G C</th>
+                                <th>Ptos</th>
+                            </tr>
+                        </thead>
+                        <tbody class="equipo__table__lineas">
+                            <tr>
+                                <td>9</td>
+                                </td>
+                                <td>T. Jhonson</td>
+                                <td>Foward</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                </td>
+                                <td>P Marron</td>
+                                <td>Foward</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                </td>
+                                <td>R. McDonagh</td>
+                                <td>Defense</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                </td>
+                                <td>J. Rutta</td>
+                                <td>Defense</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>88</td>
+                                </td>
+                                <td>A. Vasilevsky</td>
+                                <td>Goalie</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                </td>
+                                <td>S.Weber</td>
+                                <td>Defense</td>
+                                <td>8</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>25</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </fieldset>
+
+            </div>
+        </section>
+        <!--    ESTADISTICAS    -->
+        <section class="partidoestadisticas">
+            <h2>Estadisticas de la Liga</h2>
+            <div class="contenedor-estadisticas">
+                <fieldset class="contenedor-estadisticas-tabla">
+                    <legend class="contenedor-estadisticas__datos">Categoria B</legend>
+                    <table class="estadisticas__table" border="1">
+                        <!--Equipo 1-->
+                        <thead class="estadisticas__tabla__columnas">
+                            <tr>
+                                <th>Equipo</th>
+                                <th>C T</th>
+                                <th>P</th>
+                                <th>P P</th>
+                                <th>P I M</th>
+                                <th>H I T S</th>
+                                <th>B L K S</th>
+                                <th>G V A</th>
+                            </tr>
+                        </thead>
+                        <tbody class="estadisticas__tabla__lineas">
+                            <tr>
+                                <td>Blues</td>
+                                <td>19</td>
+                                <td>50%</td>
+                                <td>0/2</td>
+                                <td>8</td>
+                                <td>58</td>
+                                <td>5</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>Boston</td>
+                                <td>27</td>
+                                <td>50%</td>
+                                <td>1/3</td>
+                                <td>6</td>
+                                <td>57</td>
+                                <td>15</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>Chicago</td>
+                                <td>21</td>
+                                <td>8</td>
+                                <td>7</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>15</td>
+                                <td>2</td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <td>Capital</td>
                                 <td>21</td>
                                 <td>8</td>
                                 <td>7</td>

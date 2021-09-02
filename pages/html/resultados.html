@@ -21,20 +21,15 @@
         crossorigin="anonymous"></script>
 
     <!--Estilos propios-->
-    <link rel="stylesheet" href="../css/Resultados/estiloResultado.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-    <!--FONTS-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:ital,wght@0,600;1,400&family=Roboto&display=swap');
-    </style>
 
     <title>HockeyInlineArgentina</title>
 </head>
 
 <body>
 
-    <header class="main-header">
+    <header class="main-header" id="menu">
 
         <!--    MENU    -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -54,23 +49,10 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../../index.html">Pagina Principal</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores del Torneo</a>
-                            <a class="dropdown-item" href="#">Tabla de posiciones</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Resultados
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Seleccione Fecha</a>
-                            <a class="dropdown-item" href="#">Ultimos Resultados</a>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#resultadoPartidos">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#mejoresFecha">Los Mejores de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#mejoresTorneo">Los Mejores del Torneo</a>
+                            <a class="dropdown-item" href="../../index.html#tablaposiciones">Tabla de posiciones</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -81,12 +63,26 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./partidos.html">Pagina Partidos</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Partido de Categoria A</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria B</a>
+                            <a class="dropdown-item" href="./partidos.html#partidoequiposA">Partido de Categoria A</a>
+                            <a class="dropdown-item" href="./partidos.html#partidoequiposB">Partido de Categoria B</a>
                             <a class="dropdown-item" href="#">Partido de Categoria C</a>
                             <a class="dropdown-item" href="#">Partido de Categoria D</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resultados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./resultados.html#selecfecha">Seleccione Fecha</a>
+                            <a class="dropdown-item" href="./resultados.html#navfecha">Ultimos Resultados</a>
+                            <a class="dropdown-item" href="./resultados.html#resultadospartidos">Resultados de la Fecha</a>
+                        </div>
+                    </li>
+                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -95,7 +91,8 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./noticias.html">Pagina Noticias</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Ultimas Noticias</a>
+                            <a class="dropdown-item" href="./noticias.html#nociticiasPrincipales">Noticias Principales</a>
+                            <a class="dropdown-item" href="./noticias.html#noticiaSecundarias">Noticias Secundarias</a>
                             <a class="dropdown-item" href="#">Noticias Liga Buenos Aires</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mar del Plata</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mendoza</a>
@@ -126,13 +123,12 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./tienda.html">Pagina Tienda</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Nuevos Productos</a>
-                            <a class="dropdown-item" href="#">Productos en Stock</a>
-                            <a class="dropdown-item" href="#">Carrito de Compras</a>
-                            <a class="dropdown-item" href="#">Testimonios</a>
-                            <a class="dropdown-item" href="#">Suscribirse</a>
-                            <a class="dropdown-item" href="#">Consultas</a>
-                            <a class="dropdown-item" href="#">Personalizacion</a>
+                            <a class="dropdown-item" href="./tienda.html#productosNuevos">Nuevos Productos</a>
+                            <a class="dropdown-item" href="./tienda.html#productosActuales">Productos en Stock</a>
+                            <a class="dropdown-item" href="./tienda.html#testimonios">Testimonios</a>
+                            <a class="dropdown-item" href="./tienda.html#comentarios">Comentarios</a>
+                            <a class="dropdown-item" href="./tienda.html#shipping">Shipping</a>
+                            <a class="dropdown-item" href="./tienda.html#personalizacion">Personalizacion</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -279,7 +275,7 @@
 
         <!--Cargar las secciones de la pagina-->
         <!--    SELECT FECHA    -->
-        <section class="selecfecha">
+        <section class="selecfecha" id="selecfecha">
             <h2>Seleccione las Fechas</h2>
             <div class="contenedor-selecfecha">
                 <a href="#\fechapartido\ddmmaaaa"></a>
@@ -288,7 +284,7 @@
         </section>
 
         <!--    BARRA  DE NAVEGACION RESULTADOS    -->
-        <section class="navfecha">
+        <section class="navfecha" id="navfecha">
             <h2>Barra de busqueda de resultados</h2>
             <div class="contenedor-navfecha">
                 <nav class="contenedor-navfecha__all">
@@ -346,7 +342,7 @@
         </section>
 
         <!--    RESULTADOS   -->
-        <section class="resultadospartidos">
+        <section class="resultadospartidos" id="resultadospartidos">
             <h2>Resultados de Partidos</h2>
             <div class="resultadospartidos-contenedor">
                 <div class="resultadospartidos-contenedor__links">

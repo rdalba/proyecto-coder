@@ -21,20 +21,17 @@
         crossorigin="anonymous"></script>
 
     <!--Estilos propios-->
-    <link rel="stylesheet" href="../css/Tienda/estilosTienda.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <!--FONTS-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:ital,wght@0,600;1,400&family=Roboto&display=swap');
-    </style>
+   
 
     <title>HockeyInlineArgentina</title>
 </head>
 
 <body>
 
-    <header class="main-header">
+    <header class="main-header" id="menu">
 
         <!--    MENU    -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -54,23 +51,10 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../../index.html">Pagina Principal</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores de la Fecha</a>
-                            <a class="dropdown-item" href="#">Los Mejores del Torneo</a>
-                            <a class="dropdown-item" href="#">Tabla de posiciones</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Resultados
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Seleccione Fecha</a>
-                            <a class="dropdown-item" href="#">Ultimos Resultados</a>
-                            <a class="dropdown-item" href="#">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#resultadoPartidos">Resultados de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#mejoresFecha">Los Mejores de la Fecha</a>
+                            <a class="dropdown-item" href="../../index.html#mejoresTorneo">Los Mejores del Torneo</a>
+                            <a class="dropdown-item" href="../../index.html#tablaposiciones">Tabla de posiciones</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -81,12 +65,26 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./partidos.html">Pagina Partidos</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Partido de Categoria A</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria B</a>
+                            <a class="dropdown-item" href="./partidos.html#partidoequiposA">Partido de Categoria A</a>
+                            <a class="dropdown-item" href="./partidos.html#partidoequiposB">Partido de Categoria B</a>
                             <a class="dropdown-item" href="#">Partido de Categoria C</a>
                             <a class="dropdown-item" href="#">Partido de Categoria D</a>
                         </div>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resultados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./resultados.html#selecfecha">Seleccione Fecha</a>
+                            <a class="dropdown-item" href="./resultados.html#navfecha">Ultimos Resultados</a>
+                            <a class="dropdown-item" href="./resultados.html#resultadospartidos">Resultados de la Fecha</a>
+                        </div>
+                    </li>
+                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -95,7 +93,8 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./noticias.html">Pagina Noticias</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Ultimas Noticias</a>
+                            <a class="dropdown-item" href="./noticias.html#nociticiasPrincipales">Noticias Principales</a>
+                            <a class="dropdown-item" href="./noticias.html#noticiaSecundarias">Noticias Secundarias</a>
                             <a class="dropdown-item" href="#">Noticias Liga Buenos Aires</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mar del Plata</a>
                             <a class="dropdown-item" href="#">Noticias Liga Mendoza</a>
@@ -126,13 +125,12 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="./tienda.html">Pagina Tienda</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Nuevos Productos</a>
-                            <a class="dropdown-item" href="#">Productos en Stock</a>
-                            <a class="dropdown-item" href="#">Carrito de Compras</a>
-                            <a class="dropdown-item" href="#">Testimonios</a>
-                            <a class="dropdown-item" href="#">Suscribirse</a>
-                            <a class="dropdown-item" href="#">Consultas</a>
-                            <a class="dropdown-item" href="#">Personalizacion</a>
+                            <a class="dropdown-item" href="./tienda.html#productosNuevos">Nuevos Productos</a>
+                            <a class="dropdown-item" href="./tienda.html#productosActuales">Productos en Stock</a>
+                            <a class="dropdown-item" href="./tienda.html#testimonios">Testimonios</a>
+                            <a class="dropdown-item" href="./tienda.html#comentarios">Comentarios</a>
+                            <a class="dropdown-item" href="./tienda.html#shipping">Shipping</a>
+                            <a class="dropdown-item" href="./tienda.html#personalizacion">Personalizacion</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -323,7 +321,7 @@
         </section>
         <!--    PRODUCTOS NUEVOS    -->
         
-        <div class="container">
+        <div class="container" id="productosNuevos">
             <h2 class="main-title">Nuevos Productos</h2>
             <section class="container-products">
                 <div class="product__new">
@@ -372,7 +370,7 @@
         </section>
 
         <!--Slider BOOTSTRAP modificado imagen por texto-->
-        <section class="container-testimonios">
+        <section class="container-testimonios" id="testimonios">
             <h3 class="testimonio__Title">Comentarios</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -409,7 +407,7 @@
         </section>
 
         <!--PRODUCTOS ACTUALES-->
-        <section class="container-products-actuales">
+        <section class="container-products-actuales" id="productosActuales">
             <h2 class="main-title2">Productos</h2>
             <div class="container-products-2">
                 <div class="product">
@@ -602,19 +600,19 @@
 
         <!-- TIPS-->
         <section class="container-tips">
-            <div class="tip">
+            <div class="tip" id="comentarios">
                 <i class="fas fa-book"></i>
                 <h2 class="tip__title">Comentarios</h2>
                 <p class="tip__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <a href="" class="slider__link btn-shop">SHOP NOW</a>
             </div>
-            <div class="tip">
+            <div class="tip" id="shipping">
                 <i class="fas fa-shipping-fast"></i>
                 <h2 class="tip__title">Shipping</h2>
                 <p class="tip__txt">Porro, asperiores dolor quibusdam exercitationem veritatis sunt tempore </p>
                 <a href="" class="slider__link">SHOP NOW</a>
             </div>
-            <div class="tip">
+            <div class="tip" id="personalizacion">
                 <i class="fas fa-cogs"></i>
                 <h2 class="tip__title">Personalizacion</h2>
                 <p class="tip__txt">quasi eius doloribus culpa. Obcaecati numquam iste culpa! Atque error esse

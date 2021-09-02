@@ -1,0 +1,3921 @@
+@charset "UTF-8";
+/*  ESTILOS GENERALES   */
+/*  ESTILO DE FONTS     */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*  TAMAÑOS DE FONTS    */
+/*  ESTILO DE FONTS     */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  SASS  VARIABLES   */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILOS DE SECCIONES GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(../_colores.scss);
+@import url(../_mixins.scss);
+@import url(../_colores.scss);
+@import url(../_mixins.scss);
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  ESTILOS DE PAGINAS  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  LINKS GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/*  LINKS ESTILOS DE PAGINA */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.videoResFech h2 {
+  text-align: center;
+  font-size: 1.5em; }
+
+.contenedor-videoResFech {
+  display: flex;
+  /* Para que las imagenes esten en la misma linea */
+  flex-wrap: wrap;
+  /*Para que los elementos si no entran en la pagina se bajen */
+  justify-content: space-around;
+  /*Para que lo centre  */
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.mejoresTorneo {
+  text-align: center; }
+
+.contenedor-mejoresTorneo {
+  padding: 50px;
+  background-color: #333; }
+
+.mejoresTorneo__linkjugador {
+  color: white; }
+
+.mejoresTorneo__linkjugador:hover {
+  text-decoration: none;
+  color: #FF4E00; }
+
+.contenedor-mejoresTorneo__jugador {
+  width: 7em;
+  height: 7em;
+  padding: 15px; }
+
+.mejoresTorneo__linkjugador__img {
+  width: 100%;
+  height: 100%; }
+
+.contenedor-mejoresTorneo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.mejoresFecha {
+  text-align: center; }
+
+.contenedor-mejoresFecha {
+  padding: 50px;
+  background-color: #333;
+  text-align: center; }
+
+.mejoresFecha__linkjugador {
+  color: white; }
+
+.mejoresFecha__linkjugador:hover {
+  text-decoration: none;
+  color: #FF4E00; }
+
+.contenedor-mejoresFecha__jugador {
+  width: 10em;
+  height: 7em;
+  padding: 15px; }
+
+.mejoresFecha__linkjugador__img {
+  width: 100%;
+  height: 100%; }
+
+.contenedor-mejoresFecha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.resultadosPartidos {
+  /*Margenes que abarca el banner*/
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+.contenedor-resultadosPartidos {
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between; }
+
+.all__resultados__links {
+  border: 2px solid #FF4E00;
+  border-radius: 1em;
+  align-items: center;
+  margin: 20px;
+  list-style: none;
+  padding: 5px;
+  font-size: 0.8em; }
+
+.resultadosPartidos__all ul li {
+  border: 2px solid white;
+  border-radius: 1em;
+  margin: 1em;
+  border-color: #FF4E00;
+  display: inline-block;
+  /* Para que ponga todo en una linea */ }
+
+.all__resultados__links:hover {
+  border: 2px solid #FF4E00;
+  border-radius: 1em;
+  background: rgba(196, 107, 7, 0.5); }
+
+.all__resultados__links a {
+  color: white;
+  text-decoration: none; }
+
+.resultadosPartidos_all_resultados img {
+  width: 2em;
+  height: 2em; }
+
+/*  RESPONSIVE   */
+@media (min-width: 768px) {
+  .all__resultados__links {
+    border: 2px solid #FF4E00;
+    border-radius: 1em;
+    align-items: center;
+    margin: 20px;
+    list-style: none;
+    padding: 15px;
+    font-size: 1.5em; }
+  .resultadospartidos-contenedor__links img {
+    width: 10em;
+    height: 10em; }
+  .resultadospartidos-contenedor h3 {
+    font-size: 2em; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.tablaposiciones {
+  text-align: center;
+  padding-bottom: 20px; }
+
+.contenedor-tablaposiciones {
+  padding-bottom: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center; }
+
+.contenedor-tablaposiciones__tabla {
+  width: 100%;
+  height: 100%; }
+
+.contenedor-tablaposiciones__categoria {
+  font-size: 1.5em; }
+
+.categoria__table {
+  width: 100%; }
+
+.categoria__table__columnas th {
+  font-size: 1em;
+  background: rgba(196, 107, 7, 0.5); }
+
+.categoria__table__lineas tr {
+  font-size: 1em; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+* {
+  box-sizing: border-box; }
+
+/*  ESTILOS DE LA PAGINA    */
+.videoresfech {
+  margin: 30px 0;
+  color: #333;
+  background-color: white; }
+
+.suscripcion {
+  margin: 30px 0; }
+
+.navpartidos {
+  margin: 10px 0; }
+
+.mejoresFecha {
+  margin: 30px 0; }
+
+.mejoresTorneo {
+  margin: 30px 0; }
+
+.tablaPosiciones {
+  margin: 30px 0; }
+
+/*  RESPONSIVE  */
+@media screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 10px; }
+  .contenedor-slider img {
+    height: 400px; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  LINKS GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/* Links a otros estilos de las secciones de la pagina de PAGINA*/
+.selecfecha {
+  text-align: center;
+  width: 100%;
+  height: 100px; }
+
+.contenedor-selecfecha {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #333; }
+
+.contenedor-selecfecha h2 {
+  color: black; }
+
+.navfecha {
+  /*Margenes que abarca el banner*/
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.contenedor-navfecha {
+  justify-content: space-around;
+  background-color: #333; }
+
+.contenedor-navfecha .contenedor-navfecha__all img {
+  height: 4em;
+  padding: 5px; }
+
+.contenedor-navfecha ul {
+  list-style: none; }
+
+.contenedor-navfecha ul li {
+  border: 2px solid white;
+  border-radius: 1em;
+  margin: 1em;
+  border-color: #FF4E00;
+  display: inline-block;
+  /* Para que ponga todo en una linea */ }
+
+.contenedor-navfecha ul li a {
+  color: white;
+  text-decoration: none; }
+
+.contenedor-navfecha ul li:hover {
+  background: rgba(196, 107, 7, 0.5); }
+
+.resultadospartidos {
+  /*Margenes que abarca el banner*/
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.resultadospartidos-contenedor {
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.resultadospartidos-contenedor__links__items {
+  color: white;
+  align-items: center; }
+
+.resultadospartidos-contenedor__links {
+  border: 2px solid #FF4E00;
+  border-radius: 1em;
+  align-items: center;
+  margin: 20px; }
+
+.resultadospartidos-contenedor__links:hover {
+  border: 2px solid #FF4E00;
+  border-radius: 1em;
+  background: rgba(196, 107, 7, 0.5); }
+
+.resultadospartidos-contenedor__links a {
+  color: white;
+  text-decoration: none; }
+
+.resultadospartidos-contenedor__links img {
+  width: 4em;
+  height: 4em; }
+
+.resultadospartidos-contenedor h3 {
+  font-size: 1em; }
+
+/*  RESPONSIVE   */
+@media (min-width: 768px) {
+  .resultadospartidos-contenedor__links__items {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .resultadospartidos-contenedor__links img {
+    width: 10em;
+    height: 10em; }
+  .resultadospartidos-contenedor h3 {
+    font-size: 2em; } }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 10px; }
+
+.main-header .container {
+  padding: 50px; }
+
+/*  RESPONSIVE  */
+@media screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 10px; }
+  .contenedor-slider img {
+    height: 400px; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  LINKS GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/* Links a otros estilos de las secciones de la pagina de PAGINA*/
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.partidoequipos {
+  /*Margenes que abarca el banner*/
+  text-align: center;
+  padding-bottom: 20px; }
+
+.partidoequipos-contenedor {
+  background-color: #333;
+  color: white;
+  padding: 20px; }
+
+.partidoequipos-contenedor__items {
+  border: 2px solid #FF4E00;
+  border-radius: 1em;
+  align-items: center; }
+
+.partidoequipos-contenedor img {
+  width: 4em;
+  height: 4em; }
+
+.partidoequipos-contenedor h3 {
+  font-size: 1em; }
+
+/*  RESPONSIVE    */
+@media (min-width: 768px) {
+  .partidoequipos-contenedor__items {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .partidoequipos-contenedor img {
+    width: 10em;
+    height: 10em; }
+  .partidoequipos-contenedor h3 {
+    font-size: 2em; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.partidovideo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.partidovideo .contenedor {
+  display: flex;
+  /* Para que las imagenes esten en la misma linea */
+  flex-wrap: wrap;
+  /*Para que los elementos si no entran en la pagina se bajen */
+  justify-content: space-around;
+  /*Para que lo centre  */
+  background-color: #333;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.partidojugadores {
+  text-align: center; }
+
+.contenedor-tablajugadores {
+  padding-bottom: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center; }
+
+.contenedor-tablajugadores__tabla {
+  width: 100%;
+  height: 100%; }
+
+.contenedor-tablajugadores__categoria {
+  font-size: 1.5em; }
+
+.equipo__table {
+  width: 100%; }
+
+.equipo__table__columnas th {
+  font-size: 1em;
+  background: rgba(196, 107, 7, 0.5); }
+
+.equipo__table__lineas tr {
+  font-size: 1em; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.partidoestadisticas {
+  text-align: center; }
+
+.contenedor-estadisticas {
+  padding-bottom: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center; }
+
+.contenedor-estadisticas__tabla {
+  width: 100%;
+  height: 100%; }
+
+.contenedor-estadisticas__categoria {
+  font-size: 1.5em; }
+
+.estadisticas__table {
+  width: 100%; }
+
+.estadisticas__tabla__columnas th {
+  font-size: 1em;
+  background: rgba(196, 107, 7, 0.5); }
+
+.estadisticas__tabla__lineas tr {
+  font-size: 1em; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 10px; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  LINKS GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/*  LINKS ESTILOS DE PAGINA */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  NOTICIAS PRINCIPALES    */
+.noticiasPrincipales {
+  padding-bottom: 20px;
+  align-items: center; }
+
+.noticiasPrincipales h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #FF4E00; }
+
+.contenedor-noticiasPrincipales {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap; }
+
+.contenedor-noticiasPrincipales__img {
+  width: 80%;
+  padding: 30px; }
+
+.contenedor-noticiasPrincipales .noticia1 {
+  font-size: 18px;
+  height: 10%;
+  border: 2px solid #555;
+  padding: 15px; }
+
+.contenedor-noticiasPrincipales .noticia2 {
+  font-size: 15px;
+  width: 100%;
+  border: 2px solid #555;
+  padding: 15px; }
+
+.contenedor-noticiasPrincipales .noticia3 {
+  font-size: 15px;
+  width: 100%;
+  border: 2px solid #555;
+  padding: 15px; }
+
+/*======================*/
+/* Noticias Secundarias */
+.noticiasSecundarias {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.noticiasSecundarias h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #FF4E00; }
+
+.contenedor-noticiasSecundarias {
+  margin: auto;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center; }
+
+.contenedor-noticiasSecundarias__img {
+  max-width: 80%;
+  padding: 20px; }
+
+.contenedor-noticiasSecundarias > div {
+  display: inline-block;
+  padding: 20px;
+  color: #333;
+  background-color: white;
+  box-shadow: 2px 2px 10px #333; }
+
+.contenedor-noticiasSecundarias .contenedor {
+  display: grid;
+  /* para armar grilla  seleccionando columnas, lineas y separador */
+  grid-template-columns: 100%;
+  /* es para dividir las columnas en fracciones*/
+  grid-template-rows: auto;
+  /* para dividir lineas en tamaño y fraccion */
+  grid-gap: 5px; }
+
+/*  RESPONSIVE    */
+@media (min-width: 1024px) {
+  /*  NOTICIAS PRIMARIAS  */
+  .contenedor-noticiasPrincipales .noticia1 {
+    font-size: 18px;
+    height: 10%;
+    border: 2px solid #555; }
+  .contenedor-noticiasPrincipales .noticia2 {
+    font-size: 15px;
+    width: 50%;
+    border: 2px solid #555; }
+  .contenedor-noticiasPrincipales .noticia3 {
+    font-size: 15px;
+    width: 50%;
+    border: 2px solid #555; }
+  /*  NOTICIAS SECUNDARIAS    */
+  .contenedor-noticiasSecundarias > div {
+    display: inline-block; }
+  .contenedor-noticiasSecundarias {
+    display: grid;
+    /* para armar grilla  seleccionando columnas, lineas y separador */
+    grid-template-columns: 2fr 5fr 2fr;
+    /* es para dividir las columnas en fracciones*/
+    grid-template-rows: 1fr 1fr auto;
+    /* para dividir lineas en tamaño y fraccion */
+    grid-gap: 5px; } }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 10px; }
+
+.main-header .container {
+  padding: 50px 20px; }
+
+/*  RESPONSIVE  */
+@media screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 10px; }
+  .contenedor-slider img {
+    height: 400px; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  LINKS GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/*  LINKS ESTILOS DE PAGINA */
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Inconsolata'; }
+
+.main-header .container {
+  padding: 50px 20px; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h5 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2em; }
+
+.contenedor-slider p {
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  font-size: 0.8em; }
+
+.slider {
+  margin: 30px 0; }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*  LINKS GENERALES  */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/*MENU */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  align-items: center; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.dropdown-menu {
+  background-color: #343a40; }
+
+.dropdown-menu a {
+  color: white; }
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: #FF4E00; }
+
+/* USER CARRITO BUSCADOR */
+.main-header__cart {
+  color: white;
+  padding: 20px; }
+
+.main-header__cart:hover {
+  color: #FF4E00; }
+
+.main-header__user {
+  color: white; }
+
+.main-header__user:hover {
+  color: #FF4E00; }
+
+.fa-search {
+  color: white; }
+
+.fa-search:hover {
+  color: #FF4E00; }
+
+.btn-outline-success {
+  border-color: #FF4E00;
+  color: #343a40; }
+
+/* SLIDER */
+.contenedor-slider {
+  margin: 5px 0;
+  position: relative; }
+
+.contenedor-slider img {
+  display: block;
+  height: 300px; }
+
+.contenedor-slider {
+  display: block;
+  position: relative; }
+
+.contenedor-slider h1 {
+  font-size: 1.8em; }
+
+.contenedor-slider h3 {
+  font-size: 1.4em; }
+
+.slider {
+  margin: 30px 0; }
+
+/* RESPONSIVE */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.contenedor__slider {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #333; }
+
+.contenedor__slider ul {
+  display: flex;
+  width: 3300%;
+  /*  probar para solucionar la animacion*/
+  animation-name: slider;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; }
+
+.contenedor__slider li {
+  width: 100%;
+  list-style: none; }
+
+.contenedor__slider img {
+  width: 15%;
+  /* probar para solucionar la animacion */ }
+
+@keyframes slider {
+  0% {
+    margin-left: 0%; }
+  3% {
+    margin-left: -100%; }
+  6% {
+    margin-left: -200%; }
+  9% {
+    margin-left: -300%; }
+  12% {
+    margin-left: -400%; }
+  15% {
+    margin-left: -500%; }
+  18% {
+    margin-left: -600%; }
+  21% {
+    margin-left: -700%; }
+  24% {
+    margin-left: -800%; }
+  27% {
+    margin-left: -900%; }
+  30% {
+    margin-left: -1000%; }
+  33% {
+    margin-left: -1100%; }
+  36% {
+    margin-left: -1200%; }
+  39% {
+    margin-left: -1300%; }
+  42% {
+    margin-left: -1400%; }
+  45% {
+    margin-left: -1500%; }
+  48% {
+    margin-left: -1600%; }
+  51% {
+    margin-left: -1700%; }
+  54% {
+    margin-left: -1800%; }
+  58% {
+    margin-left: -1900%; }
+  61% {
+    margin-left: -2000%; }
+  64% {
+    margin-left: -2100%; }
+  67% {
+    margin-left: -2200%; }
+  70% {
+    margin-left: -2300%; }
+  73% {
+    margin-left: -2400%; }
+  76% {
+    margin-left: -2500%; }
+  79% {
+    margin-left: -2600%; }
+  82% {
+    margin-left: -2700%; }
+  85% {
+    margin-left: -2800%; }
+  88% {
+    margin-left: -2900%; }
+  91% {
+    margin-left: -3000%; }
+  94% {
+    margin-left: -3100%; }
+  97% {
+    margin-left: -3200%; }
+  100% {
+    margin-left: -3300%; } }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  .contenedor__slider img {
+    width: 5%;
+    /* probar para solucionar la animacion */ } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.suscripcion {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: auto;
+  border: 2px solid #FF4E00; }
+
+.contenedor__suscripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.suscripcion {
+  width: 100%;
+  height: 100%;
+  animation-name: suscripcion;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+.contenedor__suscripcion a {
+  text-decoration: none;
+  animation-name: suscripcion__text;
+  animation-iteration-count: infinite;
+  /* repeticion */
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* ritmo de la animacion */
+  animation-direction: alternate; }
+
+/*----------------*/
+@keyframes suscripcion {
+  0% {
+    background-color: #333; }
+  50% {
+    background: rgba(196, 107, 7, 0.5); }
+  100% {
+    background-color: white; } }
+
+@keyframes suscripcion__text {
+  10% {
+    color: white; }
+  50% {
+    color: black; }
+  90% {
+    color: black; } }
+
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+/* FOOTER LINKS*/
+.main-footerlinks {
+  background-color: #151515;
+  color: #555;
+  padding: 10px 20px; }
+
+.footerlinks__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footerlinks__txt {
+  font-size: .8em; }
+
+/* FOOTER */
+.main-footer {
+  background-color: #151515;
+  color: #555;
+  padding: 30px 20px; }
+
+.footer__title {
+  font-size: .9em;
+  font-weight: bold;
+  color: #FF4E00;
+  border-bottom: 1px solid #555; }
+
+.footer__txt {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none; }
+
+.footer__section a {
+  text-decoration: none;
+  color: #555; }
+
+.footer__section a:hover {
+  color: #FF4E00; }
+
+.redes__sociales {
+  size: 0.8em;
+  color: #555;
+  padding: 10px; }
+
+.redes__sociales:hover {
+  color: #FF4E00;
+  padding: 10px; }
+
+.footer__links {
+  font-size: .8em;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0; }
+
+.footer__links:hover {
+  color: #FF4E00;
+  text-decoration: none; }
+
+.footer__input {
+  background-color: #151515;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border: 1px solid #555;
+  color: white; }
+
+.copy {
+  color: #555; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+@media screen and (min-width: 1024px) {
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; }
+  /* FOOTER */
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin-bottom: 80px; }
+  .product__icon {
+    size: 20px; }
+  .copy {
+    grid-column-start: span 4;
+    text-align: center; } }
+
+/*  LINKS ESTILOS DE PAGINA */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  ESTILO DE FONTS     */
+/*  TAMAÑOS DE FONTS    */
+/*  COLORES DE FONDO    */
+/*  COLORES FONTS   */
+/*  COLORES MENU    */
+/*  COLORES DE BARRAS   */
+/*  COLORES RECUADRO    */
+/*  COLOR GENERAL   */
+/*  SASS  VARIABLES   */
+/*  SASS MIXIN */
+.main-title {
+  text-align: center;
+  background: #FF4E00;
+  border: 2px solid #FF4E00; }
+
+.main-title2 {
+  text-align: center;
+  background: #FF4E00;
+  border: 2px solid #FF4E00; }
+
+.container-products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.container-products-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.product__new {
+  border: 1px solid #FF4E00;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  position: relative;
+  font-weight: bold; }
+  .product__new .product__icon {
+    font-size: 1.5em; }
+  .product__new a:hover {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    color: #FF4E00; }
+    .product__new a:hover .product__icon {
+      font-size: 1.5em; }
+
+.product__new:before {
+  content: "New";
+  background: #FF4E00;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.product__img {
+  width: 100%;
+  /*height: 100px; /* tamaño de corte de imagen */
+  object-fit: cover; }
+
+.product__title {
+  /*  SASS ANIDADO */
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px; }
+
+.product__icon {
+  display: block;
+  margin: 10px; }
+
+.product {
+  border: 1px solid #FF4E00;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  position: relative;
+  font-weight: bold; }
+  .product .product__icon {
+    font-size: 1.5em; }
+  .product a:hover {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    color: #FF4E00; }
+    .product a:hover .product__icon {
+      font-size: 1.5em; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 10px; }
+
+.main-header .container {
+  padding: 50px 20px; }
+
+/*  SELECCION DE EQUIPOS     */
+/*  SELECCION DE EQUIPOS     */
+.tiendaproductos {
+  text-align: center; }
+
+.tiendaproductos h2 {
+  background-color: #333;
+  color: white;
+  padding: 5px; }
+
+.tiendaproductos__tiendaequipo {
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none; }
+
+.contenedor-tiendaequipo__links img {
+  width: 3em;
+  height: 3em; }
+
+.contenedor-tiendaequipo__links {
+  display: inline-block; }
+
+.tiendaequipo__img {
+  margin: 5px; }
+
+.contenedor-tiendaequipo__links :hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(2); }
+
+/*  COMENTARIOS  */
+.container-testimonios {
+  margin: 50px 0;
+  position: relative;
+  color: white;
+  background-color: #333; }
+
+.container-testimonios h3 {
+  color: #FF4E00; }
+
+.container-testimonios {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none; }
+
+/*  TIPS    */
+.container-tips {
+  margin: 20px 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  color: #555; }
+
+.container-tips h2 {
+  font-size: 1.5em; }
+
+.container-tips p {
+  font-size: .8em; }
+
+.container-tips .slider__link {
+  font-size: 0.8em;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  margin: 10px auto;
+  background: rgba(196, 107, 7, 0.5);
+  border: 2px solid #FF4E00;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+  font-weight: bold; }
+
+.container-tips .slider__link:hover {
+  background-color: #FF4E00;
+  color: white; }
+
+.container-pagination .pagination {
+  display: flex;
+  justify-content: space-around; }
+
+/* PAGINACION */
+.page-item.disabled .page-link {
+  color: #FF4E00; }
+
+.page-link {
+  color: #FF4E00; }
+
+.page-item.active .page-link {
+  background-color: #FF4E00;
+  border-color: white; }
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 10px; }
+  .contenedor-slider img {
+    height: 400px; }
+  .container-tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px; } }
+
+@media screen and (min-width: 1024px) {
+  * {
+    box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 10px; }
+  /* PRODUCTOS */
+  .product__icon:hover {
+    color: #FF4E00; }
+  .container-products-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 15px; }
+  .container-tips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px; } }
+
+#menu {
+  scroll-margin-top: 70px; }
+
+html {
+  scroll-behavior: smmooth; }

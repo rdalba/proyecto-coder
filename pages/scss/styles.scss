@@ -1,0 +1,27 @@
+/*  ESTILOS GENERALES   */
+@import "./Generales/fonts";
+@import "./Generales/mixins";
+@import "./Generales/variables";
+@import "./Generales/colores";
+
+/*  ESTILOS DE SECCIONES GENERALES  */
+@import "./Generales/estiloEquipos";
+@import "./Generales/estilosFooter";
+@import "./Generales/estilosMenu";
+@import "./Generales/estiloSuscripcion";
+
+/*  ESTILOS DE PAGINAS  */
+@import "./Principal/estilosPrincipal";
+@import "./Resultados/estiloResultado";
+@import "./Partidos/estilosPartidos";
+@import "./Noticias/estilosNoticias";
+@import "./Video/estilosVideos";
+@import "./Tienda/estilosTienda";
+
+#menu {
+    scroll-margin-top: 70px;
+}
+
+html {
+    scroll-behavior: smmooth;
+}

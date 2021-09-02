@@ -1,0 +1,43 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+.tablaposiciones {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contenedor-tablaposiciones {
+    padding-bottom: 10px;
+    background-color: $colorFondo1;
+    color: $colorFonts1;
+    text-align: center;
+}
+
+.contenedor-tablaposiciones__tabla{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-tablaposiciones__categoria {
+    font-size: 1.5em;
+}
+
+.categoria__table{
+    width: 100%;
+}
+
+.categoria__table__columnas th {
+    font-size: 1em;
+    background: $colorFondo4;
+}
+
+.categoria__table__lineas tr  {
+    font-size: 1em;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    .contenedor__slider img {
+        width: 5%;   /* probar para solucionar la animacion */
+    }
+}
+ 

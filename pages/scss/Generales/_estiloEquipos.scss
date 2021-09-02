@@ -1,0 +1,73 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+.contenedor__slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: $colorFondo1;
+    
+}
+.contenedor__slider ul {
+    
+    display: flex;
+    width: 3300%;   /*  probar para solucionar la animacion*/
+    animation-name: slider;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.contenedor__slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.contenedor__slider img {
+    width: 15%;   /* probar para solucionar la animacion */
+}
+
+@keyframes slider {
+    0% { margin-left: 0%;}
+    3% {margin-left: -100%;}
+    6% {margin-left: -200%;}
+    9% {margin-left: -300%;}
+    12% {margin-left: -400%;}
+    15% {margin-left: -500%;}
+    18% {margin-left: -600%;}
+    21% {margin-left: -700%;}
+    24% {margin-left: -800%;}
+    27% {margin-left: -900%;}
+    30% {margin-left: -1000%;}
+    33% {margin-left: -1100%;}
+    36% {margin-left: -1200%;}
+    39% {margin-left: -1300%;}
+    42% {margin-left: -1400%;}
+    45% {margin-left: -1500%;}
+    48% {margin-left: -1600%;}
+    51% {margin-left: -1700%;}
+    54% {margin-left: -1800%;}
+    58% {margin-left: -1900%;}
+    61% {margin-left: -2000%;}
+    64% {margin-left: -2100%;}
+    67% {margin-left: -2200%;}
+    70% {margin-left: -2300%;}
+    73% {margin-left: -2400%;}
+    76% {margin-left: -2500%;}
+    79% {margin-left: -2600%;}
+    82% {margin-left: -2700%;}
+    85% {margin-left: -2800%;}
+    88% {margin-left: -2900%;}
+    91% {margin-left: -3000%;}
+    94% {margin-left: -3100%;}
+    97% {margin-left: -3200%;}
+    100% {margin-left: -3300%;}
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    .contenedor__slider img {
+        width: 5%;   /* probar para solucionar la animacion */
+    }
+}

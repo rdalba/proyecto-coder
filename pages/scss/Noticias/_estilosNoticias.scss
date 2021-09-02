@@ -1,0 +1,44 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+/*  LINKS GENERALES  */
+@import "../Generales/estilosMenu";
+@import "../Generales/estiloEquipos";
+@import "../Generales/estiloSuscripcion";
+@import "../Generales/estilosFooter";
+
+/*  LINKS ESTILOS DE PAGINA */
+@import "./noticiasGeneral";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.main-header .container{
+    padding: 50px 20px;
+}
+
+
+/*  RESPONSIVE  */
+@media screen and (min-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 10px;
+        
+    }
+    
+    .contenedor-slider img  {
+        height: 400px;
+    }
+    
+    
+}

@@ -1,0 +1,87 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+/*  LINKS GENERALES  */
+@import "../Generales/estilosMenu";
+@import "../Generales/estiloEquipos";
+@import "../Generales/estiloSuscripcion";
+@import "../Generales/estilosFooter";
+/*  LINKS ESTILOS DE PAGINA */
+@import "./tiendaProductos";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.main-header .container{
+    padding: 50px 20px;
+}
+
+/*  SELECCION DE EQUIPOS     */
+@include equipos;
+
+/*  COMENTARIOS  */
+@include comentarios;
+
+/*  TIPS    */
+@include tips;
+
+/* PAGINACION */
+@include paginacion;
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 10px;
+        
+    }
+    .contenedor-slider img  {
+        height: 400px;
+    }
+    .container-tips {
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        grid-gap: 15px;  
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 10px;
+        
+    }
+
+    /* PRODUCTOS */
+    .product__icon:hover {
+        color: $colorFonts3;
+    }
+    .container-products-2 {
+        display: grid;
+        grid-template-columns: repeat(4,2fr);
+        grid-gap: 15px;
+    }
+    .container-tips {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);   
+        grid-gap: 15px;
+    }
+
+}
+    

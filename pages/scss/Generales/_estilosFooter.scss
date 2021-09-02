@@ -1,0 +1,135 @@
+@import "./colores";
+@import "./mixins";
+
+/* FOOTER LINKS*/
+.main-footerlinks{
+    background-color: $colorFondo5;
+    color: $colorFonts6;
+    padding: 10px 20px;
+}
+.footerlinks__title{
+    font-size: .9em;
+    font-weight: bold;
+    color: $colorFonts3;
+    border-bottom: 1px solid $colorRecuadro4;
+}
+
+.footerlinks__txt{
+    font-size: .8em;
+}
+
+/* FOOTER */
+.main-footer {
+    background-color: $colorFondo5;
+    color: $colorFonts6;
+    padding: 30px 20px;
+}
+
+.footer__title {
+    font-size: .9em;
+    font-weight: bold;
+    color: $colorFonts3;
+    border-bottom: 1px solid $colorRecuadro4;
+}
+
+.footer__txt {
+    font-size: .8em;
+    color: $colorFonts6;
+    text-decoration: none;
+}
+
+.footer__section a{
+    text-decoration: none;
+    color: $colorFonts6;
+}
+.footer__section a:hover{
+    color: $colorFonts3;
+}
+
+.redes__sociales {
+    size: 0.8em;
+    color: $colorFonts6;
+    padding: 10px;
+}
+.redes__sociales:hover {
+    color: $colorFonts3;
+    padding: 10px;
+}
+
+.footer__links {
+    font-size: .8em;
+    color: $colorFonts6;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.footer__links:hover {
+    color: $colorFonts3;
+    text-decoration: none;
+}
+
+.footer__input {
+    background-color: $colorFondo5;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid $colorFonts6;
+    color: $colorFonts1;
+}
+
+.copy {
+    color: $colorFonts6;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+ 
+  /* FOOTER LINKS*/
+  .main-footerlinks {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    grid-gap: 15px;  
+}
+/* FOOTER */
+.main-footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;   
+    padding: 20px;
+    margin-bottom: 80px;
+}
+.product__icon {
+    size: 20px;
+}
+.copy {
+    grid-column-start: span 4;
+    text-align: center;
+}
+   
+}
+@media screen and (min-width: 1024px) {
+    
+  /* FOOTER LINKS*/
+    .main-footerlinks {
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        grid-gap: 15px;  
+    }
+ /* FOOTER */
+    .main-footer {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;   
+        padding: 20px;
+        margin-bottom: 80px;
+    }
+    .product__icon {
+        size: 20px;
+    }
+    .copy {
+        grid-column-start: span 4;
+        text-align: center;
+    }
+}
+    

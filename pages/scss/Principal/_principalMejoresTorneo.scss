@@ -1,0 +1,43 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+
+.mejoresTorneo {
+    text-align: center;
+}
+.contenedor-mejoresTorneo{
+    padding: 50px;
+    background-color: $colorFondo1;
+
+}
+
+.mejoresTorneo__linkjugador{
+    color:$colorFonts1;
+    
+}
+
+.mejoresTorneo__linkjugador:hover{
+    text-decoration: none;
+    color: $colorFonts3;
+}
+
+.contenedor-mejoresTorneo__jugador{
+    width: 7em;
+    height: 7em; 
+   padding: 15px;
+}
+
+.mejoresTorneo__linkjugador__img {
+    width: 100%;
+    height: 100%; 
+    
+} 
+
+.contenedor-mejoresTorneo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+

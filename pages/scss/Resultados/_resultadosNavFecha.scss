@@ -1,0 +1,39 @@
+@import url(../_colores.scss);
+@import url(../_mixins.scss);
+
+.navfecha{  /*Margenes que abarca el banner*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor-navfecha{
+    justify-content: space-around; 
+    background-color: $colorFondo1;
+}
+
+.contenedor-navfecha .contenedor-navfecha__all img {
+    height: 4em;
+    padding: 5px;
+}
+
+.contenedor-navfecha ul {
+    list-style: none;
+}
+
+.contenedor-navfecha  ul li {
+    border: 2px solid $colorRecuadro5;
+    border-radius: 1em ;
+    margin: 1em;
+    border-color: $colorRecuadro1;
+    display: inline-block; /* Para que ponga todo en una linea */
+}
+
+.contenedor-navfecha ul li a {
+   color: $colorFonts1;
+   text-decoration: none;
+}
+
+.contenedor-navfecha ul li:hover{
+    background: $colorBarra1;
+}
