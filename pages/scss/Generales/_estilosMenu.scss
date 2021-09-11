@@ -1,81 +1,177 @@
 @import "./colores";
 @import "./mixins";
 
-/*MENU */
-.navbar-dark .navbar-nav .nav-link{
+
+* {
+    box-sizing: border-box;
+    /*font-family: "Inconsolata";*/
+ }
+ body {
+     margin: 0;
+ }
+ .main-header{
+    display: block;
     color: $colorMenu3;
-    align-items: center;
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-    background-color: $colorMenu2;
-    color: $colorMenu3;
-}
-.dropdown-menu {
+    width: 100%;
+ }
+ 
+ .nav-bar {
     background-color: $colorMenu1;
-}
-.dropdown-menu a{
-    color: $colorMenu3;
-}
-.dropdown-menu a:hover{
-    color: $colorMenu3;
-    background-color: $colorMenu2;
-}
+     padding: 10px;
+     display: block;
+     color: $colorMenu3;
+     cursor: pointer;
+     font-size: 1.3em;
+     /*width: 100%;*/
+ }
 
-/* USER CARRITO BUSCADOR */
-.main-header__cart {
-    color: $colorMenu3;
-    padding: 20px;
-}
-.main-header__cart:hover {
-    color: $colorMenu2;
-}
-.main-header__user{
-    color: $colorMenu3;
-}
-.main-header__user:hover {
-    color: $colorMenu2;
-}
-.fa-search{
-    color: $colorMenu3;
-}
-.fa-search:hover {
-    color: $colorMenu2;
-}
-
-.btn-outline-success{
-    border-color: $colorMenu2;
-    color: $colorMenu1;
-}
-
-/* SLIDER */
-
-.contenedor-slider {
-    margin: 5px 0;
-    position: relative;
-}
-.contenedor-slider img {
+ .fa-bars {
+    border: 1px solid $colorMenu2;
+    padding: 10px;
+    font-size: 1.5em;
     display: block;
-    height:300px;
+    cursor: pointer;
+
+        &:hover {
+            background-color: $colorMenu5;
+        }
+}
+ .menu, .submenu{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .menu {
+    position: absolute;
+    z-index: 9999;
+    background-color: $colorMenu1;
+     width: auto;
+     margin-left: -110%;
+     transition: all 0.5s;
+ }
+
+ .menu__link {
+     display: block;
+     padding: 20px;
+     color: $colorMenu3;
+     font-size: 1em;
+     text-decoration: none;
+     border-bottom: 0.5px solid $colorMenu4;
+
+     &:hover{
+        background-color: $colorMenu2;
+        color: $colorMenu3;
+        text-decoration: none;
+    }
+ }
+
+ .submenu .menu__link{
+     background-color: $colorMenu1;
+     padding-left: 50px;
+
+     &:hover{
+        background-color: $colorMenu2;
+        color: $colorMenu3;
+    }
+ }
+
+ .submenu {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
 }
 
-.contenedor-slider {
-    display: block;
-    position: relative;
-}
 
-.contenedor-slider h1{
-    font-size: 1.8em;
-}
-
-.contenedor-slider h3{
-    font-size: 1.4em;
-}
-
-.slider {
-    margin: 30px 0;
+.mostrar {
+    margin-left: 0;
 }
 
 /* RESPONSIVE */
-@media screen and (min-width: 768px) {
+@media (min-width:860px) {
+    .nav-bar{
+        display: none;
+        padding: 5px;
+    }
+    .main-header {
+        font-size: 1.3em;
+    }   
     
+   .menu {
+       margin-left: 0;
+       display: flex;
+       width: 100%;
+   }
+
+   .menu li {
+      text-align: center;
+       flex-grow: 1;
+   }
+   
+   .container-submenu {
+       position: relative;
+        
+        .fa-chevron-down {
+            display: none;
+        }
+   }
+   .submenu {
+       position: absolute;
+       top: 60px;
+       width: auto;
+       overflow: visible;
+       z-index: 1000;
+       opacity: 0;
+       visibility: hidden;
+       font-size: .8em;
+   }
+
+   .container-submenu:hover .submenu {
+       opacity: 1;
+       visibility: visible;
+       
+   }  
+   .menu__link {
+       background-color: $colorMenu1;
+   }
+   .submenu .menu__link {
+       padding-left: 20px;
+   }
+   .main-header__other {
+    margin-top: 80px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $colorMenu3;
+    background-color: $colorMenu1;
+       
+        a{
+            color: $colorMenu3;
+            border: 1px solid $colorMenu2;
+            padding: 10px;
+            font-size: 1em;
+            display: block;
+        }
+
+        a:hover {
+            text-decoration: none;
+            background-color: $colorMenu5;
+        }
+
+        .main-header__other__input{
+            width: 300px;
+        }
+    }
+}
+
+
+@media (min-width:1024px) {
+    .main-header {
+        font-size: 1.5em;
+    }   
+
+   .submenu {
+    font-size: .8em;
+   }
 }

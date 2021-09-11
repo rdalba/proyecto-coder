@@ -1,14 +1,13 @@
 /*  ESTILO DE FONTS     */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-/*  TAMAÑOS DE FONTS    */
-$tamañoFonts1: 1.8em;
-$tamañoFonts2: 1.6em; 
-$tamañoFonts3: 1.4em;
-$tamañoFonts2: 1.2em;
-$tamañoFonts5: 1em;
-$tamañoFonts6: .8em;
-
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+  font-family: "Inconsolata";
+  src: url(../fonts/inconsolata.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
 
 
 

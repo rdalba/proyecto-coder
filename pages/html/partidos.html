@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Estilos de BOOTSTRAP-->
-    <link rel="stylesheet" href="../css/Generales/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--Enlace con JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -24,257 +24,296 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-
-    <title>HockeyInlineArgentina</title>
+    <title>Hockey Inline Argentina</title>
 </head>
 
 <body>
+    <!--    MENU    -->
+    <header class="main-header">
+        <div class="container--flex">
+            <div class="main-header__container">
+                <span class="nav-bar" id="btnMenu"> <i class="fas fa-bars"></i> Hockey Inline Argentina</span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu" id="menu">
+                        <li class="menu__item container-submenu">
+                            <a href="../../index.html" class="menu__link submenu-btn">Principal <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="../../index.html#resultadoPartidos"
+                                        class="menu__link">Resultados de
+                                        la Fecha</a></li>
+                                <li class="menu__item"><a href="../../index.html#mejoresFecha" class="menu__link">Los
+                                        Mejores de
+                                        la Fecha</a></li>
+                                <li class="menu__item"><a href="../../index.html#mejoresTorneo" class="menu__link">Los
+                                        Mejores
+                                        del Torneo</a></li>
+                                <li class="menu__item"><a href="../../index.html#tablaposiciones"
+                                        class="menu__link">Tabla
+                                        de
+                                        posiciones</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item container-submenu">
+                            <a href="./partidos.html" class="menu__link submenu-btn">Partidos <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="./partidos.html#partidoequiposA"
+                                        class="menu__link">Partido de
+                                        Categoria A</a></li>
+                                <li class="menu__item"><a href="./partidos.html#partidoequiposB"
+                                        class="menu__link">Partido de
+                                        Categoria B</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Partido de Categoria C</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Partido de Categoria D</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item container-submenu">
+                            <a href="./resultados.html" class="menu__link submenu-btn">Resultados <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="./resultados.html#selecfecha"
+                                        class="menu__link">Seleccione
+                                        Fecha</a></li>
+                                <li class="menu__item"><a href="./resultados.html#navfecha" class="menu__link">Ultimos
+                                        Resultados</a></li>
+                                <li class="menu__item"><a href="./resultados.html#resultadospartidos"
+                                        class="menu__link">Resultados de la Fecha</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item container-submenu">
+                            <a href="./noticias.html" class="menu__link submenu-btn">Noticias <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="./noticias.html#nociticiasPrincipales"
+                                        class="menu__link">Noticias Principales</a></li>
+                                <li class="menu__item"><a href="./noticias.html#noticiaSecundarias"
+                                        class="menu__link">Noticias
+                                        Secundarias</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item container-submenu">
+                            <a href="./videos.html" class="menu__link submenu-btn">Videos <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="#" class="menu__link">Resumen de la Fecha</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Categoria A</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Categoria B</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Categoria C</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Categoria D</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item container-submenu">
+                            <a href="./tienda.html" class="menu__link submenu-btn">Tienda <i
+                                    class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="./tienda.html#productosNuevos" class="menu__link">Nuevos
+                                        Productos</a></li>
+                                <li class="menu__item"><a href="./tienda.html#productosActuales"
+                                        class="menu__link">Productos en
+                                        Stock</a></li>
+                                <li class="menu__item"><a href="./tienda.html#testimonios"
+                                        class="menu__link">Testimonios</a>
+                                </li>
+                                <li class="menu__item"><a href="./tienda.html#comentarios"
+                                        class="menu__link">Comentarios</a>
+                                </li>
+                                <li class="menu__item"><a href="./tienda.html#shipping" class="menu__link">Shipping</a>
+                                </li>
 
-    <header class="main-header" id="menu">
-
-        <!--    MENU    -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <h1 class="navbar-brand" href="#"></h1>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Principal
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../../index.html">Pagina Principal</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="../../index.html#resultadoPartidos">Resultados de la Fecha</a>
-                            <a class="dropdown-item" href="../../index.html#mejoresFecha">Los Mejores de la Fecha</a>
-                            <a class="dropdown-item" href="../../index.html#mejoresTorneo">Los Mejores del Torneo</a>
-                            <a class="dropdown-item" href="../../index.html#tablaposiciones">Tabla de posiciones</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Partidos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./partidos.html">Pagina Partidos</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="./partidos.html#partidoequiposA">Partido de Categoria A</a>
-                            <a class="dropdown-item" href="./partidos.html#partidoequiposB">Partido de Categoria B</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria C</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria D</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Resultados
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./resultados.html">Pagina Resultados</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="./resultados.html#selecfecha">Seleccione Fecha</a>
-                            <a class="dropdown-item" href="./resultados.html#navfecha">Ultimos Resultados</a>
-                            <a class="dropdown-item" href="./resultados.html#resultadospartidos">Resultados de la Fecha</a>
-                        </div>
-                    </li>
-                   
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Noticias
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./noticias.html">Pagina Noticias</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="./noticias.html#nociticiasPrincipales">Noticias Principales</a>
-                            <a class="dropdown-item" href="./noticias.html#noticiaSecundarias">Noticias Secundarias</a>
-                            <a class="dropdown-item" href="#">Noticias Liga Buenos Aires</a>
-                            <a class="dropdown-item" href="#">Noticias Liga Mar del Plata</a>
-                            <a class="dropdown-item" href="#">Noticias Liga Mendoza</a>
-                            <a class="dropdown-item" href="#">Noticias Liga Cordoba</a>
-                            <a class="dropdown-item" href="#">Noticias Liga Rosario</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Videos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./videos.html">Pagina Videos</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Resumen de la Fecha</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria A</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria B</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria C</a>
-                            <a class="dropdown-item" href="#">Partido de Categoria D</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tienda
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./tienda.html">Pagina Tienda</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="./tienda.html#productosNuevos">Nuevos Productos</a>
-                            <a class="dropdown-item" href="./tienda.html#productosActuales">Productos en Stock</a>
-                            <a class="dropdown-item" href="./tienda.html#testimonios">Testimonios</a>
-                            <a class="dropdown-item" href="./tienda.html#comentarios">Comentarios</a>
-                            <a class="dropdown-item" href="./tienda.html#shipping">Shipping</a>
-                            <a class="dropdown-item" href="./tienda.html#personalizacion">Personalizacion</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Consultas
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#"><i class="fas fa-phone-square-alt"></i> Contacto</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-map-marked-alt"></i> Direccion</a>
-                            <a class="dropdown-item" href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
-                            <a class="dropdown-item" href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
-                            <a class="dropdown-item" href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
-                            <a class="dropdown-item" href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-                            <a class="dropdown-item" href="#"><i class="fab fa-youtube-square"></i> YouTube</a>
-                        </div>
-                    </li>
-                </ul>
-                <div class="main-header__container">
-                    <a href="" class="main-header__user"><i class="fas fa-user"></i></a>
-                    <a href="" class="main-header__cart"><i class="fas fa-shopping-cart"></i></a>
-
-                </div>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                        <i class="fas fa-search"></i></button>
-                </form>
+                            </ul>
+                        </li>
+                        <li class="menu__item container-submenu">
+                            <a href="#" class="menu__link submenu-btn">Consultas <i class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fas fa-phone-square-alt"></i> Contacto</a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fas fa-map-marked-alt"></i> Direccion</a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fab fa-facebook-square"></i> Facebook</a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fab fa-twitter-square"></i> Twitter</a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fab fa-instagram-square"></i> Instagram</a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fab fa-linkedin"></i> Linkedin</a>
+                                </li>
+                                <li class="menu__item"><a href="#" class="menu__link">
+                                        <i class="fab fa-youtube-square"></i> YouTube</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
+        </div>
+
+        <div class="opciones-header">
+            <div class="opciones--container">
+
+
+                <div class="opciones-header__container">
+                    <a href="" class="opciones-header__link"> <i class="fas fa-user"></i></a>
+                    <a href="" class="opciones-header__btn">Mi Carrito <i class="fas fa-shopping-cart"></i></a>
+                    <input type="search" class="opciones-header__input" placeholder=" Ingresa lo que quieres Buscar"><i
+                        class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <!--Slider BOOTSTRAP de Imagenes -->
-        <section class="contenedor-slider">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="../img/Slider/slider1.jpg" alt="First slide">
-                        <div class="carousel-caption">
-                            <h1>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h1>
-                            <h3>Compañerismo y trabajo en equipo</h3>
-                            <!-- <a href="" class="slider__link">NOW SHOP</a> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/Slider/slider2.jpg" alt="Second slide">
-                        <div class="carousel-caption ">
-                            <h1>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h1>
-                            <h3>Pensamiento estratégico</h3>
-                            <!-- <a href="" class="slider__link">NOW SHOP</a> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/Slider/slider3.jpg" alt="Third slide">
-                        <div class="carousel-caption ">
-                            <h1>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h1>
-                            <h3>Disciplina y compromiso</h3>
-                            <!-- <a href="" class="slider__link">NOW SHOP</a> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/Slider/slider4.jpg" alt="Fourth slide">
-                        <div class="carousel-caption ">
-                            <h1>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h1>
-                            <h3>Mejora el estado muscular y cardiorrespiratorio</h3>
-                            <!-- <a href="" class="slider__link">NOW SHOP</a> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/Slider/slider5.jpg" alt="Fifth slide">
-                        <div class="carousel-caption ">
-                            <h1>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h1>
-                            <h3>Favorecen la socialización, ya que se establecen relaciones de colaboración</h3>
-                            <!-- <a href="" class="slider__link">NOW SHOP</a> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="../img/Slider/slider6.jpg" alt="sixth slide">
-                        <div class="carousel-caption ">
-                            <h1>BIENVENIDOS A LA PAGINA ARGENTINA DE HOCKEY INLINE</h1>
-                            <h3>Incrementan la confianza en uno mismo y en tus compañeros</h3>
-                            <!-- <a href="" class="slider__link">NOW SHOP</a> -->
-                        </div>
-                    </div>
+    <!--    SLIDER  BANNER  -->
+    <div class="container-sliderBanner">
+        <div class="sliderBanner" id="sliderBanner">
+            <div class="sliderBanner__section">
+                <img src="../img/Slider/slider7.jpg" alt="" class="sliderBanner__img">
+                <div class="sliderBanner__content">
+                    <h2 class="sliderBanner__title">Bienvenidos a Hockey Inline Argentina</h2>
+                    <p class="sliderBanner__txt">Las ventajas de practicar este deporte</p>
+                    <p class="sliderBanner__txt2">"Favorece el estado fisico y cardiorespiratorio"</p>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-        </section>
-
-        <!--    SLIDER DE EQUIPOS   -->
-        <section class="slider">
-            <div class="contenedor__slider">
-                <ul>
-                    <li><img src="../img/Escudos/Avalanche.png" alt=""></li>
-                    <li><img src="../img/Escudos/BlueJackets.png" alt=""></li>
-                    <li><img src="../img/Escudos/Blues.png" alt=""></li>
-                    <li><img src="../img/Escudos/Boston.png" alt=""></li>
-                    <li><img src="../img/Escudos/Calgary.png" alt=""></li>
-                    <li><img src="../img/Escudos/Capitals.png" alt=""></li>
-                    <li><img src="../img/Escudos/Carolina.png" alt=""></li>
-                    <li><img src="../img/Escudos/Chicago.png" alt=""></li>
-                    <li><img src="../img/Escudos/Coyotes.png" alt=""></li>
-                    <li><img src="../img/Escudos/Dallas.png" alt=""></li>
-                    <li><img src="../img/Escudos/Devils.png" alt=""></li>
-                    <li><img src="../img/Escudos/Ducks.png" alt=""></li>
-                    <li><img src="../img/Escudos/Flyers.png" alt=""></li>
-                    <li><img src="../img/Escudos/Islanders.png" alt=""></li>
-                    <li><img src="../img/Escudos/Jets.png" alt=""></li>
-                    <li><img src="../img/Escudos/Kings.png" alt=""></li>
-                    <li><img src="../img/Escudos/Montreal.png" alt=""></li>
-                    <li><img src="../img/Escudos/OILERS.png" alt=""></li>
-                    <li><img src="../img/Escudos/Ottawa.png" alt=""></li>
-                    <li><img src="../img/Escudos/Phantes.png" alt=""></li>
-                    <li><img src="../img/Escudos/Pinguin.png" alt=""></li>
-                    <li><img src="../img/Escudos/Predators.png" alt=""></li>
-                    <li><img src="../img/Escudos/Rangers.png" alt=""></li>
-                    <li><img src="../img/Escudos/RedWings.png" alt=""></li>
-                    <li><img src="../img/Escudos/Sabres.png" alt=""></li>
-                    <li><img src="../img/Escudos/SanJoseSharks.png" alt=""></li>
-                    <li><img src="../img/Escudos/Tampa.png" alt=""></li>
-                    <li><img src="../img/Escudos/Totonto.png" alt=""></li>
-                    <li><img src="../img/Escudos/Vancouver.png" alt=""></li>
-                    <li><img src="../img/Escudos/Vegas.png" alt=""></li>
-                    <li><img src="../img/Escudos/Wild.png" alt=""></li>
-                </ul>
+            <div class="sliderBanner__section">
+                <img src="../img/Slider/slider3.jpg" alt="" class="sliderBanner__img">
+                <div class="sliderBanner__content">
+                    <h2 class="sliderBanner__title">Bienvenidos a Hockey Inline Argentina</h2>
+                    <p class="sliderBanner__txt">Las ventajas de practicar este deporte</p>
+                    <p class="sliderBanner__txt2">"Compañerismo y trabajo en equipo"</p>
+                </div>
             </div>
-        </section>
+            <div class="sliderBanner__section">
+                <img src="../img/Slider/slider5.jpg" alt="" class="sliderBanner__img">
+                <div class="sliderBanner__content">
+                    <h2 class="sliderBanner__title">Bienvenidos a Hockey Inline Argentina</h2>
+                    <p class="sliderBanner__txt">Las ventajas de practicar este deporte</p>
+                    <p class="sliderBanner__txt2">"Disciplina y Compromiso"</p>
+                </div>
+            </div>
+            <div class="sliderBanner__section">
+                <img src="../img/Slider/slider6.jpg" alt="" class="sliderBanner__img">
+                <div class="sliderBanner__content">
+                    <h2 class="sliderBanner__title">Bienvenidos a Hockey Inline Argentina</h2>
+                    <p class="sliderBanner__txt">Las ventajas de practicar este deporte</p>
+                    <p class="sliderBanner__txt2">"Favorecen la socialización, ya que se establecen relaciones de
+                        colaboración"</p>
+                </div>
+            </div>
+            <div class="sliderBanner__section">
+                <img src="../img/Slider/slider8.jpg" alt="" class="sliderBanner__img">
+                <div class="sliderBanner__content">
+                    <h2 class="sliderBanner__title">Bienvenidos a Hockey Inline Argentina</h2>
+                    <p class="sliderBanner__txt">Las ventajas de practicar este deporte</p>
+                    <p class="sliderBanner__txt2">"Incrementan la confianza en uno mismo y en tus compañeros"</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+   <!--    SLIDER EQUIPOS  -->
+   <section class="container-sliderEquipos">
+    <div class="sliderEquipos" id="sliderEquipos">
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Avalanche.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/BlueJackets.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Blues.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Boston.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Calgary.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Capitals.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Carolina.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Chicago.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Coyotes.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Dallas.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Devils.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Ducks.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Flyers.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Islanders.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Jets.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Kings.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Montreal.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/OILERS.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Ottawa.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Phantes.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Pinguin.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Predators.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Rangers.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/RedWings.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Sabres.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/SanJoseSharks.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Tampa.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Totonto.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Vancouver.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Vegas.png" alt="" class="sliderEquipos__img">
+        </div>
+        <div class="sliderEquipos__section">
+             <img src="../img/Escudos/Wild.png" alt="" class="sliderEquipos__img">
+        </div>
+    </div>
+</section>
+    <main>
         <!--Cargar las secciones de la pagina DESDE ACA ABAJO-->
 
         <!--    PARTIDO EQUIPOS -->
@@ -580,8 +619,8 @@
         <section class="suscripcion">
             <div class="contenedor__suscripcion">
                 <div class="parpadear">
-                    <a href="#">
-                        <h3>SUSCRIPCION</h3>
+                    <a href="#" class="suscripcion__link">
+                        <h3>S U S C R I P C I O N</h3>
                     </a>
                 </div>
             </div>
@@ -884,27 +923,6 @@
             </div>
         </section>
 
-        <!--    ENCUESTA    -->
-        <section class="partidoencuesta">
-            <h3>Encuesta del partido</h3>
-            <div class="contenedor">
-
-            </div>
-        </section>
-
-        <!--    COMENTARIOS -->
-        <section class="partidocomentarios">
-            <h3>Comentarios</h3>
-            <div class="contenedor">
-                <fieldset>
-
-                </fieldset>
-
-            </div>
-        </section>
-
-
-
         <!--    FOOTER LINKS    -->
         <section class="main-footerlinks">
             <div class="footerlinks__section">
@@ -963,7 +981,9 @@
         </div>
         <p class="copy"> 2021 Tienda Hockey</p>
     </footer>
-
+   <!--    JAVA SCRIPTS PROPIOS    -->
+   <script src="../js/menu.js"></script>
+   <script src="../js/sliderEquipos.js"></script>
 </body>
 
 </html>

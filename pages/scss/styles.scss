@@ -5,10 +5,13 @@
 @import "./Generales/colores";
 
 /*  ESTILOS DE SECCIONES GENERALES  */
-@import "./Generales/estiloEquipos";
-@import "./Generales/estilosFooter";
 @import "./Generales/estilosMenu";
+@import "./Generales/estilosMenuOpciones";
+@import "./Generales/sliderBanner";
+@import "./Generales/sliderEquipos";
+/*@import "./Generales/estiloEquipos";*/
 @import "./Generales/estiloSuscripcion";
+@import "./Generales/estilosFooter";
 
 /*  ESTILOS DE PAGINAS  */
 @import "./Principal/estilosPrincipal";
@@ -17,11 +20,3 @@
 @import "./Noticias/estilosNoticias";
 @import "./Video/estilosVideos";
 @import "./Tienda/estilosTienda";
-
-#menu {
-    scroll-margin-top: 70px;
-}
-
-html {
-    scroll-behavior: smmooth;
-}

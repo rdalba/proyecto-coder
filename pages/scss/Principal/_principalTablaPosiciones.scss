@@ -36,8 +36,18 @@
 
 /* RESPONSIVE */
 @media screen and (min-width: 768px) {
-    .contenedor__slider img {
-        width: 5%;   /* probar para solucionar la animacion */
+
+    h2 {
+        font-size: 3em;
     }
+    .contenedor-tablaposiciones__tabla {
+      font-size: 1.5em;
+
+        .categoria__table {
+            font-size: 1.5em;
+        }
+    }
+
+   
 }
  

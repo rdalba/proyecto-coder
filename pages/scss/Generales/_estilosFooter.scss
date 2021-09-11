@@ -41,20 +41,23 @@
 .footer__section a{
     text-decoration: none;
     color: $colorFonts6;
-}
-.footer__section a:hover{
-    color: $colorFonts3;
+    
+        &:hover{
+            color: $colorFonts3;
+        }
 }
 
 .redes__sociales {
     size: 0.8em;
     color: $colorFonts6;
     padding: 10px;
+
+        &:hover {
+            color: $colorFonts3;
+            padding: 10px;
+        }
 }
-.redes__sociales:hover {
-    color: $colorFonts3;
-    padding: 10px;
-}
+
 
 .footer__links {
     font-size: .8em;
@@ -62,12 +65,13 @@
     text-decoration: none;
     display: block;
     padding: 10px 0;
+        
+        &:hover {
+            color: $colorFonts3;
+            text-decoration: none;
+        }
 }
 
-.footer__links:hover {
-    color: $colorFonts3;
-    text-decoration: none;
-}
 
 .footer__input {
     background-color: $colorFondo5;
@@ -115,6 +119,7 @@
         display: grid;
         grid-template-columns: repeat(2,1fr); 
         grid-gap: 15px;  
+        font-size: 1.8em;
     }
  /* FOOTER */
     .main-footer {
@@ -123,13 +128,13 @@
         grid-gap: 15px;   
         padding: 20px;
         margin-bottom: 80px;
+        font-size: 1.8em;
     }
-    .product__icon {
-        size: 20px;
-    }
+ 
     .copy {
         grid-column-start: span 4;
         text-align: center;
+        font-size: .8em;
     }
 }
     

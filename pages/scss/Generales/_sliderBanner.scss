@@ -1,0 +1,141 @@
+@import "../Generales/colores";
+@import "../Generales/mixins";
+@import "../Generales/fonts";
+
+
+.container-sliderBanner {
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sliderBanner {
+    display: flex;
+    width: 500%;   /*  probar para solucionar la animacion*/
+    height: 300px;
+    animation-name: sliderBanner;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-start;
+   
+
+        &:before{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0,0,0,0.6);
+            height: 100%;
+        }
+}
+
+.sliderBanner__section {
+    width: 100%;
+    position: relative;
+}
+
+.sliderBanner__img {
+    display: block;
+    width: 100%;   /* probar para solucionar la animacion */
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderBanner__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: $colorFonts1;
+    transform: translateX(-50%) translateY(-50%);
+    width: 60%;
+    text-align: center;
+    z-index: 999;
+
+    .sliderBanner__title{
+        font-size: 1.9em;
+        margin: 0;
+    }
+
+    .sliderBanner__txt{
+        font-size: 1.3em;
+        margin: 15px 0;
+    }
+    .sliderBanner__txt2{
+        font-size: .8em;
+        margin: 15px 0;
+    }
+}
+
+
+
+
+@keyframes sliderBanner {
+    0% { margin-left: 0%;}
+    10% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    30% {margin-left: -100%;}
+
+    40% {margin-left: -200%;}
+    50% {margin-left: -200%;}
+    
+    60% {margin-left: -300%;}
+    70% {margin-left: -300%;}
+    
+    80% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+    
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    .sliderBanner__img {
+        height: 400px;   /* probar para solucionar la animacion */
+    
+    }
+    .sliderBanner {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container-sliderBanner {
+        margin-top: 20px;
+    }
+    .container-sliderBanner {
+       width: 1000px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .sliderBanner__img {
+        height: 500px   /* probar para solucionar la animacion */
+    }
+} 
+
+@media screen and (min-width: 1280px) {
+    
+    .container-sliderBanner {
+        width: 1200px;
+    }
+    .sliderBanner {
+        height: 500px;
+        font-size: 2em;
+    }
+   
+}
+@media screen and (min-width: 1600px) {
+    
+    .container-sliderBanner {
+        width: 1500px;
+    }
+    .sliderBanner {
+        height: 600px;
+        font-size: 2.2em;
+    }
+    .sliderBanner__img {
+        height: 600px   /* probar para solucionar la animacion */
+    }    
+}

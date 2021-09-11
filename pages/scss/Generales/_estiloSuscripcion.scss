@@ -3,18 +3,30 @@
 
 .suscripcion {
     background-color: $colorFondo1;
-    color: $colorFonts1;
     text-align: center;
-    padding: auto;
+    
     border: 2px solid $colorRecuadro1;
+   
 }
 
 .contenedor__suscripcion {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+   
+    align-items: center;
 }
+.suscripcion__link{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em; 
+    color: $colorFonts1;
+    font-weight: bold;
 
+    &:hover {
+        color: $colorFonts1;
+    }    
+}
 
 .suscripcion {
     width: 100%;
@@ -45,7 +57,7 @@
         background: $colorFondo4;
     }
     100% {
-        background-color: $colorFondo2;
+        background-color: $colorFondo3;
     }
     
 }
@@ -54,10 +66,10 @@
         color: $colorFonts1;
     }
     50% {
-        color: $colorFonts2;
+        color: $colorFonts1;
     }
     90% {
-        color: $colorFonts2;
+        color: $colorFonts1;
     }
 }
 

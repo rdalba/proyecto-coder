@@ -12,13 +12,13 @@
     background-color: $colorFondo1;
     padding-top: 20px;
     padding-bottom: 20px;
-    justify-content: space-between;
+   
 }
 
 .all__resultados__links {
     border: 2px solid $colorRecuadro1;
     border-radius: 1em ;
-    align-items: center; 
+    
     margin: 20px;
     list-style: none;
     padding: 5px;
@@ -62,6 +62,13 @@
         list-style: none;
         padding: 15px;
         font-size: 1.5em;
+
+        img {
+            font-size: 1.5em;
+        }
+        h6 {
+            font-size: 1em;
+        }
     }
     
     .resultadospartidos-contenedor__links img {
@@ -70,7 +77,7 @@
     }
     
     .resultadospartidos-contenedor h3{
-    font-size: 2em;
+    font-size: 3em;
     }
 
 }

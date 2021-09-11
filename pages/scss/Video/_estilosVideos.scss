@@ -8,7 +8,7 @@
 @import "../Generales/estilosFooter";
 
 /*  LINKS ESTILOS DE PAGINA */
-
+@import "../Video/videosGaleriaImg";
 
 *{
     box-sizing: border-box;
@@ -20,39 +20,4 @@ body {
     font-family: 'Inconsolata';
 }
 
-.main-header .container{
-    padding: 50px 20px;
-}
 
-
-/* SLIDER */
-.contenedor-slider {
-    margin: 5px 0;
-    position: relative;
-}
-
-.contenedor-slider img {
-    display: block;
-    height:300px;
-}
-
-.contenedor-slider {
-    display: block;
-    position: relative;
-}
-
-.contenedor-slider h5 {
-    font-family: 'Roboto', sans-serif;
-    color: $colorFonts1;
-    font-size: 2em;
-}
-
-.contenedor-slider p {
-    font-family: 'Inconsolata', monospace;
-    color: $colorFonts1;
-    font-size: 0.8em;
-}
-
-.slider {
-    margin: 30px 0;
-}

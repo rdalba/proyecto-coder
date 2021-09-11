@@ -1,0 +1,46 @@
+@import "./colores";
+@import "./mixins";
+* {
+    box-sizing: border-box;
+}
+
+.container-sliderEquipos {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    background-color: $colorFondo1;
+}
+
+.sliderEquipos {
+    display: flex;
+    width: 3300%;   /*  probar para solucionar la animacion*/
+    animation-name: slider;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.sliderEquipos__section {  /*tamaño imagen */
+    width: 50%;
+}
+
+.sliderEquipos__img { /*tamaño de imagen */
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sliderEquipos__section img{
+    width: 15%;   /* probar para solucionar la animacion */
+}
+@media screen and (min-width: 768px) {
+    .sliderEquipos__section  img {
+        width: 5%;   /* probar para solucionar la animacion */
+    }
+
+    .sliderEquipos {
+        animation-duration: 200s;
+    }
+}
+

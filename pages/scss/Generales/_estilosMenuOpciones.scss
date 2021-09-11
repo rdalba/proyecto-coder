@@ -1,0 +1,107 @@
+@import "./colores";
+@import "./mixins";
+@import "./fonts";
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Inconsolata";
+  }
+  .opciones-header {
+    background-color: $colorMenu1;
+     padding: 10px;
+     display: block;
+     color: $colorMenu3;
+     cursor: pointer;
+     font-size: .9em;
+     width: 100%;
+     border-top: $colorMenu3 solid 1px;
+     
+  }
+  .opciones-header__container{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+    align-items: center;
+    font-family: "Poppins";
+    
+  }
+  .opciones-header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .opciones-header__link {
+    color: $colorMenu3;
+    border: 1px solid $colorMenu2;
+    display: block;
+    padding: 8px 8px;
+
+    &:hover {
+        color: $colorMenu3;
+        background-color: $colorMenu5;
+        text-decoration: none;
+    }
+  }
+  .opciones-header__btn {
+    color: $colorMenu3;
+    border: 1px solid $colorMenu2;
+    display: block;
+    padding: 8px 8px;
+    text-decoration: none;
+
+        &:hover {
+            color: $colorMenu3;
+            background-color: $colorMenu5;
+            text-decoration: none;
+        }
+}
+
+.opciones-header__input {
+    display: block;
+    padding: 5px;
+    width: 50%;
+
+        &:hover {
+            color: $colorMenu3;
+            background-color: $colorMenu5;
+            text-decoration: none;
+        }
+}
+.fa-search {
+    color: $colorMenu3;
+    border: 1px solid $colorMenu2;
+    display: block;
+    padding: 8px 8px;
+
+    &:hover {
+        color: $colorMenu3;
+        background-color: $colorMenu5;
+        text-decoration: none;
+    }
+}
+
+/* RESPONSIVE */
+@media (min-width:860px) {
+    .opciones-header {
+        font-size: .6em;
+        padding-top: 70px;
+    }
+    
+    .opciones-header__link {
+        padding: 20px;
+    }
+    .opciones-header__btn {
+        padding: 20px;
+    }
+    .fa-search{
+        padding: 20px;
+    }
+}
+
+
+
+
+  
