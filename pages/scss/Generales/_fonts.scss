@@ -1,14 +1,10 @@
 /*  ESTILO DE FONTS     */
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf);
-}
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf);
+@mixin fonts1 {
+  font-family: helvetica;
 }
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@mixin fonts2 {
+  font-family: 'Quicksand', sans-serif;
+}
 

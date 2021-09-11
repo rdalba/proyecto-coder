@@ -1,25 +1,5 @@
-@import "../Generales/colores";
-@import "../Generales/mixins";
-
-/*  LINKS GENERALES  */
-@import "../Generales/estilosMenu";
-@import "../Generales/estiloEquipos";
-@import "../Generales/estiloSuscripcion";
-@import "../Generales/estilosFooter";
-
 /* Links a otros estilos de las secciones de la pagina de PAGINA*/
 @import "./partidoEquipos";
 @import "./partidoVideo";
 @import "./partidoJugadores";
 @import "./partidoEstadisticas";
-
-*{
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 10px;
-}
-
-

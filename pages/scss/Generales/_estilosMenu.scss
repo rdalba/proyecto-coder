@@ -1,31 +1,106 @@
 @import "./colores";
 @import "./mixins";
+@import "./fonts";
 
 
 * {
     box-sizing: border-box;
-    /*font-family: "Inconsolata";*/
+    font-family: sans-serif;
  }
  body {
      margin: 0;
  }
- .main-header{
-    display: block;
-    color: $colorMenu3;
-    width: 100%;
- }
  
+ 
+
  .nav-bar {
     background-color: $colorMenu1;
      padding: 10px;
      display: block;
      color: $colorMenu3;
      cursor: pointer;
-     font-size: 1.3em;
+     font-size: 1.5em;
      /*width: 100%;*/
+  
+}
+
+.menu, .submenu, .menu__link__sub{
+     list-style: none;
+     padding: 0;
+     margin: 0;
  }
 
- .fa-bars {
+ .menu {
+    position: absolute;
+    z-index: 9999;
+    background-color: $colorMenu1;
+     width: 80%;
+     margin-left: -110%;
+     transition: all 0.5s;
+ }
+
+ .menu__link {
+     display: block;
+     padding: 10px;
+     color: $colorMenu3;
+     text-decoration: none;
+     font-size: 1em;
+     background-color: $colorMenu1;
+     padding-left: 10px;
+
+     &:hover{
+        background-color: $colorMenu2;
+        color: $colorMenu3;
+        text-decoration: none;
+    }
+ }
+
+ .menu__link__pagina {
+    display: block;
+    padding: 10px;
+    color: $colorMenu3;
+    text-decoration: none;
+    border-bottom: 0.5px solid $colorMenu4;
+    background-color: $colorMenu1;
+    padding-left: 30px;
+
+    &:hover{
+       background-color: $colorMenu2;
+       color: $colorMenu3;
+       text-decoration: none;
+   }
+}
+.menu__link__sub {
+    display: block;
+    padding: 10px;
+    color: $colorMenu3;
+    text-decoration: none;
+   
+    background-color: $colorMenu1;
+    padding-left: 60px;
+
+    &:hover{
+       background-color: $colorMenu2;
+       color: $colorMenu3;
+       text-decoration: none;
+   }
+}
+
+.submenu {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.fa-chevron-down {
+    color: white;
+}
+
+.mostrar {
+    margin-left: 0;
+}
+
+.fa-bars {
     border: 1px solid $colorMenu2;
     padding: 10px;
     font-size: 1.5em;
@@ -36,142 +111,76 @@
             background-color: $colorMenu5;
         }
 }
- .menu, .submenu{
-     list-style: none;
-     padding: 0;
-     margin: 0;
- }
-
- .menu {
-    position: absolute;
-    z-index: 9999;
-    background-color: $colorMenu1;
-     width: auto;
-     margin-left: -110%;
-     transition: all 0.5s;
- }
-
- .menu__link {
-     display: block;
-     padding: 20px;
-     color: $colorMenu3;
-     font-size: 1em;
-     text-decoration: none;
-     border-bottom: 0.5px solid $colorMenu4;
-
-     &:hover{
-        background-color: $colorMenu2;
-        color: $colorMenu3;
-        text-decoration: none;
-    }
- }
-
- .submenu .menu__link{
-     background-color: $colorMenu1;
-     padding-left: 50px;
-
-     &:hover{
-        background-color: $colorMenu2;
-        color: $colorMenu3;
-    }
- }
-
- .submenu {
-    height: 0;
-    overflow: hidden;
-    transition: all 0.3s;
-}
-
-
-.mostrar {
-    margin-left: 0;
-}
 
 /* RESPONSIVE */
-@media (min-width:860px) {
+@media (min-width:768px) {
+    
     .nav-bar{
         display: none;
-        padding: 5px;
     }
-    .main-header {
-        font-size: 1.3em;
-    }   
-    
-   .menu {
-       margin-left: 0;
-       display: flex;
-       width: 100%;
-   }
 
-   .menu li {
-      text-align: center;
-       flex-grow: 1;
-   }
+    .main-header{
+        position:fixed;
+        display: block;
+        width: 100%;
+        z-index: 99999;
+        height: 50px;
+        top: 0;
+    }
+
+    .main-nav .menu {
+    margin: 0;
+    display: flex;
+    height: 80px;
+    }
+
+    .menu {
+    width: 100%;
+    }
    
    .container-submenu {
-       position: relative;
-        
+    position: relative;
+    margin: auto;
+    
         .fa-chevron-down {
             display: none;
         }
-   }
-   .submenu {
-       position: absolute;
-       top: 60px;
-       width: auto;
-       overflow: visible;
-       z-index: 1000;
-       opacity: 0;
-       visibility: hidden;
-       font-size: .8em;
-   }
+    }
 
-   .container-submenu:hover .submenu {
-       opacity: 1;
-       visibility: visible;
-       
-   }  
-   .menu__link {
-       background-color: $colorMenu1;
-   }
-   .submenu .menu__link {
-       padding-left: 20px;
-   }
-   .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: $colorMenu3;
-    background-color: $colorMenu1;
-       
-        a{
-            color: $colorMenu3;
-            border: 1px solid $colorMenu2;
-            padding: 10px;
-            font-size: 1em;
-            display: block;
-        }
+    .submenu {
+        position: absolute;
+        top: 40px;
+        width: 200px;
+        padding-bottom: 20px;
+        overflow: visible;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        font-size: .8em;
+    }
 
-        a:hover {
-            text-decoration: none;
-            background-color: $colorMenu5;
-        }
+    .container-submenu:hover .submenu {
+        opacity: 1;
+        visibility: visible;
+    }  
+   
+    .menu__link__pagina{
+        padding: 20px;
+    }
+    .menu__link__sub{
+       padding-left: 40px;
+       }
+}
 
-        .main-header__other__input{
-            width: 300px;
-        }
+@media screen and (min-width: 1024px) {
+    .submenu {
+        width: 300px;
     }
 }
 
+@media screen and (min-width: 1280px) {
+}
 
-@media (min-width:1024px) {
-    .main-header {
-        font-size: 1.5em;
-    }   
 
-   .submenu {
-    font-size: .8em;
-   }
+@media screen and (min-width: 1600px) {
 }

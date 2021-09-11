@@ -1,78 +1,9 @@
 @charset "UTF-8";
 /*  ESTILOS GENERALES   */
 /*  ESTILO DE FONTS     */
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(../_colores.scss);
-@import url(../_mixins.scss);
-@import url(../_colores.scss);
-@import url(../_mixins.scss);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -96,14 +27,7 @@
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -112,17 +36,60 @@
 /*  COLOR GENERAL   */
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
+/*  ESTILO DE FONTS     */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url(../_colores.scss);
+@import url(../_mixins.scss);
+@import url(../_colores.scss);
+@import url(../_mixins.scss);
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 * {
   box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
 
 .nav-bar {
   background-color: #333;
@@ -130,8 +97,70 @@ body {
   display: block;
   color: white;
   cursor: pointer;
-  font-size: 1.3em;
+  font-size: 1.5em;
   /*width: 100%;*/ }
+
+.menu, .submenu, .menu__link__sub {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.menu {
+  position: absolute;
+  z-index: 9999;
+  background-color: #333;
+  width: 80%;
+  margin-left: -110%;
+  transition: all 0.5s; }
+
+.menu__link {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: #333;
+  padding-left: 10px; }
+  .menu__link:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__pagina {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid #555;
+  background-color: #333;
+  padding-left: 30px; }
+  .menu__link__pagina:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__sub {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding-left: 60px; }
+  .menu__link__sub:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s; }
+
+.fa-chevron-down {
+  color: white; }
+
+.mostrar {
+  margin-left: 0; }
 
 .fa-bars {
   border: 1px solid #FF4E00;
@@ -142,68 +171,33 @@ body {
   .fa-bars:hover {
     background-color: rgba(196, 107, 7, 0.5); }
 
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
 /* RESPONSIVE */
-@media (min-width: 860px) {
+@media (min-width: 768px) {
   .nav-bar {
-    display: none;
-    padding: 5px; }
+    display: none; }
   .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    height: 50px;
+    top: 0; }
+  .main-nav .menu {
+    margin: 0;
     display: flex;
+    height: 80px; }
+  .menu {
     width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
   .container-submenu {
-    position: relative; }
+    position: relative;
+    margin: auto; }
     .container-submenu .fa-chevron-down {
       display: none; }
   .submenu {
     position: absolute;
-    top: 60px;
-    width: auto;
+    top: 40px;
+    width: 200px;
+    padding-bottom: 20px;
     overflow: visible;
     z-index: 1000;
     opacity: 0;
@@ -212,35 +206,14 @@ body {
   .container-submenu:hover .submenu {
     opacity: 1;
     visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
+  .menu__link__pagina {
+    padding: 20px; }
+  .menu__link__sub {
+    padding-left: 40px; } }
 
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
+@media screen and (min-width: 1024px) {
   .submenu {
-    font-size: .8em; } }
+    width: 300px; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -249,14 +222,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -266,14 +231,6 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 * {
   box-sizing: border-box; }
 
@@ -282,21 +239,18 @@ body {
   font-family: "Inconsolata"; }
 
 .opciones-header {
-  background-color: #333;
   padding: 10px;
   display: block;
   color: white;
   cursor: pointer;
   font-size: .9em;
   width: 100%;
-  border-top: white solid 1px; }
-
-.opciones-header__container {
+  border-top: white solid 1px;
+  background-color: #333;
   text-align: center;
   font-size: 1.2em;
   margin: 10px 0;
-  align-items: center;
-  font-family: "Poppins"; }
+  align-items: center; }
 
 .opciones-header__container {
   display: flex;
@@ -307,7 +261,8 @@ body {
   color: white;
   border: 1px solid #FF4E00;
   display: block;
-  padding: 8px 8px; }
+  padding: 5px 5px;
+  font-size: .7em; }
   .opciones-header__link:hover {
     color: white;
     background-color: rgba(196, 107, 7, 0.5);
@@ -317,8 +272,9 @@ body {
   color: white;
   border: 1px solid #FF4E00;
   display: block;
-  padding: 8px 8px;
-  text-decoration: none; }
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: .7em; }
   .opciones-header__btn:hover {
     color: white;
     background-color: rgba(196, 107, 7, 0.5);
@@ -327,7 +283,8 @@ body {
 .opciones-header__input {
   display: block;
   padding: 5px;
-  width: 50%; }
+  width: 50%;
+  font-size: .7em; }
   .opciones-header__input:hover {
     color: white;
     background-color: rgba(196, 107, 7, 0.5);
@@ -337,23 +294,62 @@ body {
   color: white;
   border: 1px solid #FF4E00;
   display: block;
-  padding: 8px 8px; }
+  padding: 5px 5px; }
   .fa-search:hover {
     color: white;
     background-color: rgba(196, 107, 7, 0.5);
     text-decoration: none; }
 
 /* RESPONSIVE */
-@media (min-width: 860px) {
+@media (min-width: 480px) {
+  .opciones-header__link {
+    padding: 10px;
+    font-size: .6em;
+    padding: 10px 20px; }
+  .opciones-header__btn {
+    padding: 10px;
+    font-size: .6em;
+    padding: 10px 20px; }
+  .fa-search {
+    padding: 10px;
+    font-size: .6em;
+    padding: 10px 20px; } }
+
+@media (min-width: 768px) {
   .opciones-header {
     font-size: .6em;
-    padding-top: 70px; }
+    margin-top: 70px;
+    left: 0; }
   .opciones-header__link {
-    padding: 20px; }
+    padding: 10px;
+    font-size: 1.3em;
+    padding: 10px 30px; }
   .opciones-header__btn {
-    padding: 20px; }
+    padding: 10px;
+    font-size: 1.4em;
+    padding: 10px 30px; }
   .fa-search {
-    padding: 20px; } }
+    padding: 10px;
+    font-size: 1.3em;
+    padding: 10px 30px; }
+  .opciones-header__input {
+    font-size: 1.3em; } }
+
+@media screen and (min-width: 1024px) {
+  .opciones-header__link {
+    padding: 10px;
+    font-size: 1.5em;
+    padding: 10px 50px; }
+  .opciones-header__btn {
+    padding: 10px;
+    font-size: 1.5em;
+    padding: 10px 50px; }
+  .fa-search {
+    padding: 10px;
+    font-size: 1.5em;
+    padding: 10px 50px; }
+  .opciones-header__input {
+    font-size: 1.5em; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -362,14 +358,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -379,14 +367,6 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 .container-sliderBanner {
   margin-top: 10px;
   position: relative;
@@ -505,14 +485,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -557,10 +529,25 @@ body {
 
 @media screen and (min-width: 768px) {
   .sliderEquipos__section img {
-    width: 5%;
+    width: 10%;
     /* probar para solucionar la animacion */ }
   .sliderEquipos {
     animation-duration: 200s; } }
+
+@media screen and (min-width: 1024px) {
+  .sliderEquipos__section img {
+    width: 10%;
+    /* probar para solucionar la animacion */ } }
+
+@media screen and (min-width: 1280px) {
+  .sliderEquipos__section img {
+    width: 10%;
+    /* probar para solucionar la animacion */ } }
+
+@media screen and (min-width: 1600px) {
+  .sliderEquipos__section img {
+    width: 10%;
+    /* probar para solucionar la animacion */ } }
 
 /*@import "./Generales/estiloEquipos";*/
 /*  COLORES DE FONDO    */
@@ -570,14 +557,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -587,6 +566,7 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 .suscripcion {
+  margin-top: 10px;
   background-color: #333;
   text-align: center;
   border: 2px solid #FF4E00; }
@@ -599,8 +579,6 @@ body {
 
 .suscripcion__link {
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
   color: white;
   font-weight: bold; }
   .suscripcion__link:hover {
@@ -651,14 +629,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -760,7 +730,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   /* FOOTER */
   .main-footer {
     display: grid;
@@ -768,524 +738,13 @@ body {
     grid-gap: 15px;
     padding: 20px;
     margin-bottom: 80px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   .copy {
     grid-column-start: span 4;
     text-align: center;
     font-size: .8em; } }
 
 /*  ESTILOS DE PAGINAS  */
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-/*  LINKS GENERALES  */
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-* {
-  box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
-
-body {
-  margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
-
-.nav-bar {
-  background-color: #333;
-  padding: 10px;
-  display: block;
-  color: white;
-  cursor: pointer;
-  font-size: 1.3em;
-  /*width: 100%;*/ }
-
-.fa-bars {
-  border: 1px solid #FF4E00;
-  padding: 10px;
-  font-size: 1.5em;
-  display: block;
-  cursor: pointer; }
-  .fa-bars:hover {
-    background-color: rgba(196, 107, 7, 0.5); }
-
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
-/* RESPONSIVE */
-@media (min-width: 860px) {
-  .nav-bar {
-    display: none;
-    padding: 5px; }
-  .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
-    display: flex;
-    width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
-  .container-submenu {
-    position: relative; }
-    .container-submenu .fa-chevron-down {
-      display: none; }
-  .submenu {
-    position: absolute;
-    top: 60px;
-    width: auto;
-    overflow: visible;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    font-size: .8em; }
-  .container-submenu:hover .submenu {
-    opacity: 1;
-    visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
-
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
-  .submenu {
-    font-size: .8em; } }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-.contenedor__slider {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  background-color: #333; }
-
-.contenedor__slider ul {
-  display: flex;
-  width: 3300%;
-  /*  probar para solucionar la animacion*/
-  animation-name: slider;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear; }
-
-.contenedor__slider li {
-  width: 100%;
-  list-style: none; }
-
-.contenedor__slider img {
-  width: 15%;
-  /* probar para solucionar la animacion */ }
-
-@keyframes slider {
-  0% {
-    margin-left: 0%; }
-  3% {
-    margin-left: -100%; }
-  6% {
-    margin-left: -200%; }
-  9% {
-    margin-left: -300%; }
-  12% {
-    margin-left: -400%; }
-  15% {
-    margin-left: -500%; }
-  18% {
-    margin-left: -600%; }
-  21% {
-    margin-left: -700%; }
-  24% {
-    margin-left: -800%; }
-  27% {
-    margin-left: -900%; }
-  30% {
-    margin-left: -1000%; }
-  33% {
-    margin-left: -1100%; }
-  36% {
-    margin-left: -1200%; }
-  39% {
-    margin-left: -1300%; }
-  42% {
-    margin-left: -1400%; }
-  45% {
-    margin-left: -1500%; }
-  48% {
-    margin-left: -1600%; }
-  51% {
-    margin-left: -1700%; }
-  54% {
-    margin-left: -1800%; }
-  58% {
-    margin-left: -1900%; }
-  61% {
-    margin-left: -2000%; }
-  64% {
-    margin-left: -2100%; }
-  67% {
-    margin-left: -2200%; }
-  70% {
-    margin-left: -2300%; }
-  73% {
-    margin-left: -2400%; }
-  76% {
-    margin-left: -2500%; }
-  79% {
-    margin-left: -2600%; }
-  82% {
-    margin-left: -2700%; }
-  85% {
-    margin-left: -2800%; }
-  88% {
-    margin-left: -2900%; }
-  91% {
-    margin-left: -3000%; }
-  94% {
-    margin-left: -3100%; }
-  97% {
-    margin-left: -3200%; }
-  100% {
-    margin-left: -3300%; } }
-
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-  .contenedor__slider img {
-    width: 5%;
-    /* probar para solucionar la animacion */ } }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-.suscripcion {
-  background-color: #333;
-  text-align: center;
-  border: 2px solid #FF4E00; }
-
-.contenedor__suscripcion {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center; }
-
-.suscripcion__link {
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
-  color: white;
-  font-weight: bold; }
-  .suscripcion__link:hover {
-    color: white; }
-
-.suscripcion {
-  width: 100%;
-  height: 100%;
-  animation-name: suscripcion;
-  animation-iteration-count: infinite;
-  /* repeticion */
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  /* ritmo de la animacion */
-  animation-direction: alternate; }
-
-.contenedor__suscripcion a {
-  text-decoration: none;
-  animation-name: suscripcion__text;
-  animation-iteration-count: infinite;
-  /* repeticion */
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  /* ritmo de la animacion */
-  animation-direction: alternate; }
-
-/*----------------*/
-@keyframes suscripcion {
-  0% {
-    background-color: #333; }
-  50% {
-    background: rgba(196, 107, 7, 0.5); }
-  100% {
-    background-color: #FF4E00; } }
-
-@keyframes suscripcion__text {
-  10% {
-    color: white; }
-  50% {
-    color: white; }
-  90% {
-    color: white; } }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-/* FOOTER LINKS*/
-.main-footerlinks {
-  background-color: #151515;
-  color: #555;
-  padding: 10px 20px; }
-
-.footerlinks__title {
-  font-size: .9em;
-  font-weight: bold;
-  color: #FF4E00;
-  border-bottom: 1px solid #555; }
-
-.footerlinks__txt {
-  font-size: .8em; }
-
-/* FOOTER */
-.main-footer {
-  background-color: #151515;
-  color: #555;
-  padding: 30px 20px; }
-
-.footer__title {
-  font-size: .9em;
-  font-weight: bold;
-  color: #FF4E00;
-  border-bottom: 1px solid #555; }
-
-.footer__txt {
-  font-size: .8em;
-  color: #555;
-  text-decoration: none; }
-
-.footer__section a {
-  text-decoration: none;
-  color: #555; }
-  .footer__section a:hover {
-    color: #FF4E00; }
-
-.redes__sociales {
-  size: 0.8em;
-  color: #555;
-  padding: 10px; }
-  .redes__sociales:hover {
-    color: #FF4E00;
-    padding: 10px; }
-
-.footer__links {
-  font-size: .8em;
-  color: #555;
-  text-decoration: none;
-  display: block;
-  padding: 10px 0; }
-  .footer__links:hover {
-    color: #FF4E00;
-    text-decoration: none; }
-
-.footer__input {
-  background-color: #151515;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  border: 1px solid #555;
-  color: white; }
-
-.copy {
-  color: #555; }
-
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-  /* FOOTER LINKS*/
-  .main-footerlinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px; }
-  /* FOOTER */
-  .main-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    padding: 20px;
-    margin-bottom: 80px; }
-  .product__icon {
-    size: 20px; }
-  .copy {
-    grid-column-start: span 4;
-    text-align: center; } }
-
-@media screen and (min-width: 1024px) {
-  /* FOOTER LINKS*/
-  .main-footerlinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
-    font-size: 1.8em; }
-  /* FOOTER */
-  .main-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    padding: 20px;
-    margin-bottom: 80px;
-    font-size: 1.8em; }
-  .copy {
-    grid-column-start: span 4;
-    text-align: center;
-    font-size: .8em; } }
-
 /*  LINKS ESTILOS DE PAGINA */
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -1294,14 +753,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1312,7 +763,7 @@ body {
 /*  SASS MIXIN */
 .videoResFech h2 {
   text-align: center;
-  font-size: 1.5em; }
+  margin-top: 10px; }
 
 .contenedor-videoResFech {
   display: flex;
@@ -1327,7 +778,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .videoResFech h2 {
-    font-size: 3em; }
+    padding-top: 10px;
+    font-size: 2em; }
   .video {
     width: 60em;
     height: 35em; } }
@@ -1339,14 +791,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1395,14 +839,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1452,14 +888,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1526,7 +954,7 @@ body {
     width: 10em;
     height: 10em; }
   .resultadospartidos-contenedor h3 {
-    font-size: 3em; } }
+    font-size: 2em; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -1535,14 +963,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1581,45 +1001,11 @@ body {
 /* RESPONSIVE */
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 3em; }
+    font-size: 2em; }
   .contenedor-tablaposiciones__tabla {
-    font-size: 1.5em; }
+    font-size: 1.3em; }
     .contenedor-tablaposiciones__tabla .categoria__table {
-      font-size: 1.5em; } }
-
-* {
-  box-sizing: border-box; }
-
-/*  ESTILOS DE LA PAGINA    */
-.videoresfech {
-  margin: 30px 0;
-  color: #333;
-  background-color: white; }
-
-.suscripcion {
-  margin: 30px 0; }
-
-.navpartidos {
-  margin: 10px 0; }
-
-.mejoresFecha {
-  margin: 30px 0; }
-
-.mejoresTorneo {
-  margin: 30px 0; }
-
-.tablaPosiciones {
-  margin: 30px 0; }
-
-/*  RESPONSIVE  */
-@media screen and (min-width: 768px) {
-  * {
-    box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 10px; }
-  .contenedor-slider img {
-    height: 400px; } }
+      font-size: 1em; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -1628,14 +1014,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1652,14 +1030,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1668,17 +1038,13 @@ body {
 /*  COLOR GENERAL   */
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
+/*  ESTILO DE FONTS     */
 * {
   box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
 
 .nav-bar {
   background-color: #333;
@@ -1686,8 +1052,70 @@ body {
   display: block;
   color: white;
   cursor: pointer;
-  font-size: 1.3em;
+  font-size: 1.5em;
   /*width: 100%;*/ }
+
+.menu, .submenu, .menu__link__sub {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.menu {
+  position: absolute;
+  z-index: 9999;
+  background-color: #333;
+  width: 80%;
+  margin-left: -110%;
+  transition: all 0.5s; }
+
+.menu__link {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: #333;
+  padding-left: 10px; }
+  .menu__link:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__pagina {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid #555;
+  background-color: #333;
+  padding-left: 30px; }
+  .menu__link__pagina:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__sub {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding-left: 60px; }
+  .menu__link__sub:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s; }
+
+.fa-chevron-down {
+  color: white; }
+
+.mostrar {
+  margin-left: 0; }
 
 .fa-bars {
   border: 1px solid #FF4E00;
@@ -1698,68 +1126,33 @@ body {
   .fa-bars:hover {
     background-color: rgba(196, 107, 7, 0.5); }
 
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
 /* RESPONSIVE */
-@media (min-width: 860px) {
+@media (min-width: 768px) {
   .nav-bar {
-    display: none;
-    padding: 5px; }
+    display: none; }
   .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    height: 50px;
+    top: 0; }
+  .main-nav .menu {
+    margin: 0;
     display: flex;
+    height: 80px; }
+  .menu {
     width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
   .container-submenu {
-    position: relative; }
+    position: relative;
+    margin: auto; }
     .container-submenu .fa-chevron-down {
       display: none; }
   .submenu {
     position: absolute;
-    top: 60px;
-    width: auto;
+    top: 40px;
+    width: 200px;
+    padding-bottom: 20px;
     overflow: visible;
     z-index: 1000;
     opacity: 0;
@@ -1768,35 +1161,14 @@ body {
   .container-submenu:hover .submenu {
     opacity: 1;
     visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
+  .menu__link__pagina {
+    padding: 20px; }
+  .menu__link__sub {
+    padding-left: 40px; } }
 
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
+@media screen and (min-width: 1024px) {
   .submenu {
-    font-size: .8em; } }
+    width: 300px; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -1805,14 +1177,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1928,14 +1292,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -1945,6 +1301,7 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 .suscripcion {
+  margin-top: 10px;
   background-color: #333;
   text-align: center;
   border: 2px solid #FF4E00; }
@@ -1957,8 +1314,6 @@ body {
 
 .suscripcion__link {
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
   color: white;
   font-weight: bold; }
   .suscripcion__link:hover {
@@ -2009,14 +1364,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2118,7 +1465,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   /* FOOTER */
   .main-footer {
     display: grid;
@@ -2126,7 +1473,7 @@ body {
     grid-gap: 15px;
     padding: 20px;
     margin-bottom: 80px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   .copy {
     grid-column-start: span 4;
     text-align: center;
@@ -2247,517 +1594,6 @@ body {
   .contenedor-slider img {
     height: 400px; } }
 
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-/*  LINKS GENERALES  */
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-* {
-  box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
-
-body {
-  margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
-
-.nav-bar {
-  background-color: #333;
-  padding: 10px;
-  display: block;
-  color: white;
-  cursor: pointer;
-  font-size: 1.3em;
-  /*width: 100%;*/ }
-
-.fa-bars {
-  border: 1px solid #FF4E00;
-  padding: 10px;
-  font-size: 1.5em;
-  display: block;
-  cursor: pointer; }
-  .fa-bars:hover {
-    background-color: rgba(196, 107, 7, 0.5); }
-
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
-/* RESPONSIVE */
-@media (min-width: 860px) {
-  .nav-bar {
-    display: none;
-    padding: 5px; }
-  .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
-    display: flex;
-    width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
-  .container-submenu {
-    position: relative; }
-    .container-submenu .fa-chevron-down {
-      display: none; }
-  .submenu {
-    position: absolute;
-    top: 60px;
-    width: auto;
-    overflow: visible;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    font-size: .8em; }
-  .container-submenu:hover .submenu {
-    opacity: 1;
-    visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
-
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
-  .submenu {
-    font-size: .8em; } }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-.contenedor__slider {
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-  background-color: #333; }
-
-.contenedor__slider ul {
-  display: flex;
-  width: 3300%;
-  /*  probar para solucionar la animacion*/
-  animation-name: slider;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear; }
-
-.contenedor__slider li {
-  width: 100%;
-  list-style: none; }
-
-.contenedor__slider img {
-  width: 15%;
-  /* probar para solucionar la animacion */ }
-
-@keyframes slider {
-  0% {
-    margin-left: 0%; }
-  3% {
-    margin-left: -100%; }
-  6% {
-    margin-left: -200%; }
-  9% {
-    margin-left: -300%; }
-  12% {
-    margin-left: -400%; }
-  15% {
-    margin-left: -500%; }
-  18% {
-    margin-left: -600%; }
-  21% {
-    margin-left: -700%; }
-  24% {
-    margin-left: -800%; }
-  27% {
-    margin-left: -900%; }
-  30% {
-    margin-left: -1000%; }
-  33% {
-    margin-left: -1100%; }
-  36% {
-    margin-left: -1200%; }
-  39% {
-    margin-left: -1300%; }
-  42% {
-    margin-left: -1400%; }
-  45% {
-    margin-left: -1500%; }
-  48% {
-    margin-left: -1600%; }
-  51% {
-    margin-left: -1700%; }
-  54% {
-    margin-left: -1800%; }
-  58% {
-    margin-left: -1900%; }
-  61% {
-    margin-left: -2000%; }
-  64% {
-    margin-left: -2100%; }
-  67% {
-    margin-left: -2200%; }
-  70% {
-    margin-left: -2300%; }
-  73% {
-    margin-left: -2400%; }
-  76% {
-    margin-left: -2500%; }
-  79% {
-    margin-left: -2600%; }
-  82% {
-    margin-left: -2700%; }
-  85% {
-    margin-left: -2800%; }
-  88% {
-    margin-left: -2900%; }
-  91% {
-    margin-left: -3000%; }
-  94% {
-    margin-left: -3100%; }
-  97% {
-    margin-left: -3200%; }
-  100% {
-    margin-left: -3300%; } }
-
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-  .contenedor__slider img {
-    width: 5%;
-    /* probar para solucionar la animacion */ } }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-.suscripcion {
-  background-color: #333;
-  text-align: center;
-  border: 2px solid #FF4E00; }
-
-.contenedor__suscripcion {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center; }
-
-.suscripcion__link {
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
-  color: white;
-  font-weight: bold; }
-  .suscripcion__link:hover {
-    color: white; }
-
-.suscripcion {
-  width: 100%;
-  height: 100%;
-  animation-name: suscripcion;
-  animation-iteration-count: infinite;
-  /* repeticion */
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  /* ritmo de la animacion */
-  animation-direction: alternate; }
-
-.contenedor__suscripcion a {
-  text-decoration: none;
-  animation-name: suscripcion__text;
-  animation-iteration-count: infinite;
-  /* repeticion */
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  /* ritmo de la animacion */
-  animation-direction: alternate; }
-
-/*----------------*/
-@keyframes suscripcion {
-  0% {
-    background-color: #333; }
-  50% {
-    background: rgba(196, 107, 7, 0.5); }
-  100% {
-    background-color: #FF4E00; } }
-
-@keyframes suscripcion__text {
-  10% {
-    color: white; }
-  50% {
-    color: white; }
-  90% {
-    color: white; } }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
-/*  COLORES DE FONDO    */
-/*  COLORES FONTS   */
-/*  COLORES MENU    */
-/*  COLORES DE BARRAS   */
-/*  COLORES RECUADRO    */
-/*  COLOR GENERAL   */
-/*  SASS  VARIABLES   */
-/*  SASS MIXIN */
-/* FOOTER LINKS*/
-.main-footerlinks {
-  background-color: #151515;
-  color: #555;
-  padding: 10px 20px; }
-
-.footerlinks__title {
-  font-size: .9em;
-  font-weight: bold;
-  color: #FF4E00;
-  border-bottom: 1px solid #555; }
-
-.footerlinks__txt {
-  font-size: .8em; }
-
-/* FOOTER */
-.main-footer {
-  background-color: #151515;
-  color: #555;
-  padding: 30px 20px; }
-
-.footer__title {
-  font-size: .9em;
-  font-weight: bold;
-  color: #FF4E00;
-  border-bottom: 1px solid #555; }
-
-.footer__txt {
-  font-size: .8em;
-  color: #555;
-  text-decoration: none; }
-
-.footer__section a {
-  text-decoration: none;
-  color: #555; }
-  .footer__section a:hover {
-    color: #FF4E00; }
-
-.redes__sociales {
-  size: 0.8em;
-  color: #555;
-  padding: 10px; }
-  .redes__sociales:hover {
-    color: #FF4E00;
-    padding: 10px; }
-
-.footer__links {
-  font-size: .8em;
-  color: #555;
-  text-decoration: none;
-  display: block;
-  padding: 10px 0; }
-  .footer__links:hover {
-    color: #FF4E00;
-    text-decoration: none; }
-
-.footer__input {
-  background-color: #151515;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  border: 1px solid #555;
-  color: white; }
-
-.copy {
-  color: #555; }
-
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-  /* FOOTER LINKS*/
-  .main-footerlinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px; }
-  /* FOOTER */
-  .main-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    padding: 20px;
-    margin-bottom: 80px; }
-  .product__icon {
-    size: 20px; }
-  .copy {
-    grid-column-start: span 4;
-    text-align: center; } }
-
-@media screen and (min-width: 1024px) {
-  /* FOOTER LINKS*/
-  .main-footerlinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;
-    font-size: 1.8em; }
-  /* FOOTER */
-  .main-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
-    padding: 20px;
-    margin-bottom: 80px;
-    font-size: 1.8em; }
-  .copy {
-    grid-column-start: span 4;
-    text-align: center;
-    font-size: .8em; } }
-
 /* Links a otros estilos de las secciones de la pagina de PAGINA*/
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -2766,14 +1602,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2785,6 +1613,7 @@ body {
 .partidoequipos {
   /*Margenes que abarca el banner*/
   text-align: center;
+  margin-top: 10px;
   padding-bottom: 20px; }
 
 .partidoequipos-contenedor {
@@ -2823,14 +1652,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2862,14 +1683,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2911,14 +1724,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2953,13 +1758,6 @@ body {
 .estadisticas__tabla__lineas tr {
   font-size: 1em; }
 
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  padding: 10px; }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2967,14 +1765,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -2991,14 +1781,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3007,17 +1789,13 @@ body {
 /*  COLOR GENERAL   */
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
+/*  ESTILO DE FONTS     */
 * {
   box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
 
 .nav-bar {
   background-color: #333;
@@ -3025,8 +1803,70 @@ body {
   display: block;
   color: white;
   cursor: pointer;
-  font-size: 1.3em;
+  font-size: 1.5em;
   /*width: 100%;*/ }
+
+.menu, .submenu, .menu__link__sub {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.menu {
+  position: absolute;
+  z-index: 9999;
+  background-color: #333;
+  width: 80%;
+  margin-left: -110%;
+  transition: all 0.5s; }
+
+.menu__link {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: #333;
+  padding-left: 10px; }
+  .menu__link:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__pagina {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid #555;
+  background-color: #333;
+  padding-left: 30px; }
+  .menu__link__pagina:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__sub {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding-left: 60px; }
+  .menu__link__sub:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s; }
+
+.fa-chevron-down {
+  color: white; }
+
+.mostrar {
+  margin-left: 0; }
 
 .fa-bars {
   border: 1px solid #FF4E00;
@@ -3037,68 +1877,33 @@ body {
   .fa-bars:hover {
     background-color: rgba(196, 107, 7, 0.5); }
 
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
 /* RESPONSIVE */
-@media (min-width: 860px) {
+@media (min-width: 768px) {
   .nav-bar {
-    display: none;
-    padding: 5px; }
+    display: none; }
   .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    height: 50px;
+    top: 0; }
+  .main-nav .menu {
+    margin: 0;
     display: flex;
+    height: 80px; }
+  .menu {
     width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
   .container-submenu {
-    position: relative; }
+    position: relative;
+    margin: auto; }
     .container-submenu .fa-chevron-down {
       display: none; }
   .submenu {
     position: absolute;
-    top: 60px;
-    width: auto;
+    top: 40px;
+    width: 200px;
+    padding-bottom: 20px;
     overflow: visible;
     z-index: 1000;
     opacity: 0;
@@ -3107,35 +1912,14 @@ body {
   .container-submenu:hover .submenu {
     opacity: 1;
     visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
+  .menu__link__pagina {
+    padding: 20px; }
+  .menu__link__sub {
+    padding-left: 40px; } }
 
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
+@media screen and (min-width: 1024px) {
   .submenu {
-    font-size: .8em; } }
+    width: 300px; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -3144,14 +1928,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3267,14 +2043,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3284,6 +2052,7 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 .suscripcion {
+  margin-top: 10px;
   background-color: #333;
   text-align: center;
   border: 2px solid #FF4E00; }
@@ -3296,8 +2065,6 @@ body {
 
 .suscripcion__link {
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
   color: white;
   font-weight: bold; }
   .suscripcion__link:hover {
@@ -3348,14 +2115,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3457,7 +2216,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   /* FOOTER */
   .main-footer {
     display: grid;
@@ -3465,7 +2224,7 @@ body {
     grid-gap: 15px;
     padding: 20px;
     margin-bottom: 80px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   .copy {
     grid-column-start: span 4;
     text-align: center;
@@ -3479,14 +2238,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3628,14 +2379,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3652,14 +2395,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3668,17 +2403,13 @@ body {
 /*  COLOR GENERAL   */
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
+/*  ESTILO DE FONTS     */
 * {
   box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
 
 .nav-bar {
   background-color: #333;
@@ -3686,8 +2417,70 @@ body {
   display: block;
   color: white;
   cursor: pointer;
-  font-size: 1.3em;
+  font-size: 1.5em;
   /*width: 100%;*/ }
+
+.menu, .submenu, .menu__link__sub {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.menu {
+  position: absolute;
+  z-index: 9999;
+  background-color: #333;
+  width: 80%;
+  margin-left: -110%;
+  transition: all 0.5s; }
+
+.menu__link {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: #333;
+  padding-left: 10px; }
+  .menu__link:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__pagina {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid #555;
+  background-color: #333;
+  padding-left: 30px; }
+  .menu__link__pagina:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__sub {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding-left: 60px; }
+  .menu__link__sub:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s; }
+
+.fa-chevron-down {
+  color: white; }
+
+.mostrar {
+  margin-left: 0; }
 
 .fa-bars {
   border: 1px solid #FF4E00;
@@ -3698,68 +2491,33 @@ body {
   .fa-bars:hover {
     background-color: rgba(196, 107, 7, 0.5); }
 
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
 /* RESPONSIVE */
-@media (min-width: 860px) {
+@media (min-width: 768px) {
   .nav-bar {
-    display: none;
-    padding: 5px; }
+    display: none; }
   .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    height: 50px;
+    top: 0; }
+  .main-nav .menu {
+    margin: 0;
     display: flex;
+    height: 80px; }
+  .menu {
     width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
   .container-submenu {
-    position: relative; }
+    position: relative;
+    margin: auto; }
     .container-submenu .fa-chevron-down {
       display: none; }
   .submenu {
     position: absolute;
-    top: 60px;
-    width: auto;
+    top: 40px;
+    width: 200px;
+    padding-bottom: 20px;
     overflow: visible;
     z-index: 1000;
     opacity: 0;
@@ -3768,35 +2526,14 @@ body {
   .container-submenu:hover .submenu {
     opacity: 1;
     visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
+  .menu__link__pagina {
+    padding: 20px; }
+  .menu__link__sub {
+    padding-left: 40px; } }
 
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
+@media screen and (min-width: 1024px) {
   .submenu {
-    font-size: .8em; } }
+    width: 300px; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -3805,14 +2542,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3928,14 +2657,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -3945,6 +2666,7 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 .suscripcion {
+  margin-top: 10px;
   background-color: #333;
   text-align: center;
   border: 2px solid #FF4E00; }
@@ -3957,8 +2679,6 @@ body {
 
 .suscripcion__link {
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
   color: white;
   font-weight: bold; }
   .suscripcion__link:hover {
@@ -4009,14 +2729,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -4118,7 +2830,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   /* FOOTER */
   .main-footer {
     display: grid;
@@ -4126,7 +2838,7 @@ body {
     grid-gap: 15px;
     padding: 20px;
     margin-bottom: 80px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   .copy {
     grid-column-start: span 4;
     text-align: center;
@@ -4149,8 +2861,7 @@ h1 {
 
 body {
   margin: 0;
-  padding: 10px;
-  font-family: 'Inconsolata'; }
+  padding: 10px; }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -4159,14 +2870,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -4183,14 +2886,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -4199,17 +2894,13 @@ body {
 /*  COLOR GENERAL   */
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
+/*  ESTILO DE FONTS     */
 * {
   box-sizing: border-box;
-  /*font-family: "Inconsolata";*/ }
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
-
-.main-header {
-  display: block;
-  color: white;
-  width: 100%; }
 
 .nav-bar {
   background-color: #333;
@@ -4217,8 +2908,70 @@ body {
   display: block;
   color: white;
   cursor: pointer;
-  font-size: 1.3em;
+  font-size: 1.5em;
   /*width: 100%;*/ }
+
+.menu, .submenu, .menu__link__sub {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.menu {
+  position: absolute;
+  z-index: 9999;
+  background-color: #333;
+  width: 80%;
+  margin-left: -110%;
+  transition: all 0.5s; }
+
+.menu__link {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: #333;
+  padding-left: 10px; }
+  .menu__link:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__pagina {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid #555;
+  background-color: #333;
+  padding-left: 30px; }
+  .menu__link__pagina:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.menu__link__sub {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  padding-left: 60px; }
+  .menu__link__sub:hover {
+    background-color: #FF4E00;
+    color: white;
+    text-decoration: none; }
+
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s; }
+
+.fa-chevron-down {
+  color: white; }
+
+.mostrar {
+  margin-left: 0; }
 
 .fa-bars {
   border: 1px solid #FF4E00;
@@ -4229,68 +2982,33 @@ body {
   .fa-bars:hover {
     background-color: rgba(196, 107, 7, 0.5); }
 
-.menu, .submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-.menu {
-  position: absolute;
-  z-index: 9999;
-  background-color: #333;
-  width: auto;
-  margin-left: -110%;
-  transition: all 0.5s; }
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  color: white;
-  font-size: 1em;
-  text-decoration: none;
-  border-bottom: 0.5px solid #555; }
-  .menu__link:hover {
-    background-color: #FF4E00;
-    color: white;
-    text-decoration: none; }
-
-.submenu .menu__link {
-  background-color: #333;
-  padding-left: 50px; }
-  .submenu .menu__link:hover {
-    background-color: #FF4E00;
-    color: white; }
-
-.submenu {
-  height: 0;
-  overflow: hidden;
-  transition: all 0.3s; }
-
-.mostrar {
-  margin-left: 0; }
-
 /* RESPONSIVE */
-@media (min-width: 860px) {
+@media (min-width: 768px) {
   .nav-bar {
-    display: none;
-    padding: 5px; }
+    display: none; }
   .main-header {
-    font-size: 1.3em; }
-  .menu {
-    margin-left: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    height: 50px;
+    top: 0; }
+  .main-nav .menu {
+    margin: 0;
     display: flex;
+    height: 80px; }
+  .menu {
     width: 100%; }
-  .menu li {
-    text-align: center;
-    flex-grow: 1; }
   .container-submenu {
-    position: relative; }
+    position: relative;
+    margin: auto; }
     .container-submenu .fa-chevron-down {
       display: none; }
   .submenu {
     position: absolute;
-    top: 60px;
-    width: auto;
+    top: 40px;
+    width: 200px;
+    padding-bottom: 20px;
     overflow: visible;
     z-index: 1000;
     opacity: 0;
@@ -4299,35 +3017,14 @@ body {
   .container-submenu:hover .submenu {
     opacity: 1;
     visibility: visible; }
-  .menu__link {
-    background-color: #333; }
-  .submenu .menu__link {
-    padding-left: 20px; }
-  .main-header__other {
-    margin-top: 80px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    background-color: #333; }
-    .main-header__other a {
-      color: white;
-      border: 1px solid #FF4E00;
-      padding: 10px;
-      font-size: 1em;
-      display: block; }
-    .main-header__other a:hover {
-      text-decoration: none;
-      background-color: rgba(196, 107, 7, 0.5); }
-    .main-header__other .main-header__other__input {
-      width: 300px; } }
+  .menu__link__pagina {
+    padding: 20px; }
+  .menu__link__sub {
+    padding-left: 40px; } }
 
-@media (min-width: 1024px) {
-  .main-header {
-    font-size: 1.5em; }
+@media screen and (min-width: 1024px) {
   .submenu {
-    font-size: .8em; } }
+    width: 300px; } }
 
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
@@ -4336,14 +3033,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -4459,14 +3148,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -4476,6 +3157,7 @@ body {
 /*  SASS  VARIABLES   */
 /*  SASS MIXIN */
 .suscripcion {
+  margin-top: 10px;
   background-color: #333;
   text-align: center;
   border: 2px solid #FF4E00; }
@@ -4488,8 +3170,6 @@ body {
 
 .suscripcion__link {
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.5em;
   color: white;
   font-weight: bold; }
   .suscripcion__link:hover {
@@ -4540,14 +3220,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */
@@ -4649,7 +3321,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   /* FOOTER */
   .main-footer {
     display: grid;
@@ -4657,7 +3329,7 @@ body {
     grid-gap: 15px;
     padding: 20px;
     margin-bottom: 80px;
-    font-size: 1.8em; }
+    font-size: 1em; }
   .copy {
     grid-column-start: span 4;
     text-align: center;
@@ -4671,14 +3343,6 @@ body {
 /*  COLORES RECUADRO    */
 /*  COLOR GENERAL   */
 /*  ESTILO DE FONTS     */
-@font-face {
-  font-family: "Inconsolata";
-  src: url(../fonts/inconsolata.ttf); }
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../fonts/Poppins-Bold.ttf); }
-
 /*  COLORES DE FONDO    */
 /*  COLORES FONTS   */
 /*  COLORES MENU    */

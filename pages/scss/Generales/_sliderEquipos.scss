@@ -36,11 +36,26 @@
 }
 @media screen and (min-width: 768px) {
     .sliderEquipos__section  img {
-        width: 5%;   /* probar para solucionar la animacion */
+        width: 10%;   /* probar para solucionar la animacion */
     }
 
     .sliderEquipos {
         animation-duration: 200s;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sliderEquipos__section  img {
+        width: 10%;   /* probar para solucionar la animacion */
+    }
+}
+@media screen and (min-width: 1280px) {
+    .sliderEquipos__section  img {
+        width: 10%;   /* probar para solucionar la animacion */
+    }
+}
+@media screen and (min-width: 1600px) {
+    .sliderEquipos__section  img {
+        width: 10%;   /* probar para solucionar la animacion */
     }
 }
 

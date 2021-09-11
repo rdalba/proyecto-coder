@@ -1,64 +1,6 @@
-@import "../Generales/colores";
-@import "../Generales/mixins";
-
-/*  LINKS GENERALES  */
-@import "../Generales/_estilosMenu.scss";
-@import "../Generales/_estiloEquipos.scss";
-@import "../Generales/_estiloSuscripcion.scss";
-@import "../Generales/_estilosFooter.scss";
-
 /*  LINKS ESTILOS DE PAGINA */
 @import "./principalVideoResFech";
 @import "./principalMejoresTorneo";
 @import "./principalMejoresFecha";
 @import "./principalResultadosPartidos";
 @import "./principalTablaPosiciones";
-
-*{
-    box-sizing: border-box;
-}
-
-/*  ESTILOS DE LA PAGINA    */
-.videoresfech{
-     margin: 30px 0;
-    color: $colorFonts5;
-    background-color: $colorFondo2;
-    
-}
-
-.suscripcion {
-    margin: 30px 0;
-}
-
-.navpartidos {
-     margin: 10px 0;
-}
-
-.mejoresFecha{
-    margin: 30px 0;
-}
-
-.mejoresTorneo{
-    margin: 30px 0;
-}
-
-.tablaPosiciones {
-    margin: 30px 0;
-}
-
-/*  RESPONSIVE  */
-@media screen and (min-width: 768px) {
-    *{
-        box-sizing: border-box;
-    }
-    
-    body {
-        margin: 0;
-        padding: 10px;
-        
-    }
-    
-    .contenedor-slider img  {
-        height: 400px;
-    }
-}
